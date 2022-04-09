@@ -10,13 +10,13 @@ services:
     links:
       - fpm
     volumes:
-      - ./:/var/www/laravel-docker
+      - ./:/var/www/estet_med
   fpm:
     build:
       context: .
       dockerfile: docker/Fpm.DockerFile
     volumes:
-      - ./:/var/www/laravel-docker
+      - ./:/var/www/estet_med
     links:
       - mysql
   mysql:
@@ -25,7 +25,7 @@ services:
       - 33061:3306
     environment:
       - MYSQL_ROOT_PASSWORD=root
-      - MYSQL_DATABASE=laravel
+      - MYSQL_DATABASE=estet_laravel
   phpmyadmin:
     image: phpmyadmin/phpmyadmin
     links:
