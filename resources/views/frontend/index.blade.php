@@ -33,56 +33,56 @@
                 <div class="col-sm-6 col-lg-3 wow fadeInLeft" data-wow-delay=".2s">
                     <article class="box-icon-modern">
                         <div class="box-icon-modern-icon mercury-icon-target-2"></div>
-                        <h4 class="box-icon-modern-title"><a href="single-service.html">Event Management</a></h4>
+                        <h4 class="box-icon-modern-title"><a href="single-service.blade.php">Event Management</a></h4>
                         <p class="box-icon-modern-text text-gray-600">We have an extensive experience in providing quality event management services.</p>
                     </article>
                 </div>
                 <div class="col-sm-6 col-lg-3 wow fadeInLeft">
                     <article class="box-icon-modern">
                         <div class="box-icon-modern-icon mercury-icon-note-2"></div>
-                        <h4 class="box-icon-modern-title"><a href="single-service.html">Event Branding</a></h4>
+                        <h4 class="box-icon-modern-title"><a href="single-service.blade.php">Event Branding</a></h4>
                         <p class="box-icon-modern-text text-gray-600">We offer a variety of in-house event branding and strategy services for modern companies.</p>
                     </article>
                 </div>
                 <div class="col-sm-6 col-lg-3 wow fadeInLeft">
                     <article class="box-icon-modern">
                         <div class="box-icon-modern-icon mercury-icon-presentation-3"></div>
-                        <h4 class="box-icon-modern-title"><a href="single-service.html">Speaker Services</a></h4>
+                        <h4 class="box-icon-modern-title"><a href="single-service.blade.php">Speaker Services</a></h4>
                         <p class="box-icon-modern-text text-gray-600">Our team can coordinate speaker registration, schedule &amp; logistics with ease.</p>
                     </article>
                 </div>
                 <div class="col-sm-6 col-lg-3 wow fadeInLeft">
                     <article class="box-icon-modern">
                         <div class="box-icon-modern-icon mercury-icon-partners"></div>
-                        <h4 class="box-icon-modern-title"><a href="single-service.html">Program Planning</a></h4>
+                        <h4 class="box-icon-modern-title"><a href="single-service.blade.php">Program Planning</a></h4>
                         <p class="box-icon-modern-text text-gray-600">Helping you develop a quality program of your event to attract more speakers &amp; visitors.</p>
                     </article>
                 </div>
                 <div class="col-sm-6 col-lg-3 wow fadeInLeft">
                     <article class="box-icon-modern">
                         <div class="box-icon-modern-icon mercury-icon-lightbulb-gears"></div>
-                        <h4 class="box-icon-modern-title"><a href="single-service.html">Volunteer Support</a></h4>
+                        <h4 class="box-icon-modern-title"><a href="single-service.blade.php">Volunteer Support</a></h4>
                         <p class="box-icon-modern-text text-gray-600">Sky Events aims to understand a volunteer’s motives and support them.</p>
                     </article>
                 </div>
                 <div class="col-sm-6 col-lg-3 wow fadeInRight">
                     <article class="box-icon-modern">
                         <div class="box-icon-modern-icon mercury-icon-wallet"></div>
-                        <h4 class="box-icon-modern-title"><a href="single-service.html">Sponsorship Support</a></h4>
+                        <h4 class="box-icon-modern-title"><a href="single-service.blade.php">Sponsorship Support</a></h4>
                         <p class="box-icon-modern-text text-gray-600">Looking for establishing relationships with a sponsor for your event? We can help you!</p>
                     </article>
                 </div>
                 <div class="col-sm-6 col-lg-3 wow fadeInRight">
                     <article class="box-icon-modern">
                         <div class="box-icon-modern-icon mercury-icon-time"></div>
-                        <h4 class="box-icon-modern-title"><a href="single-service.html">Social Events</a></h4>
+                        <h4 class="box-icon-modern-title"><a href="single-service.blade.php">Social Events</a></h4>
                         <p class="box-icon-modern-text text-gray-600">Our managers can also organize great and appealing social events or fundraisers.</p>
                     </article>
                 </div>
                 <div class="col-sm-6 col-lg-3 wow fadeInRight">
                     <article class="box-icon-modern">
                         <div class="box-icon-modern-icon mercury-icon-phone-24"></div>
-                        <h4 class="box-icon-modern-title"><a href="single-service.html">Event Evaluation</a></h4>
+                        <h4 class="box-icon-modern-title"><a href="single-service.blade.php">Event Evaluation</a></h4>
                         <p class="box-icon-modern-text text-gray-600">Analyzing your event to make sure your attendees come back next year.</p>
                     </article>
                 </div>
@@ -101,7 +101,7 @@
                         </div>
                         <div class="thumbnail-classic-caption">
                             <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60" href="images/fullwidth-gallery-1-1200x800-original.jpg" data-lightgallery="item"><img src="images/fullwidth-gallery-1-359x328.jpg" alt="" width="359" height="328"/></a>
-                                <h3 class="thumbnail-classic-title text-uppercase"><a href="single-portfolio.html">iStep Corporate Event</a></h3>
+                                <h3 class="thumbnail-classic-title text-uppercase"><a href="single-portfolio.blade.php">iStep Corporate Event</a></h3>
                             </div>
                             <p class="thumbnail-classic-text text-center text-white">April 2018</p>
                         </div>
@@ -114,7 +114,7 @@
                         </div>
                         <div class="thumbnail-classic-caption">
                             <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60" href="{{asset('images/fullwidth-gallery-2-1200x800-original.jpg')}}" data-lightgallery="item"><img src="images/fullwidth-gallery-2-359x328.jpg" alt="" width="359" height="328"/></a>
-                                <h3 class="thumbnail-classic-title text-uppercase"><a href="single-portfolio.html">GMC Anniversary</a></h3>
+                                <h3 class="thumbnail-classic-title text-uppercase"><a href="single-portfolio.blade.php">GMC Anniversary</a></h3>
                             </div>
                             <p class="thumbnail-classic-text text-center text-white">March 2018</p>
                         </div>
@@ -127,7 +127,7 @@
                         </div>
                         <div class="thumbnail-classic-caption">
                             <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60" href="images/grid-gallery-1-1200x800-original.jpg" data-lightgallery="item"><img src="images/fullwidth-gallery-3-359x328.jpg" alt="" width="359" height="328"/></a>
-                                <h3 class="thumbnail-classic-title text-uppercase"><a href="single-portfolio.html">Wake Co. Masterclass</a></h3>
+                                <h3 class="thumbnail-classic-title text-uppercase"><a href="single-portfolio.blade.php">Wake Co. Masterclass</a></h3>
                             </div>
                             <p class="thumbnail-classic-text text-center text-white">February 2018 </p>
                         </div>
@@ -140,7 +140,7 @@
                         </div>
                         <div class="thumbnail-classic-caption">
                             <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60" href="images/fullwidth-gallery-4-1200x800-original.jpg" data-lightgallery="item"><img src="images/fullwidth-gallery-4-359x328.jpg" alt="" width="359" height="328"/></a>
-                                <h3 class="thumbnail-classic-title text-uppercase"><a href="single-portfolio.html">Eventy Conference</a></h3>
+                                <h3 class="thumbnail-classic-title text-uppercase"><a href="single-portfolio.blade.php">Eventy Conference</a></h3>
                             </div>
                             <p class="thumbnail-classic-text text-center text-white">January 2018</p>
                         </div>
@@ -153,7 +153,7 @@
                         </div>
                         <div class="thumbnail-classic-caption">
                             <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60" href="images/fullwidth-gallery-5-1200x800-original.jpg" data-lightgallery="item"><img src="images/fullwidth-gallery-5-359x328.jpg" alt="" width="359" height="328"/></a>
-                                <h3 class="thumbnail-classic-title text-uppercase"><a href="single-portfolio.html">Techno Workshop</a></h3>
+                                <h3 class="thumbnail-classic-title text-uppercase"><a href="single-portfolio.blade.php">Techno Workshop</a></h3>
                             </div>
                             <p class="thumbnail-classic-text text-center text-white">December 2017</p>
                         </div>
@@ -166,7 +166,7 @@
                         </div>
                         <div class="thumbnail-classic-caption">
                             <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60" href="images/fullwidth-gallery-6-1200x800-original.jpg" data-lightgallery="item"><img src="images/fullwidth-gallery-6-359x328.jpg" alt="" width="359" height="328"/></a>
-                                <h3 class="thumbnail-classic-title text-uppercase"><a href="single-portfolio.html">Hearst Center Opening</a></h3>
+                                <h3 class="thumbnail-classic-title text-uppercase"><a href="single-portfolio.blade.php">Hearst Center Opening</a></h3>
                             </div>
                             <p class="thumbnail-classic-text text-center text-white">November 2017</p>
                         </div>
@@ -179,7 +179,7 @@
                         </div>
                         <div class="thumbnail-classic-caption">
                             <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60" href="images/fullwidth-gallery-7-1200x800-original.jpg" data-lightgallery="item"><img src="images/fullwidth-gallery-7-359x328.jpg" alt="" width="359" height="328"/></a>
-                                <h3 class="thumbnail-classic-title text-uppercase"><a href="single-portfolio.html">MDate Meeting</a></h3>
+                                <h3 class="thumbnail-classic-title text-uppercase"><a href="single-portfolio.blade.php">MDate Meeting</a></h3>
                             </div>
                             <p class="thumbnail-classic-text text-center text-white">October 2017</p>
                         </div>
@@ -192,14 +192,14 @@
                         </div>
                         <div class="thumbnail-classic-caption">
                             <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60" href="images/fullwidth-gallery-8-1200x800-original.jpg" data-lightgallery="item"><img src="images/fullwidth-gallery-8-359x328.jpg" alt="" width="359" height="328"/></a>
-                                <h3 class="thumbnail-classic-title text-uppercase"><a href="single-portfolio.html">SubCo Global Event</a></h3>
+                                <h3 class="thumbnail-classic-title text-uppercase"><a href="single-portfolio.blade.php">SubCo Global Event</a></h3>
                             </div>
                             <p class="thumbnail-classic-text text-center text-white">September 2017</p>
                         </div>
                     </article>
                 </div>
                 <div class="col-1"></div>
-                <div class="button-style-2"><a class="wow fadeInDown button button-lg button-icon button-icon-left button-third button-ujarak" data-wow-delay=".2s" href="portfolio.html"><span class="icon mdi mdi-plus"></span>Learn more</a></div>
+                <div class="button-style-2"><a class="wow fadeInDown button button-lg button-icon button-icon-left button-third button-ujarak" data-wow-delay=".2s" href="portfolio.blade.php"><span class="icon mdi mdi-plus"></span>Learn more</a></div>
             </div>
         </div>
     </section>
@@ -358,41 +358,41 @@
             <div class="row row-30 isotope posts-lists-masonry-3-cols" data-isotope-layout="masonry">
                 <div class="col-md-6 col-lg-4 isotope-item" data-filter="0"><!-- Post quote-->
                     <article class="post-quote post-minimal wow fadeInLeft" data-wow-delay=".1s">
-                        <div class="post-classic-date">October 20, 2018 /&nbsp;<a href="blog-post.html">News</a></div>
-                        <div class="post-classic-title">How to Use Technology in Events and Stay Ahead</div><a class="post-classic-link" href="blog-post.html">+ &nbsp;LEARN MORE</a>
+                        <div class="post-classic-date">October 20, 2018 /&nbsp;<a href="blog-post.blade.php">News</a></div>
+                        <div class="post-classic-title">How to Use Technology in Events and Stay Ahead</div><a class="post-classic-link" href="blog-post.blade.php">+ &nbsp;LEARN MORE</a>
                     </article>
                 </div><!-- Post classic-->
                 <div class="col-md-6 col-lg-4 isotope-item" data-filter="0">
-                    <article class="post-classic post-minimal wow fadeInUp" data-wow-delay=".1s"><a href="blog-post.html">
+                    <article class="post-classic post-minimal wow fadeInUp" data-wow-delay=".1s"><a href="blog-post.blade.php">
                             <div class="media-link"><img src="images/post-modern-1-370x339.jpg" alt="" width="370" height="339"/>
                             </div></a>
-                        <div class="post-classic-date">October 20, 2018 /&nbsp;<a class="text-third" href="blog-post.html">News</a></div>
-                        <div class="post-classic-title">5 Simple Yet Forgotten Things to Do After an Event</div><a class="post-classic-link" href="blog-post.html">+ LEARN MORE</a>
+                        <div class="post-classic-date">October 20, 2018 /&nbsp;<a class="text-third" href="blog-post.blade.php">News</a></div>
+                        <div class="post-classic-title">5 Simple Yet Forgotten Things to Do After an Event</div><a class="post-classic-link" href="blog-post.blade.php">+ LEARN MORE</a>
                     </article>
                 </div><!-- Post classic-->
                 <div class="col-md-6 col-lg-4 isotope-item" data-filter="0">
-                    <article class="post-classic post-minimal wow fadeInRight" data-wow-delay=".1s"><a href="blog-post.html">
+                    <article class="post-classic post-minimal wow fadeInRight" data-wow-delay=".1s"><a href="blog-post.blade.php">
                             <div class="media-link"><img src="images/post-modern-2-370x339.jpg" alt="" width="370" height="339"/>
                             </div></a>
-                        <div class="post-classic-date">October 20, 2018 /&nbsp;<a class="text-third" href="blog-post.html">News</a></div>
-                        <div class="post-classic-title">5 Things Organizers Overlook When Organizing an Event</div><a class="post-classic-link" href="blog-post.html">+ LEARN MORE</a>
+                        <div class="post-classic-date">October 20, 2018 /&nbsp;<a class="text-third" href="blog-post.blade.php">News</a></div>
+                        <div class="post-classic-title">5 Things Organizers Overlook When Organizing an Event</div><a class="post-classic-link" href="blog-post.blade.php">+ LEARN MORE</a>
                     </article>
                 </div><!-- Post classic-->
                 <div class="col-md-6 col-lg-4 isotope-item" data-filter="0">
-                    <article class="post-classic post-minimal wow fadeInLeft" data-wow-delay=".1s"><a href="blog-post.html">
+                    <article class="post-classic post-minimal wow fadeInLeft" data-wow-delay=".1s"><a href="blog-post.blade.php">
                             <div class="media-link"><img src="images/post-modern-3-370x339.jpg" alt="" width="370" height="339"/>
                             </div></a>
-                        <div class="post-classic-date">October 20, 2018 /&nbsp;<a class="text-third" href="blog-post.html">News</a></div>
-                        <div class="post-classic-title">6 Tips to Avoid the Most Common Event Planning Mistakes</div><a class="post-classic-link" href="blog-post.html">+ LEARN MORE</a>
+                        <div class="post-classic-date">October 20, 2018 /&nbsp;<a class="text-third" href="blog-post.blade.php">News</a></div>
+                        <div class="post-classic-title">6 Tips to Avoid the Most Common Event Planning Mistakes</div><a class="post-classic-link" href="blog-post.blade.php">+ LEARN MORE</a>
                     </article>
                 </div><!-- Post picture-->
                 <div class="col-md-6 col-lg-4 isotope-item" data-filter="0">
-                    <article class="post-picture post-minimal"><a href="blog-post.html"><img src="images/post-modern-4-370x376.jpg" alt="" width="370" height="376"/><span class="icon fa fa-instagram"></span></a></article><!-- Post quote-->
+                    <article class="post-picture post-minimal"><a href="blog-post.blade.php"><img src="images/post-modern-4-370x376.jpg" alt="" width="370" height="376"/><span class="icon fa fa-instagram"></span></a></article><!-- Post quote-->
                 </div>
                 <div class="col-md-6 col-lg-4 isotope-item" data-filter="0">
                     <article class="post-quote post-minimal wow fadeInRight" data-wow-delay=".1s">
-                        <div class="post-classic-date">October 20, 2018 /&nbsp;<a href="blog-post.html">News</a></div>
-                        <div class="post-classic-title">How to Find the Perfect Sponsor for Your Event</div><a class="post-classic-link" href="blog-post.html">+ &nbsp;LEARN MORE</a>
+                        <div class="post-classic-date">October 20, 2018 /&nbsp;<a href="blog-post.blade.php">News</a></div>
+                        <div class="post-classic-title">How to Find the Perfect Sponsor for Your Event</div><a class="post-classic-link" href="blog-post.blade.php">+ &nbsp;LEARN MORE</a>
                     </article>
                 </div>
                 <div class="col-1"></div>

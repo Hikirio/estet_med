@@ -19,21 +19,21 @@
             <div class="col-sm-6 col-lg-4 wow fadeInLeft offset-top-0-md-20" data-wow-delay=".2s">
               <article class="box-icon-modern box-icon-2">
                 <div class="box-icon-modern-icon mercury-icon-users"></div>
-                <h4 class="box-icon-modern-title"><a href="single-service.html">Top class Specialists</a></h4>
+                <h4 class="box-icon-modern-title"><a href="single-service.blade.php">Top class Specialists</a></h4>
                 <p class="box-icon-modern-text text-gray-600">Lorem ipsum proin gravida nibh vel ve auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor nisi elit consequat ipsum nec sagittis</p>
               </article>
             </div>
             <div class="col-sm-6 col-lg-4 wow fadeInLeft offset-top-0-md-20">
               <article class="box-icon-modern box-icon-2">
                 <div class="box-icon-modern-icon mercury-icon-time-back"></div>
-                <h4 class="box-icon-modern-title"><a href="single-service.html">Reliable Solutions</a></h4>
+                <h4 class="box-icon-modern-title"><a href="single-service.blade.php">Reliable Solutions</a></h4>
                 <p class="box-icon-modern-text text-gray-600">Feugiat in ante metus dictum at tempor commodo. Vel fringilla est ullamcorper eget nulla. Quam nulla porttitor massa id neque aliquam.</p>
               </article>
             </div>
             <div class="col-sm-6 col-lg-4 wow fadeInLeft offset-top-0-md-20">
               <article class="box-icon-modern box-icon-2">
                 <div class="box-icon-modern-icon mercury-icon-chat"></div>
-                <h4 class="box-icon-modern-title"><a href="single-service.html">Qualified Support</a></h4>
+                <h4 class="box-icon-modern-title"><a href="single-service.blade.php">Qualified Support</a></h4>
                 <p class="box-icon-modern-text text-gray-600">Tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada proin libero. Quis enim lobortis scelerisque fermentum dui faucibus in ornare.</p>
               </article>
             </div>

@@ -45,25 +45,25 @@
                                     </li>
                                     <li class="rd-nav-item"><a class="rd-nav-link" href="{{url('/about')}}">About</a>
                                     </li>
-                                    <li class="rd-nav-item"><a class="rd-nav-link" href="{{url('/')}}">Portfolio</a>
+                                    <li class="rd-nav-item"><a class="rd-nav-link" href="{{url('/portfolio')}}">Portfolio</a>
                                         <ul class="rd-menu rd-navbar-dropdown">
-                                            <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="{{url('/')}}">Single Portfolio</a>
+                                            <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="{{url('/single-portfolio')}}">Single Portfolio</a>
                                             </li>
                                         </ul>
                                     </li>
-                                    <li class="rd-nav-item"><a class="rd-nav-link" href="{{url('/')}}">Services</a>
+                                    <li class="rd-nav-item"><a class="rd-nav-link" href="{{url('/services')}}">Services</a>
                                         <ul class="rd-menu rd-navbar-dropdown">
-                                            <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="{{url('/')}}">Single Service</a>
+                                            <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="{{url('/single-service')}}">Single Service</a>
                                             </li>
                                         </ul>
                                     </li>
-                                    <li class="rd-nav-item"><a class="rd-nav-link" href="{{url('/')}}">Blog</a>
+                                    <li class="rd-nav-item"><a class="rd-nav-link" href="{{url('/classic-blog')}}">Blog</a>
                                         <ul class="rd-menu rd-navbar-dropdown">
-                                            <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="{{url('/')}}">Classic Blog</a>
+                                            <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="{{url('/classic-blog')}}">Classic Blog</a>
                                             </li>
-                                            <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="{{url('/')}}">Modern Blog</a>
+                                            <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="{{url('/modern-blog')}}">Modern Blog</a>
                                             </li>
-                                            <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="{{url('/')}}">Blog Post</a>
+                                            <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="{{url('/blog-post')}}">Blog Post</a>
                                             </li>
                                         </ul>
                                     </li>
@@ -71,23 +71,23 @@
                                         <ul class="rd-menu rd-navbar-megamenu">
                                             <li class="rd-megamenu-item">
                                                 <ul class="rd-megamenu-list">
-                                                    <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="typography.html">Typography</a></li>
-                                                    <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="buttons.html">Buttons</a></li>
-                                                    <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="forms.html">Forms</a></li>
-                                                    <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="tabs-and-accordions.html">Tabs and Accordions</a></li>
-                                                    <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="progress-bars.html">Progress Bars</a></li>
-                                                    <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="tables.html">Tables</a></li>
-                                                    <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="grid-system.html">Grid System</a></li>
+                                                    <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="{{url('/typography')}}">Typography</a></li>
+                                                    <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="{{url('/buttons')}}">Buttons</a></li>
+                                                    <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="{{url('/forms')}}">Forms</a></li>
+                                                    <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="{{url('/tabs-and-accordions')}}">Tabs and Accordions</a></li>
+                                                    <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="{{url('/progress-bars')}}">Progress Bars</a></li>
+                                                    <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="{{url('/tables')}}">Tables</a></li>
+                                                    <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="{{url('/grid-system')}}">Grid System</a></li>
                                                 </ul>
                                             </li>
                                             <li class="rd-megamenu-item">
                                                 <ul class="rd-megamenu-list">
-                                                    <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="404-page.html">404 Page</a></li>
-                                                    <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="503-page.html">503 Page</a></li>
-                                                    <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="under-construction.html">Under Construction</a></li>
-                                                    <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="coming-soon.html">Coming Soon</a></li>
-                                                    <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="privacy-policy.html">Privacy Policy</a></li>
-                                                    <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="search-results.html">Search Results</a></li>
+                                                    <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="{{url('/404-page')}}">404 Page</a></li>
+                                                    <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="{{url('/503-page')}}">503 Page</a></li>
+                                                    <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="{{url('/under-construction')}}">Under Construction</a></li>
+                                                    <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="{{url('/coming-soon')}}">Coming Soon</a></li>
+                                                    <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="{{url('/privacy-policy')}}">Privacy Policy</a></li>
+                                                    <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="{{url('/search-results')}}">Search Results</a></li>
                                                 </ul>
                                             </li>
                                         </ul>
@@ -102,3 +102,4 @@
             </nav>
         </div>
     </header>
+
