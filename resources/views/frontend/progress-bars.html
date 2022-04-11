@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html class="wide wow-animation" lang="en">
+  <head>
+    <title>Progress Bars</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="../../../public/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Oswald:300,400,500,600,700%7CMerriweather:300i,400,400i,700,700i,900%7CMontserrat:300,400,700,800,900">
+    <link rel="stylesheet" href="../../../public/css/bootstrap.css">
+    <link rel="stylesheet" href="../../../public/css/fonts.css">
+    <link rel="stylesheet" href="../../../public/css/style.css">
+    <style>.ie-panel{display: none;background: #212121;padding: 10px 0;box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3);clear: both;text-align:center;position: relative;z-index: 1;} html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {display: block;}</style>
+  </head>
+  <body>
+    <div class="ie-panel"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="../../../public/images/ie8-panel/warning_bar_0000_us.jpg" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
+    <div class="preloader">
+      <div class="preloader-body">
+        <div class="cssload-container">
+          <div class="cssload-speeding-wheel"></div>
+        </div>
+        <p>Loading...</p>
+      </div>
+    </div>
+    <div class="page">
+      <!-- Page Header-->
+      <header class="section page-header">
+        <!-- RD Navbar-->
+        <div class="rd-navbar-wrap">
+          <nav class="rd-navbar rd-navbar-classic" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-static" data-xl-layout="rd-navbar-static" data-xl-device-layout="rd-navbar-static" data-lg-stick-up-offset="46px" data-xl-stick-up-offset="46px" data-xxl-stick-up-offset="46px" data-lg-stick-up="true" data-xl-stick-up="true" data-xxl-stick-up="true">
+            <div class="rd-navbar-main-outer">
+              <div class="rd-navbar-main">
+                <!-- RD Navbar Panel-->
+                <div class="rd-navbar-panel">
+                  <!-- RD Navbar Toggle-->
+                  <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
+                  <!-- RD Navbar Brand-->
+                  <div class="rd-navbar-brand"><a class="brand" href="index.blade.php"><img class="brand-logo-dark" src="../../../public/images/logo-default-119x44.png" alt="" width="119" height="44" srcset="../../../public/images/logo-default-119x44.png 2x"/><img class="brand-logo-light" src="../../../public/images/logo-default-119x44.png" alt="" width="119" height="44" srcset="../../../public/images/logo-default-119x44.png 2x"/></a>
+                  </div>
+                </div>
+                <div class="rd-navbar-main-element">
+                  <div class="rd-navbar-nav-wrap">
+                    <ul class="rd-navbar-nav">
+                      <li class="rd-nav-item"><a class="rd-nav-link" href="index.blade.php">Home</a>
+                      </li>
+                      <li class="rd-nav-item"><a class="rd-nav-link" href="about.blade.php">About</a>
+                      </li>
+                      <li class="rd-nav-item"><a class="rd-nav-link" href="portfolio.html">Portfolio</a>
+                        <ul class="rd-menu rd-navbar-dropdown">
+                          <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="single-portfolio.html">Single Portfolio</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="rd-nav-item"><a class="rd-nav-link" href="services.html">Services</a>
+                        <ul class="rd-menu rd-navbar-dropdown">
+                          <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="single-service.html">Single Service</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="rd-nav-item"><a class="rd-nav-link" href="classic-blog.html">Blog</a>
+                        <ul class="rd-menu rd-navbar-dropdown">
+                          <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="classic-blog.html">Classic Blog</a>
+                          </li>
+                          <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="modern-blog.html">Modern Blog</a>
+                          </li>
+                          <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="blog-post.html">Blog Post</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="rd-nav-item active"><a class="rd-nav-link" href="#">Pages</a>
+                        <ul class="rd-menu rd-navbar-megamenu">
+                          <li class="rd-megamenu-item">
+                            <ul class="rd-megamenu-list">
+                              <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="typography.html">Typography</a></li>
+                              <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="buttons.html">Buttons</a></li>
+                              <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="forms.html">Forms</a></li>
+                              <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="tabs-and-accordions.html">Tabs and Accordions</a></li>
+                              <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="progress-bars.html">Progress Bars</a></li>
+                              <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="tables.html">Tables</a></li>
+                              <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="grid-system.html">Grid System</a></li>
+                            </ul>
+                          </li>
+                          <li class="rd-megamenu-item">
+                            <ul class="rd-megamenu-list">
+                              <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="404-page.html">404 Page</a></li>
+                              <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="503-page.html">503 Page</a></li>
+                              <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="under-construction.html">Under Construction</a></li>
+                              <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="coming-soon.html">Coming Soon</a></li>
+                              <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="privacy-policy.html">Privacy Policy</a></li>
+                              <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="search-results.html">Search Results</a></li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="rd-nav-item"><a class="rd-nav-link" href="contacts.blade.php">Contacts</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <section class="section-xl context-dark bg-image-2" style="background-image: url(../../../public/images/bg-about-01-1700x376.jpg)">
+        <div class="container">
+          <div class="row justify-content-center text-center">
+            <div class="col-lg-12">
+              <h2 class="text-uppercase text-center">Progress Bars</h2>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Skill Bars-->
+      <section class="section section-md bg-gray-200">
+        <div class="container">
+          <div class="text-center">
+            <h2>Progress Bars, Skill Bars, Counters</h2>
+            <p>These elements are vital to design of every website, and with them you can improve the overall look of your resource and attract more clients.</p>
+          </div>
+          <div class="row justify-content-md-center row-md-reverse row-lg-justify row-50 align-items-end">
+            <div class="col-md-10 col-lg-6 col-xl-5">
+              <h3 class="text-uppercase">our skills</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. risus ultricies tristique. Aliquet nibh praesent tristique magna. Vitae et leo duis ut diam quam nulla. Facilisis sed odio morbi quis commodo odio aenean sed. Etiam non quam lacus suspendisse.</p>
+            </div>
+            <div class="col-md-10 col-lg-6">
+              <!-- Linear progress bar-->
+              <article class="progress-linear color-primary">
+                <div class="progress-header">
+                  <p>Dedication</p><span class="progress-value">85</span>
+                </div>
+                <div class="progress-bar-linear-wrap">
+                  <div class="progress-bar-linear"></div>
+                </div>
+              </article>
+              <!-- Linear progress bar-->
+              <article class="progress-linear color-primary">
+                <div class="progress-header">
+                  <p>Knowledge</p><span class="progress-value">60</span>
+                </div>
+                <div class="progress-bar-linear-wrap">
+                  <div class="progress-bar-linear"></div>
+                </div>
+              </article>
+              <!-- Linear progress bar-->
+              <article class="progress-linear color-primary">
+                <div class="progress-header">
+                  <p>Experience</p><span class="progress-value">52</span>
+                </div>
+                <div class="progress-bar-linear-wrap">
+                  <div class="progress-bar-linear"></div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Counters-->
+      <section class="section section-md bg-accent text-center">
+        <div class="container">
+          <div class="row row-30">
+            <div class="col-6 col-md-3">
+              <!-- Box counter-->
+              <article class="box-counter">
+                <div class="box-counter-main"><span>87</span></div>
+                <div class="box-counter-divider"></div>
+                <p class="box-counter-title">AWARDS</p>
+              </article>
+            </div>
+            <div class="col-6 col-md-3">
+              <!-- Box counter-->
+              <article class="box-counter">
+                <div class="box-counter-main">
+                  <div class="counter">197</div>
+                </div>
+                <div class="box-counter-divider"></div>
+                <p class="box-counter-title">EVENTS</p>
+              </article>
+            </div>
+            <div class="col-6 col-md-3">
+              <!-- Box counter-->
+              <article class="box-counter">
+                <div class="box-counter-main">
+                  <div class="counter">246</div><span class="small">K</span>
+                </div>
+                <div class="box-counter-divider"></div>
+                <p class="box-counter-title">HAPPY CLIENTS</p>
+              </article>
+            </div>
+            <div class="col-6 col-md-3">
+              <!-- Box counter-->
+              <article class="box-counter">
+                <div class="box-counter-main">
+                  <div class="counter">101</div>
+                </div>
+                <div class="box-counter-divider"></div>
+                <p class="box-counter-title">PARTNERS</p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Section Circle Progress Bars-->
+      <section class="section section-md text-center bg-gray-200">
+        <div class="container">
+          <h3>Circle Progress Bars</h3>
+          <div class="row justify-content-center">
+            <div class="col-sm-5 col-lg-3">
+              <!-- Circle Progress Bar-->
+              <div class="progress-bar-circle" data-value="0.4" data-gradient="#6f43d6" data-empty-fill="rgb(245,245,245)" data-size="150" data-thickness="10"><span></span></div>
+              <p class="progress-bar-circle-title">Leadership</p>
+            </div>
+            <div class="col-sm-5 col-lg-3">
+              <!-- Circle Progress Bar-->
+              <div class="progress-bar-circle" data-value="0.5" data-gradient="#6f43d6" data-empty-fill="rgb(245,245,245)" data-size="150" data-thickness="10"><span></span></div>
+              <p class="progress-bar-circle-title">Management</p>
+            </div>
+            <div class="col-sm-5 col-lg-3">
+              <!-- Circle Progress Bar-->
+              <div class="progress-bar-circle" data-value="0.6" data-gradient="#6f43d6" data-empty-fill="rgb(245,245,245)" data-size="150" data-thickness="10"><span></span></div>
+              <p class="progress-bar-circle-title">Innovation and creativity</p>
+            </div>
+            <div class="col-sm-5 col-lg-3">
+              <!-- Circle Progress Bar-->
+              <div class="progress-bar-circle" data-value="0.7" data-gradient="#6f43d6" data-empty-fill="rgb(245,245,245)" data-size="150" data-thickness="10"><span></span></div>
+              <p class="progress-bar-circle-title">Resilience</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Countdown-->
+      <section class="section section-md bg-default text-center">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-10 col-xl-9">
+              <h3>Countdown</h3>
+              <!-- TimeCircles-->
+              <div class="DateCountdown" data-type="until" data-date="2018-12-31 00:00:00" data-format="wdhms" data-color="#6f43d6" data-bg="rgba(245, 245, 245, 1)" data-width="0.02"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Page Footer-->
+      <footer class="section footer-classic bg-gray-850">
+        <div class="container">
+          <h2 class="text-uppercase text-white text-center wow fadeInUp" data-wow-delay=".2s">contact us</h2>
+          <div class="row justify-content-center">
+            <div class="col-lg-6">
+              <form class="rd-form rd-mailform rd-mailform-custom" data-form-output="form-output-global" data-form-type="contact" method="post" action="../../../public/bat/rd-mailform.php">
+                <div class="row row-lg-30">
+                  <div class="col-lg-12">
+                    <div class="form-wrap">
+                      <input class="form-input form-input-2" id="contact-name-3" type="text" name="name" data-constraints="@Required">
+                      <label class="form-label form-label-2" for="contact-name-3">Name&nbsp;<span class="text-fourth">*</span></label>
+                    </div>
+                  </div>
+                  <div class="col-lg-12">
+                    <div class="form-wrap">
+                      <input class="form-input form-input-2" id="contact-email-3" type="email" name="email" data-constraints="@Email @Required">
+                      <label class="form-label form-label-2" for="contact-email-3">E-mail&nbsp;<span class="text-fourth">*</span></label>
+                    </div>
+                  </div>
+                  <div class="col-lg-12">
+                    <div class="form-wrap">
+                      <label class="form-label form-label-2" for="contact-message-3">Message</label>
+                      <textarea class="form-input form-input-2" id="contact-message-3" name="message" data-constraints="@Required"></textarea>
+                    </div>
+                  </div>
+                  <div class="col-lg-12 text-center offset-top-30">
+                    <button class="button-2 wow fadeInLeft button button-lg button-icon button-icon-left button-secondary button-ujarak" data-wow-delay=".2s" type="submit"><span class="icon mdi mdi-plus"></span>Send Message</button>
+                  </div>
+                </div>
+              </form>
+              <ul class="list-inline list-inline-sm footer-social-list">
+                <li><a class="icon fa fa-linkedin" href="#"></a></li>
+                <li><a class="icon fa fa-twitter" href="#"></a></li>
+                <li><a class="icon fa fa-facebook" href="#"></a></li>
+                <li><a class="icon fa fa-instagram" href="#"></a></li>
+              </ul>
+              <p class="rights"><span>&copy;&nbsp; </span><span class="copyright-year"></span><span>&nbsp;</span><span>Sky Events</span><span>.&nbsp;</span><span>All rights reserved</span><span>.&nbsp;</span><a href="#">Terms and Conditions</a><span>.&nbsp;</span><a href="privacy-policy.html">Privacy Policy</a><span>.</span><span> Design&nbsp;by&nbsp;<a href="https://zemez.io/">Zemez</a></span></p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <div class="snackbars" id="form-output-global"></div>
+    <script src="../../../public/js/core.min.js"></script>
+    <script src="../../../public/js/script.js"></script>
+  </body>
+</html>
