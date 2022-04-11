@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\AdminController;
+use App\Http\Controllers\FrontController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -12,13 +14,26 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+//
+//Route::get('/', function () {
+//    return view('frontend.index');
+//});
 
-Route::get('/', function () {
-    return view('frontend.index');
-});
-
-Route::get('/dashboard', function () {
+Route::get('/dashboard', static function () {
     return view('dashboard');
 })->middleware(['auth'])->name('dashboard');
 
-require __DIR__.'/auth.php';
+
+//Administratin routing
+Route::controller(AdminController::class)->group(function () {
+    Route::get('/admin', 'index');
+});
+
+//Frontend routing
+Route::controller(FrontController::class)->group(function () {
+    Route::get('/', 'index')->name('Главная');
+    Route::get('/contacts', 'contacts')->name('Контакты');
+    Route::get('/about', 'about')->name('О нас');
+});
+
+require __DIR__ . '/auth.php';
