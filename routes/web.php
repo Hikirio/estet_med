@@ -27,6 +27,10 @@ Route::get('/dashboard', static function () {
 //Administratin routing
 Route::controller(AdminController::class)->group(function () {
     Route::get('/admin', 'index');
+    Route::get('/multipurpose', 'multipurpose');
+    Route::get('/ecommerce', 'ecommerce')->name('Панель управления электронной коммерцией');
+    Route::get('/projects', 'projects')->name('Проэкты');
+    Route::get('/online-courses', 'online_courses')->name('Онлайн курсы');
 });
 
 //Frontend routing
