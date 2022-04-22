@@ -144,7 +144,7 @@ License: For each use you must have a valid license purchased only from above li
 {{--                                                </a>--}}
 {{--                                            </div>--}}
 {{--                                            <div class="menu-item">--}}
-{{--                                                <a class="menu-link py-3" href="../../demo1/dist/dashboards/marketing.html">--}}
+{{--                                                <a class="menu-link py-3" href="../../demo1/dist/dashboards/marketing.blade.php">--}}
 {{--															<span class="menu-bullet">--}}
 {{--																<span class="bullet bullet-dot"></span>--}}
 {{--															</span>--}}
@@ -152,7 +152,7 @@ License: For each use you must have a valid license purchased only from above li
 {{--                                                </a>--}}
 {{--                                            </div>--}}
 {{--                                            <div class="menu-item">--}}
-{{--                                                <a class="menu-link py-3" href="../../demo1/dist/dashboards/bidding.html">--}}
+{{--                                                <a class="menu-link py-3" href="../../demo1/dist/dashboards/bidding.blade.php">--}}
 {{--															<span class="menu-bullet">--}}
 {{--																<span class="bullet bullet-dot"></span>--}}
 {{--															</span>--}}
@@ -161,7 +161,7 @@ License: For each use you must have a valid license purchased only from above li
 {{--                                            </div>--}}
 {{--                                            <div class="menu-inner flex-column collapse" id="kt_aside_menu_collapse_2">--}}
 {{--                                                <div class="menu-item">--}}
-{{--                                                    <a class="menu-link py-3" href="../../demo1/dist/dashboards/logistics.html">--}}
+{{--                                                    <a class="menu-link py-3" href="../../demo1/dist/dashboards/logistics.blade.php">--}}
 {{--																<span class="menu-bullet">--}}
 {{--																	<span class="bullet bullet-dot"></span>--}}
 {{--																</span>--}}
@@ -169,7 +169,7 @@ License: For each use you must have a valid license purchased only from above li
 {{--                                                    </a>--}}
 {{--                                                </div>--}}
 {{--                                                <div class="menu-item">--}}
-{{--                                                    <a class="menu-link py-3" href="../../demo1/dist/dashboards/delivery.html">--}}
+{{--                                                    <a class="menu-link py-3" href="../../demo1/dist/dashboards/delivery.blade.php">--}}
 {{--																<span class="menu-bullet">--}}
 {{--																	<span class="bullet bullet-dot"></span>--}}
 {{--																</span>--}}
@@ -177,7 +177,7 @@ License: For each use you must have a valid license purchased only from above li
 {{--                                                    </a>--}}
 {{--                                                </div>--}}
 {{--                                                <div class="menu-item">--}}
-{{--                                                    <a class="menu-link py-3" href="../../demo1/dist/dashboards/website-analytics.html">--}}
+{{--                                                    <a class="menu-link py-3" href="../../demo1/dist/dashboards/website-analytics.blade.php">--}}
 {{--																<span class="menu-bullet">--}}
 {{--																	<span class="bullet bullet-dot"></span>--}}
 {{--																</span>--}}
@@ -185,7 +185,7 @@ License: For each use you must have a valid license purchased only from above li
 {{--                                                    </a>--}}
 {{--                                                </div>--}}
 {{--                                                <div class="menu-item">--}}
-{{--                                                    <a class="menu-link py-3" href="../../demo1/dist/dashboards/finance-performance.html">--}}
+{{--                                                    <a class="menu-link py-3" href="../../demo1/dist/dashboards/finance-performance.blade.php">--}}
 {{--																<span class="menu-bullet">--}}
 {{--																	<span class="bullet bullet-dot"></span>--}}
 {{--																</span>--}}
@@ -193,7 +193,7 @@ License: For each use you must have a valid license purchased only from above li
 {{--                                                    </a>--}}
 {{--                                                </div>--}}
 {{--                                                <div class="menu-item">--}}
-{{--                                                    <a class="menu-link py-3" href="../../demo1/dist/dashboards/store-analytics.html">--}}
+{{--                                                    <a class="menu-link py-3" href="../../demo1/dist/dashboards/store-analytics.blade.php">--}}
 {{--																<span class="menu-bullet">--}}
 {{--																	<span class="bullet bullet-dot"></span>--}}
 {{--																</span>--}}
@@ -201,7 +201,7 @@ License: For each use you must have a valid license purchased only from above li
 {{--                                                    </a>--}}
 {{--                                                </div>--}}
 {{--                                                <div class="menu-item">--}}
-{{--                                                    <a class="menu-link py-3" href="../../demo1/dist/dashboards/social.html">--}}
+{{--                                                    <a class="menu-link py-3" href="../../demo1/dist/dashboards/social.blade.php">--}}
 {{--																<span class="menu-bullet">--}}
 {{--																	<span class="bullet bullet-dot"></span>--}}
 {{--																</span>--}}
@@ -209,7 +209,7 @@ License: For each use you must have a valid license purchased only from above li
 {{--                                                    </a>--}}
 {{--                                                </div>--}}
 {{--                                                <div class="menu-item">--}}
-{{--                                                    <a class="menu-link py-3" href="../../demo1/dist/dashboards/crypto.html">--}}
+{{--                                                    <a class="menu-link py-3" href="../../demo1/dist/dashboards/crypto.blade.php">--}}
 {{--																<span class="menu-bullet">--}}
 {{--																	<span class="bullet bullet-dot"></span>--}}
 {{--																</span>--}}
@@ -217,7 +217,7 @@ License: For each use you must have a valid license purchased only from above li
 {{--                                                    </a>--}}
 {{--                                                </div>--}}
 {{--                                                <div class="menu-item">--}}
-{{--                                                    <a class="menu-link py-3" href="../../demo1/dist/dashboards/school.html">--}}
+{{--                                                    <a class="menu-link py-3" href="../../demo1/dist/dashboards/school.blade.php">--}}
 {{--																<span class="menu-bullet">--}}
 {{--																	<span class="bullet bullet-dot"></span>--}}
 {{--																</span>--}}
@@ -225,7 +225,7 @@ License: For each use you must have a valid license purchased only from above li
 {{--                                                    </a>--}}
 {{--                                                </div>--}}
 {{--                                                <div class="menu-item">--}}
-{{--                                                    <a class="menu-link py-3" href="../../demo1/dist/dashboards/podcast.html">--}}
+{{--                                                    <a class="menu-link py-3" href="../../demo1/dist/dashboards/podcast.blade.php">--}}
 {{--																<span class="menu-bullet">--}}
 {{--																	<span class="bullet bullet-dot"></span>--}}
 {{--																</span>--}}
@@ -233,7 +233,7 @@ License: For each use you must have a valid license purchased only from above li
 {{--                                                    </a>--}}
 {{--                                                </div>--}}
 {{--                                                <div class="menu-item">--}}
-{{--                                                    <a class="menu-link py-3" href="../../demo1/dist/landing.html">--}}
+{{--                                                    <a class="menu-link py-3" href="../../demo1/dist/landing.blade.php">--}}
 {{--																<span class="menu-bullet">--}}
 {{--																	<span class="bullet bullet-dot"></span>--}}
 {{--																</span>--}}
@@ -291,7 +291,7 @@ License: For each use you must have a valid license purchased only from above li
 {{--																</span>--}}
 {{--                                                        <div class="menu-sub menu-sub-lg-down-accordion menu-sub-lg-dropdown menu-active-bg py-lg-4 w-lg-225px">--}}
 {{--                                                            <div class="menu-item">--}}
-{{--                                                                <a class="menu-link py-3" href="../../demo1/dist/pages/user-profile/overview.html">--}}
+{{--                                                                <a class="menu-link py-3" href="../../demo1/dist/pages/user-profile/overview.blade.php">--}}
 {{--																			<span class="menu-bullet">--}}
 {{--																				<span class="bullet bullet-dot"></span>--}}
 {{--																			</span>--}}
@@ -307,7 +307,8 @@ License: For each use you must have a valid license purchased only from above li
 {{--                                                                </a>--}}
 {{--                                                            </div>--}}
 {{--                                                            <div class="menu-item">--}}
-{{--                                                                <a class="menu-link py-3" href="../../demo1/dist/pages/user-profile/campaigns.html">--}}
+{{--                                                                <a class="menu-link py-3" href="../../demo1/dist/pages/user-profile/
+campaigns.blade.php">--}}
 {{--																			<span class="menu-bullet">--}}
 {{--																				<span class="bullet bullet-dot"></span>--}}
 {{--																			</span>--}}
@@ -315,7 +316,7 @@ License: For each use you must have a valid license purchased only from above li
 {{--                                                                </a>--}}
 {{--                                                            </div>--}}
 {{--                                                            <div class="menu-item">--}}
-{{--                                                                <a class="menu-link py-3" href="../../demo1/dist/pages/user-profile/documents.html">--}}
+{{--                                                                <a class="menu-link py-3" href="../../demo1/dist/pages/user-profile/documents.blade.php">--}}
 {{--																			<span class="menu-bullet">--}}
 {{--																				<span class="bullet bullet-dot"></span>--}}
 {{--																			</span>--}}
@@ -323,7 +324,7 @@ License: For each use you must have a valid license purchased only from above li
 {{--                                                                </a>--}}
 {{--                                                            </div>--}}
 {{--                                                            <div class="menu-item">--}}
-{{--                                                                <a class="menu-link py-3" href="../../demo1/dist/pages/user-profile/followers.html">--}}
+{{--                                                                <a class="menu-link py-3" href="../../demo1/dist/pages/user-profile/followers.blade.php">--}}
 {{--																			<span class="menu-bullet">--}}
 {{--																				<span class="bullet bullet-dot"></span>--}}
 {{--																			</span>--}}
@@ -331,7 +332,7 @@ License: For each use you must have a valid license purchased only from above li
 {{--                                                                </a>--}}
 {{--                                                            </div>--}}
 {{--                                                            <div class="menu-item">--}}
-{{--                                                                <a class="menu-link py-3" href="../../demo1/dist/pages/user-profile/activity.html">--}}
+{{--                                                                <a class="menu-link py-3" href="../../demo1/dist/pages/user-profile/activity.blade.php">--}}
 {{--																			<span class="menu-bullet">--}}
 {{--																				<span class="bullet bullet-dot"></span>--}}
 {{--																			</span>--}}
@@ -350,7 +351,7 @@ License: For each use you must have a valid license purchased only from above li
 {{--																</span>--}}
 {{--                                                        <div class="menu-sub menu-sub-lg-down-accordion menu-sub-lg-dropdown menu-active-bg py-lg-4 w-lg-225px">--}}
 {{--                                                            <div class="menu-item">--}}
-{{--                                                                <a class="menu-link py-3" href="../../demo1/dist/pages/blog/home.html">--}}
+{{--                                                                <a class="menu-link py-3" href="../../demo1/dist/pages/blog/home.blade.php">--}}
 {{--																			<span class="menu-bullet">--}}
 {{--																				<span class="bullet bullet-dot"></span>--}}
 {{--																			</span>--}}
@@ -358,7 +359,7 @@ License: For each use you must have a valid license purchased only from above li
 {{--                                                                </a>--}}
 {{--                                                            </div>--}}
 {{--                                                            <div class="menu-item">--}}
-{{--                                                                <a class="menu-link py-3" href="../../demo1/dist/pages/blog/post.html">--}}
+{{--                                                                <a class="menu-link py-3" href="../../demo1/dist/pages/blog/post.blade.php">--}}
 {{--																			<span class="menu-bullet">--}}
 {{--																				<span class="bullet bullet-dot"></span>--}}
 {{--																			</span>--}}
@@ -377,7 +378,7 @@ License: For each use you must have a valid license purchased only from above li
 {{--																</span>--}}
 {{--                                                        <div class="menu-sub menu-sub-lg-down-accordion menu-sub-lg-dropdown menu-active-bg py-lg-4 w-lg-225px">--}}
 {{--                                                            <div class="menu-item">--}}
-{{--                                                                <a class="menu-link py-3" href="../../demo1/dist/pages/pricing/pricing-1.html">--}}
+{{--                                                                <a class="menu-link py-3" href="../../demo1/dist/pages/pricing/pricing-1.blade.php">--}}
 {{--																			<span class="menu-bullet">--}}
 {{--																				<span class="bullet bullet-dot"></span>--}}
 {{--																			</span>--}}
@@ -385,7 +386,7 @@ License: For each use you must have a valid license purchased only from above li
 {{--                                                                </a>--}}
 {{--                                                            </div>--}}
 {{--                                                            <div class="menu-item">--}}
-{{--                                                                <a class="menu-link py-3" href="../../demo1/dist/pages/pricing/pricing-2.html">--}}
+{{--                                                                <a class="menu-link py-3" href="../../demo1/dist/pages/pricing/pricing-2.blade.php">--}}
 {{--																			<span class="menu-bullet">--}}
 {{--																				<span class="bullet bullet-dot"></span>--}}
 {{--																			</span>--}}
@@ -404,7 +405,7 @@ License: For each use you must have a valid license purchased only from above li
 {{--																</span>--}}
 {{--                                                        <div class="menu-sub menu-sub-lg-down-accordion menu-sub-lg-dropdown menu-active-bg py-lg-4 w-lg-225px">--}}
 {{--                                                            <div class="menu-item">--}}
-{{--                                                                <a class="menu-link py-3" href="../../demo1/dist/pages/careers/list.html">--}}
+{{--                                                                <a class="menu-link py-3" href="../../demo1/dist/pages/careers/list.blade.php">--}}
 {{--																			<span class="menu-bullet">--}}
 {{--																				<span class="bullet bullet-dot"></span>--}}
 {{--																			</span>--}}
@@ -412,7 +413,7 @@ License: For each use you must have a valid license purchased only from above li
 {{--                                                                </a>--}}
 {{--                                                            </div>--}}
 {{--                                                            <div class="menu-item">--}}
-{{--                                                                <a class="menu-link py-3" href="../../demo1/dist/pages/careers/apply.html">--}}
+{{--                                                                <a class="menu-link py-3" href="../../demo1/dist/pages/careers/apply.blade.php">--}}
 {{--																			<span class="menu-bullet">--}}
 {{--																				<span class="bullet bullet-dot"></span>--}}
 {{--																			</span>--}}
@@ -431,7 +432,7 @@ License: For each use you must have a valid license purchased only from above li
 {{--																</span>--}}
 {{--                                                        <div class="menu-sub menu-sub-lg-down-accordion menu-sub-lg-dropdown menu-active-bg py-lg-4 w-lg-225px">--}}
 {{--                                                            <div class="menu-item">--}}
-{{--                                                                <a class="menu-link py-3" href="../../demo1/dist/pages/faq/classic.html">--}}
+{{--                                                                <a class="menu-link py-3" href="../../demo1/dist/pages/faq/classic.blade.php">--}}
 {{--																			<span class="menu-bullet">--}}
 {{--																				<span class="bullet bullet-dot"></span>--}}
 {{--																			</span>--}}
@@ -439,7 +440,7 @@ License: For each use you must have a valid license purchased only from above li
 {{--                                                                </a>--}}
 {{--                                                            </div>--}}
 {{--                                                            <div class="menu-item">--}}
-{{--                                                                <a class="menu-link py-3" href="../../demo1/dist/pages/faq/extended.html">--}}
+{{--                                                                <a class="menu-link py-3" href="../../demo1/dist/pages/faq/extended.blade.php">--}}
 {{--																			<span class="menu-bullet">--}}
 {{--																				<span class="bullet bullet-dot"></span>--}}
 {{--																			</span>--}}
@@ -449,7 +450,7 @@ License: For each use you must have a valid license purchased only from above li
 {{--                                                        </div>--}}
 {{--                                                    </div>--}}
 {{--                                                    <div class="menu-item">--}}
-{{--                                                        <a class="menu-link py-3" href="../../demo1/dist/pages/about.html">--}}
+{{--                                                        <a class="menu-link py-3" href="../../demo1/dist/pages/about.blade.php">--}}
 {{--																	<span class="menu-bullet">--}}
 {{--																		<span class="bullet bullet-dot"></span>--}}
 {{--																	</span>--}}
@@ -457,7 +458,7 @@ License: For each use you must have a valid license purchased only from above li
 {{--                                                        </a>--}}
 {{--                                                    </div>--}}
 {{--                                                    <div class="menu-item">--}}
-{{--                                                        <a class="menu-link py-3" href="../../demo1/dist/pages/contact.html">--}}
+{{--                                                        <a class="menu-link py-3" href="../../demo1/dist/pages/contact.blade.php">--}}
 {{--																	<span class="menu-bullet">--}}
 {{--																		<span class="bullet bullet-dot"></span>--}}
 {{--																	</span>--}}
@@ -465,7 +466,7 @@ License: For each use you must have a valid license purchased only from above li
 {{--                                                        </a>--}}
 {{--                                                    </div>--}}
 {{--                                                    <div class="menu-item">--}}
-{{--                                                        <a class="menu-link py-3" href="../../demo1/dist/pages/team.html">--}}
+{{--                                                        <a class="menu-link py-3" href="../../demo1/dist/pages/team.blade.php">--}}
 {{--																	<span class="menu-bullet">--}}
 {{--																		<span class="bullet bullet-dot"></span>--}}
 {{--																	</span>--}}
@@ -473,7 +474,7 @@ License: For each use you must have a valid license purchased only from above li
 {{--                                                        </a>--}}
 {{--                                                    </div>--}}
 {{--                                                    <div class="menu-item">--}}
-{{--                                                        <a class="menu-link py-3" href="../../demo1/dist/pages/licenses.html">--}}
+{{--                                                        <a class="menu-link py-3" href="../../demo1/dist/pages/licenses.blade.php">--}}
 {{--																	<span class="menu-bullet">--}}
 {{--																		<span class="bullet bullet-dot"></span>--}}
 {{--																	</span>--}}
@@ -481,7 +482,7 @@ License: For each use you must have a valid license purchased only from above li
 {{--                                                        </a>--}}
 {{--                                                    </div>--}}
 {{--                                                    <div class="menu-item">--}}
-{{--                                                        <a class="menu-link py-3" href="../../demo1/dist/pages/sitemap.html">--}}
+{{--                                                        <a class="menu-link py-3" href="../../demo1/dist/pages/sitemap.blade.php">--}}
 {{--																	<span class="menu-bullet">--}}
 {{--																		<span class="bullet bullet-dot"></span>--}}
 {{--																	</span>--}}
@@ -507,7 +508,7 @@ License: For each use you must have a valid license purchased only from above li
 {{--														</span>--}}
 {{--                                                <div class="menu-sub menu-sub-lg-down-accordion menu-sub-lg-dropdown menu-active-bg py-lg-4 w-lg-225px">--}}
 {{--                                                    <div class="menu-item">--}}
-{{--                                                        <a class="menu-link py-3" href="../../demo1/dist/account/overview.html">--}}
+{{--                                                        <a class="menu-link py-3" href="../../demo1/dist/account/overview.blade.php">--}}
 {{--																	<span class="menu-bullet">--}}
 {{--																		<span class="bullet bullet-dot"></span>--}}
 {{--																	</span>--}}
@@ -515,7 +516,7 @@ License: For each use you must have a valid license purchased only from above li
 {{--                                                        </a>--}}
 {{--                                                    </div>--}}
 {{--                                                    <div class="menu-item">--}}
-{{--                                                        <a class="menu-link py-3" href="../../demo1/dist/account/settings.html">--}}
+{{--                                                        <a class="menu-link py-3" href="../../demo1/dist/account/settings.blade.php">--}}
 {{--																	<span class="menu-bullet">--}}
 {{--																		<span class="bullet bullet-dot"></span>--}}
 {{--																	</span>--}}
@@ -523,7 +524,7 @@ License: For each use you must have a valid license purchased only from above li
 {{--                                                        </a>--}}
 {{--                                                    </div>--}}
 {{--                                                    <div class="menu-item">--}}
-{{--                                                        <a class="menu-link py-3" href="../../demo1/dist/account/security.html">--}}
+{{--                                                        <a class="menu-link py-3" href="../../demo1/dist/account/security.blade.php">--}}
 {{--																	<span class="menu-bullet">--}}
 {{--																		<span class="bullet bullet-dot"></span>--}}
 {{--																	</span>--}}
@@ -531,7 +532,7 @@ License: For each use you must have a valid license purchased only from above li
 {{--                                                        </a>--}}
 {{--                                                    </div>--}}
 {{--                                                    <div class="menu-item">--}}
-{{--                                                        <a class="menu-link py-3" href="../../demo1/dist/account/billing.html">--}}
+{{--                                                        <a class="menu-link py-3" href="../../demo1/dist/account/billing.blade.php">--}}
 {{--																	<span class="menu-bullet">--}}
 {{--																		<span class="bullet bullet-dot"></span>--}}
 {{--																	</span>--}}
@@ -539,7 +540,7 @@ License: For each use you must have a valid license purchased only from above li
 {{--                                                        </a>--}}
 {{--                                                    </div>--}}
 {{--                                                    <div class="menu-item">--}}
-{{--                                                        <a class="menu-link py-3" href="../../demo1/dist/account/statements.html">--}}
+{{--                                                        <a class="menu-link py-3" href="../../demo1/dist/account/statements.blade.php">--}}
 {{--																	<span class="menu-bullet">--}}
 {{--																		<span class="bullet bullet-dot"></span>--}}
 {{--																	</span>--}}
@@ -547,7 +548,7 @@ License: For each use you must have a valid license purchased only from above li
 {{--                                                        </a>--}}
 {{--                                                    </div>--}}
 {{--                                                    <div class="menu-item">--}}
-{{--                                                        <a class="menu-link py-3" href="../../demo1/dist/account/referrals.html">--}}
+{{--                                                        <a class="menu-link py-3" href="../../demo1/dist/account/referrals.blade.php">--}}
 {{--																	<span class="menu-bullet">--}}
 {{--																		<span class="bullet bullet-dot"></span>--}}
 {{--																	</span>--}}
@@ -555,7 +556,7 @@ License: For each use you must have a valid license purchased only from above li
 {{--                                                        </a>--}}
 {{--                                                    </div>--}}
 {{--                                                    <div class="menu-item">--}}
-{{--                                                        <a class="menu-link py-3" href="../../demo1/dist/account/api-keys.html">--}}
+{{--                                                        <a class="menu-link py-3" href="../../demo1/dist/account/api-keys.blade.php">--}}
 {{--																	<span class="menu-bullet">--}}
 {{--																		<span class="bullet bullet-dot"></span>--}}
 {{--																	</span>--}}
@@ -563,7 +564,7 @@ License: For each use you must have a valid license purchased only from above li
 {{--                                                        </a>--}}
 {{--                                                    </div>--}}
 {{--                                                    <div class="menu-item">--}}
-{{--                                                        <a class="menu-link py-3" href="../../demo1/dist/account/logs.html">--}}
+{{--                                                        <a class="menu-link py-3" href="../../demo1/dist/account/logs.blade.php">--}}
 {{--																	<span class="menu-bullet">--}}
 {{--																		<span class="bullet bullet-dot"></span>--}}
 {{--																	</span>--}}
@@ -598,7 +599,7 @@ License: For each use you must have a valid license purchased only from above li
 {{--																</span>--}}
 {{--                                                        <div class="menu-sub menu-sub-lg-down-accordion menu-sub-lg-dropdown menu-active-bg py-lg-4 w-lg-225px">--}}
 {{--                                                            <div class="menu-item">--}}
-{{--                                                                <a class="menu-link py-3" href="../../demo1/dist/authentication/layouts/basic/sign-in.html">--}}
+{{--                                                                <a class="menu-link py-3" href="../../demo1/dist/authentication/layouts/basic/sign-in.blade.php">--}}
 {{--																			<span class="menu-bullet">--}}
 {{--																				<span class="bullet bullet-dot"></span>--}}
 {{--																			</span>--}}
@@ -606,7 +607,7 @@ License: For each use you must have a valid license purchased only from above li
 {{--                                                                </a>--}}
 {{--                                                            </div>--}}
 {{--                                                            <div class="menu-item">--}}
-{{--                                                                <a class="menu-link py-3" href="../../demo1/dist/authentication/layouts/basic/sign-up.html">--}}
+{{--                                                                <a class="menu-link py-3" href="../../demo1/dist/authentication/layouts/basic/sign-up.blade.php">--}}
 {{--																			<span class="menu-bullet">--}}
 {{--																				<span class="bullet bullet-dot"></span>--}}
 {{--																			</span>--}}
@@ -614,7 +615,7 @@ License: For each use you must have a valid license purchased only from above li
 {{--                                                                </a>--}}
 {{--                                                            </div>--}}
 {{--                                                            <div class="menu-item">--}}
-{{--                                                                <a class="menu-link py-3" href="../../demo1/dist/authentication/layouts/basic/two-steps.html">--}}
+{{--                                                                <a class="menu-link py-3" href="../../demo1/dist/authentication/layouts/basic/two-steps.blade.php">--}}
 {{--																			<span class="menu-bullet">--}}
 {{--																				<span class="bullet bullet-dot"></span>--}}
 {{--																			</span>--}}
@@ -622,7 +623,7 @@ License: For each use you must have a valid license purchased only from above li
 {{--                                                                </a>--}}
 {{--                                                            </div>--}}
 {{--                                                            <div class="menu-item">--}}
-{{--                                                                <a class="menu-link py-3" href="../../demo1/dist/authentication/layouts/basic/password-reset.html">--}}
+{{--                                                                <a class="menu-link py-3" href="../../demo1/dist/authentication/layouts/basic/password-reset.blade.php">--}}
 {{--																			<span class="menu-bullet">--}}
 {{--																				<span class="bullet bullet-dot"></span>--}}
 {{--																			</span>--}}
@@ -630,7 +631,7 @@ License: For each use you must have a valid license purchased only from above li
 {{--                                                                </a>--}}
 {{--                                                            </div>--}}
 {{--                                                            <div class="menu-item">--}}
-{{--                                                                <a class="menu-link py-3" href="../../demo1/dist/authentication/layouts/basic/new-password.html">--}}
+{{--                                                                <a class="menu-link py-3" href="../../demo1/dist/authentication/layouts/basic/new-password.blade.php">--}}
 {{--																			<span class="menu-bullet">--}}
 {{--																				<span class="bullet bullet-dot"></span>--}}
 {{--																			</span>--}}
@@ -649,7 +650,7 @@ License: For each use you must have a valid license purchased only from above li
 {{--																</span>--}}
 {{--                                                        <div class="menu-sub menu-sub-lg-down-accordion menu-sub-lg-dropdown menu-active-bg py-lg-4 w-lg-225px">--}}
 {{--                                                            <div class="menu-item">--}}
-{{--                                                                <a class="menu-link py-3" href="../../demo1/dist/authentication/layouts/aside/sign-in.html">--}}
+{{--                                                                <a class="menu-link py-3" href="../../demo1/dist/authentication/layouts/aside/sign-in.blade.php">--}}
 {{--																			<span class="menu-bullet">--}}
 {{--																				<span class="bullet bullet-dot"></span>--}}
 {{--																			</span>--}}
@@ -657,7 +658,7 @@ License: For each use you must have a valid license purchased only from above li
 {{--                                                                </a>--}}
 {{--                                                            </div>--}}
 {{--                                                            <div class="menu-item">--}}
-{{--                                                                <a class="menu-link py-3" href="../../demo1/dist/authentication/layouts/aside/sign-up.html">--}}
+{{--                                                                <a class="menu-link py-3" href="../../demo1/dist/authentication/layouts/aside/sign-up.blade.php">--}}
 {{--																			<span class="menu-bullet">--}}
 {{--																				<span class="bullet bullet-dot"></span>--}}
 {{--																			</span>--}}
@@ -665,7 +666,7 @@ License: For each use you must have a valid license purchased only from above li
 {{--                                                                </a>--}}
 {{--                                                            </div>--}}
 {{--                                                            <div class="menu-item">--}}
-{{--                                                                <a class="menu-link py-3" href="../../demo1/dist/authentication/layouts/aside/two-steps.html">--}}
+{{--                                                                <a class="menu-link py-3" href="../../demo1/dist/authentication/layouts/aside/two-steps.blade.php">--}}
 {{--																			<span class="menu-bullet">--}}
 {{--																				<span class="bullet bullet-dot"></span>--}}
 {{--																			</span>--}}
@@ -673,7 +674,7 @@ License: For each use you must have a valid license purchased only from above li
 {{--                                                                </a>--}}
 {{--                                                            </div>--}}
 {{--                                                            <div class="menu-item">--}}
-{{--                                                                <a class="menu-link py-3" href="../../demo1/dist/authentication/layouts/aside/password-reset.html">--}}
+{{--                                                                <a class="menu-link py-3" href="../../demo1/dist/authentication/layouts/aside/password-reset.blade.php">--}}
 {{--																			<span class="menu-bullet">--}}
 {{--																				<span class="bullet bullet-dot"></span>--}}
 {{--																			</span>--}}
@@ -681,7 +682,7 @@ License: For each use you must have a valid license purchased only from above li
 {{--                                                                </a>--}}
 {{--                                                            </div>--}}
 {{--                                                            <div class="menu-item">--}}
-{{--                                                                <a class="menu-link py-3" href="../../demo1/dist/authentication/layouts/aside/new-password.html">--}}
+{{--                                                                <a class="menu-link py-3" href="../../demo1/dist/authentication/layouts/aside/new-password.blade.php">--}}
 {{--																			<span class="menu-bullet">--}}
 {{--																				<span class="bullet bullet-dot"></span>--}}
 {{--																			</span>--}}
@@ -700,7 +701,7 @@ License: For each use you must have a valid license purchased only from above li
 {{--																</span>--}}
 {{--                                                        <div class="menu-sub menu-sub-lg-down-accordion menu-sub-lg-dropdown menu-active-bg py-lg-4 w-lg-225px">--}}
 {{--                                                            <div class="menu-item">--}}
-{{--                                                                <a class="menu-link py-3" href="../../demo1/dist/authentication/layouts/dark/sign-in.html">--}}
+{{--                                                                <a class="menu-link py-3" href="../../demo1/dist/authentication/layouts/dark/sign-in.blade.php">--}}
 {{--																			<span class="menu-bullet">--}}
 {{--																				<span class="bullet bullet-dot"></span>--}}
 {{--																			</span>--}}
@@ -708,7 +709,7 @@ License: For each use you must have a valid license purchased only from above li
 {{--                                                                </a>--}}
 {{--                                                            </div>--}}
 {{--                                                            <div class="menu-item">--}}
-{{--                                                                <a class="menu-link py-3" href="../../demo1/dist/authentication/layouts/dark/sign-up.html">--}}
+{{--                                                                <a class="menu-link py-3" href="../../demo1/dist/authentication/layouts/dark/sign-up.blade.php">--}}
 {{--																			<span class="menu-bullet">--}}
 {{--																				<span class="bullet bullet-dot"></span>--}}
 {{--																			</span>--}}
@@ -716,7 +717,7 @@ License: For each use you must have a valid license purchased only from above li
 {{--                                                                </a>--}}
 {{--                                                            </div>--}}
 {{--                                                            <div class="menu-item">--}}
-{{--                                                                <a class="menu-link py-3" href="../../demo1/dist/authentication/layouts/dark/two-steps.html">--}}
+{{--                                                                <a class="menu-link py-3" href="../../demo1/dist/authentication/layouts/dark/two-steps.blade.php">--}}
 {{--																			<span class="menu-bullet">--}}
 {{--																				<span class="bullet bullet-dot"></span>--}}
 {{--																			</span>--}}
@@ -724,7 +725,7 @@ License: For each use you must have a valid license purchased only from above li
 {{--                                                                </a>--}}
 {{--                                                            </div>--}}
 {{--                                                            <div class="menu-item">--}}
-{{--                                                                <a class="menu-link py-3" href="../../demo1/dist/authentication/layouts/dark/password-reset.html">--}}
+{{--                                                                <a class="menu-link py-3" href="../../demo1/dist/authentication/layouts/dark/password-reset.blade.php">--}}
 {{--																			<span class="menu-bullet">--}}
 {{--																				<span class="bullet bullet-dot"></span>--}}
 {{--																			</span>--}}
@@ -732,7 +733,7 @@ License: For each use you must have a valid license purchased only from above li
 {{--                                                                </a>--}}
 {{--                                                            </div>--}}
 {{--                                                            <div class="menu-item">--}}
-{{--                                                                <a class="menu-link py-3" href="../../demo1/dist/authentication/layouts/dark/new-password.html">--}}
+{{--                                                                <a class="menu-link py-3" href="../../demo1/dist/authentication/layouts/dark/new-password.blade.php">--}}
 {{--																			<span class="menu-bullet">--}}
 {{--																				<span class="bullet bullet-dot"></span>--}}
 {{--																			</span>--}}
@@ -759,7 +760,7 @@ License: For each use you must have a valid license purchased only from above li
 {{--                                                                </a>--}}
 {{--                                                            </div>--}}
 {{--                                                            <div class="menu-item">--}}
-{{--                                                                <a class="menu-link py-3" href="../../demo1/dist/authentication/extended/multi-steps-sign-up.html">--}}
+{{--                                                                <a class="menu-link py-3" href="../../demo1/dist/authentication/extended/multi-steps-sign-up.blade.php">--}}
 {{--																			<span class="menu-bullet">--}}
 {{--																				<span class="bullet bullet-dot"></span>--}}
 {{--																			</span>--}}
@@ -767,7 +768,7 @@ License: For each use you must have a valid license purchased only from above li
 {{--                                                                </a>--}}
 {{--                                                            </div>--}}
 {{--                                                            <div class="menu-item">--}}
-{{--                                                                <a class="menu-link py-3" href="../../demo1/dist/authentication/extended/free-trial-sign-up.html">--}}
+{{--                                                                <a class="menu-link py-3" href="../../demo1/dist/authentication/extended/free-trial-sign-up.blade.php">--}}
 {{--																			<span class="menu-bullet">--}}
 {{--																				<span class="bullet bullet-dot"></span>--}}
 {{--																			</span>--}}
@@ -858,7 +859,7 @@ License: For each use you must have a valid license purchased only from above li
 {{--                                                                </a>--}}
 {{--                                                            </div>--}}
 {{--                                                            <div class="menu-item">--}}
-{{--                                                                <a class="menu-link py-3" href="../../demo1/dist/authentication/email/password-reset.html" target="blank">--}}
+{{--                                                                <a class="menu-link py-3" href="../../demo1/dist/authentication/email/password-reset.blade.php" target="blank">--}}
 {{--																			<span class="menu-bullet">--}}
 {{--																				<span class="bullet bullet-dot"></span>--}}
 {{--																			</span>--}}
@@ -987,7 +988,7 @@ License: For each use you must have a valid license purchased only from above li
 {{--                                                                        </a>--}}
 {{--                                                                    </div>--}}
 {{--                                                                    <div class="menu-item">--}}
-{{--                                                                        <a class="menu-link py-3" href="../../demo1/dist/utilities/modals/forms/bidding.html">--}}
+{{--                                                                        <a class="menu-link py-3" href="../../demo1/dist/utilities/modals/forms/bidding.blade.php">--}}
 {{--																					<span class="menu-bullet">--}}
 {{--																						<span class="bullet bullet-dot"></span>--}}
 {{--																					</span>--}}
@@ -1297,7 +1298,7 @@ License: For each use you must have a valid license purchased only from above li
 {{--														</span>--}}
 {{--                                                <div class="menu-sub menu-sub-lg-down-accordion menu-sub-lg-dropdown menu-active-bg py-lg-4 w-lg-225px">--}}
 {{--                                                    <div class="menu-item">--}}
-{{--                                                        <a class="menu-link py-3" href="../../demo1/dist/apps/projects/list.html">--}}
+{{--                                                        <a class="menu-link py-3" href="../../demo1/dist/apps/projects/list.blade.php">--}}
 {{--																	<span class="menu-bullet">--}}
 {{--																		<span class="bullet bullet-dot"></span>--}}
 {{--																	</span>--}}
@@ -1345,7 +1346,7 @@ License: For each use you must have a valid license purchased only from above li
 {{--                                                        </a>--}}
 {{--                                                    </div>--}}
 {{--                                                    <div class="menu-item">--}}
-{{--                                                        <a class="menu-link py-3" href="../../demo1/dist/apps/projects/activity.html">--}}
+{{--                                                        <a class="menu-link py-3" href="../../demo1/dist/apps/projects/activity.blade.php">--}}
 {{--																	<span class="menu-bullet">--}}
 {{--																		<span class="bullet bullet-dot"></span>--}}
 {{--																	</span>--}}
@@ -1353,7 +1354,7 @@ License: For each use you must have a valid license purchased only from above li
 {{--                                                        </a>--}}
 {{--                                                    </div>--}}
 {{--                                                    <div class="menu-item">--}}
-{{--                                                        <a class="menu-link py-3" href="../../demo1/dist/apps/projects/settings.html">--}}
+{{--                                                        <a class="menu-link py-3" href="../../demo1/dist/apps/projects/settings.blade.php">--}}
 {{--																	<span class="menu-bullet">--}}
 {{--																		<span class="bullet bullet-dot"></span>--}}
 {{--																	</span>--}}
@@ -1561,7 +1562,7 @@ License: For each use you must have a valid license purchased only from above li
 {{--                                                        </div>--}}
 {{--                                                    </div>--}}
 {{--                                                    <div class="menu-item">--}}
-{{--                                                        <a class="menu-link py-3" href="../../demo1/dist/apps/ecommerce/settings.html">--}}
+{{--                                                        <a class="menu-link py-3" href="../../demo1/dist/apps/ecommerce/settings.blade.php">--}}
 {{--																	<span class="menu-bullet">--}}
 {{--																		<span class="bullet bullet-dot"></span>--}}
 {{--																	</span>--}}
@@ -1587,7 +1588,7 @@ License: For each use you must have a valid license purchased only from above li
 {{--														</span>--}}
 {{--                                                <div class="menu-sub menu-sub-lg-down-accordion menu-sub-lg-dropdown menu-active-bg py-lg-4 w-lg-225px">--}}
 {{--                                                    <div class="menu-item">--}}
-{{--                                                        <a class="menu-link py-3" href="../../demo1/dist/apps/support-center/overview.html">--}}
+{{--                                                        <a class="menu-link py-3" href="../../demo1/dist/apps/support-center/overview.blade.php">--}}
 {{--																	<span class="menu-bullet">--}}
 {{--																		<span class="bullet bullet-dot"></span>--}}
 {{--																	</span>--}}
@@ -1604,7 +1605,7 @@ License: For each use you must have a valid license purchased only from above li
 {{--																</span>--}}
 {{--                                                        <div class="menu-sub menu-sub-lg-down-accordion menu-sub-lg-dropdown menu-active-bg py-lg-4 w-lg-225px">--}}
 {{--                                                            <div class="menu-item">--}}
-{{--                                                                <a class="menu-link py-3" href="../../demo1/dist/apps/support-center/tickets/list.html">--}}
+{{--                                                                <a class="menu-link py-3" href="../../demo1/dist/apps/support-center/tickets/list.blade.php">--}}
 {{--																			<span class="menu-bullet">--}}
 {{--																				<span class="bullet bullet-dot"></span>--}}
 {{--																			</span>--}}
@@ -1631,7 +1632,7 @@ License: For each use you must have a valid license purchased only from above li
 {{--																</span>--}}
 {{--                                                        <div class="menu-sub menu-sub-lg-down-accordion menu-sub-lg-dropdown menu-active-bg py-lg-4 w-lg-225px">--}}
 {{--                                                            <div class="menu-item">--}}
-{{--                                                                <a class="menu-link py-3" href="../../demo1/dist/apps/support-center/tutorials/list.html">--}}
+{{--                                                                <a class="menu-link py-3" href="../../demo1/dist/apps/support-center/tutorials/list.blade.php">--}}
 {{--																			<span class="menu-bullet">--}}
 {{--																				<span class="bullet bullet-dot"></span>--}}
 {{--																			</span>--}}
@@ -1639,7 +1640,7 @@ License: For each use you must have a valid license purchased only from above li
 {{--                                                                </a>--}}
 {{--                                                            </div>--}}
 {{--                                                            <div class="menu-item">--}}
-{{--                                                                <a class="menu-link py-3" href="../../demo1/dist/apps/support-center/tutorials/post.html">--}}
+{{--                                                                <a class="menu-link py-3" href="../../demo1/dist/apps/support-center/tutorials/post.blade.php">--}}
 {{--																			<span class="menu-bullet">--}}
 {{--																				<span class="bullet bullet-dot"></span>--}}
 {{--																			</span>--}}
@@ -1657,7 +1658,7 @@ License: For each use you must have a valid license purchased only from above li
 {{--                                                        </a>--}}
 {{--                                                    </div>--}}
 {{--                                                    <div class="menu-item">--}}
-{{--                                                        <a class="menu-link py-3" href="../../demo1/dist/apps/support-center/licenses.html">--}}
+{{--                                                        <a class="menu-link py-3" href="../../demo1/dist/apps/support-center/licenses.blade.php">--}}
 {{--																	<span class="menu-bullet">--}}
 {{--																		<span class="bullet bullet-dot"></span>--}}
 {{--																	</span>--}}
@@ -1665,7 +1666,7 @@ License: For each use you must have a valid license purchased only from above li
 {{--                                                        </a>--}}
 {{--                                                    </div>--}}
 {{--                                                    <div class="menu-item">--}}
-{{--                                                        <a class="menu-link py-3" href="../../demo1/dist/apps/support-center/contact.html">--}}
+{{--                                                        <a class="menu-link py-3" href="../../demo1/dist/apps/support-center/contact.blade.php">--}}
 {{--																	<span class="menu-bullet">--}}
 {{--																		<span class="bullet bullet-dot"></span>--}}
 {{--																	</span>--}}
@@ -1700,7 +1701,7 @@ License: For each use you must have a valid license purchased only from above li
 {{--																</span>--}}
 {{--                                                        <div class="menu-sub menu-sub-lg-down-accordion menu-sub-lg-dropdown menu-active-bg py-lg-4 w-lg-225px">--}}
 {{--                                                            <div class="menu-item">--}}
-{{--                                                                <a class="menu-link py-3" href="../../demo1/dist/apps/user-management/users/list.html">--}}
+{{--                                                                <a class="menu-link py-3" href="../../demo1/dist/apps/user-management/users/list.blade.php">--}}
 {{--																			<span class="menu-bullet">--}}
 {{--																				<span class="bullet bullet-dot"></span>--}}
 {{--																			</span>--}}
@@ -1727,7 +1728,7 @@ License: For each use you must have a valid license purchased only from above li
 {{--																</span>--}}
 {{--                                                        <div class="menu-sub menu-sub-lg-down-accordion menu-sub-lg-dropdown menu-active-bg py-lg-4 w-lg-225px">--}}
 {{--                                                            <div class="menu-item">--}}
-{{--                                                                <a class="menu-link py-3" href="../../demo1/dist/apps/user-management/roles/list.html">--}}
+{{--                                                                <a class="menu-link py-3" href="../../demo1/dist/apps/user-management/roles/list.blade.php">--}}
 {{--																			<span class="menu-bullet">--}}
 {{--																				<span class="bullet bullet-dot"></span>--}}
 {{--																			</span>--}}
@@ -1780,7 +1781,7 @@ License: For each use you must have a valid license purchased only from above li
 {{--                                                        </a>--}}
 {{--                                                    </div>--}}
 {{--                                                    <div class="menu-item">--}}
-{{--                                                        <a class="menu-link py-3" href="../../demo1/dist/apps/contacts/add-contact.html">--}}
+{{--                                                        <a class="menu-link py-3" href="../../demo1/dist/apps/contacts/add-contact.blade.php">--}}
 {{--																	<span class="menu-bullet">--}}
 {{--																		<span class="bullet bullet-dot"></span>--}}
 {{--																	</span>--}}
@@ -1788,7 +1789,7 @@ License: For each use you must have a valid license purchased only from above li
 {{--                                                        </a>--}}
 {{--                                                    </div>--}}
 {{--                                                    <div class="menu-item">--}}
-{{--                                                        <a class="menu-link py-3" href="../../demo1/dist/apps/contacts/edit-contact.html">--}}
+{{--                                                        <a class="menu-link py-3" href="../../demo1/dist/apps/contacts/edit-contact.blade.php">--}}
 {{--																	<span class="menu-bullet">--}}
 {{--																		<span class="bullet bullet-dot"></span>--}}
 {{--																	</span>--}}
@@ -1796,7 +1797,7 @@ License: For each use you must have a valid license purchased only from above li
 {{--                                                        </a>--}}
 {{--                                                    </div>--}}
 {{--                                                    <div class="menu-item">--}}
-{{--                                                        <a class="menu-link py-3" href="../../demo1/dist/apps/contacts/view-contact.html">--}}
+{{--                                                        <a class="menu-link py-3" href="../../demo1/dist/apps/contacts/view-contact.blade.php">--}}
 {{--																	<span class="menu-bullet">--}}
 {{--																		<span class="bullet bullet-dot"></span>--}}
 {{--																	</span>--}}
@@ -1831,7 +1832,7 @@ License: For each use you must have a valid license purchased only from above li
 {{--                                                        </a>--}}
 {{--                                                    </div>--}}
 {{--                                                    <div class="menu-item">--}}
-{{--                                                        <a class="menu-link py-3" href="../../demo1/dist/apps/subscriptions/list.html">--}}
+{{--                                                        <a class="menu-link py-3" href="../../demo1/dist/apps/subscriptions/list.blade.php">--}}
 {{--																	<span class="menu-bullet">--}}
 {{--																		<span class="bullet bullet-dot"></span>--}}
 {{--																	</span>--}}
@@ -1881,7 +1882,7 @@ License: For each use you must have a valid license purchased only from above li
 {{--                                                        </a>--}}
 {{--                                                    </div>--}}
 {{--                                                    <div class="menu-item">--}}
-{{--                                                        <a class="menu-link py-3" href="../../demo1/dist/apps/customers/list.html">--}}
+{{--                                                        <a class="menu-link py-3" href="../../demo1/dist/apps/customers/list.blade.php">--}}
 {{--																	<span class="menu-bullet">--}}
 {{--																		<span class="bullet bullet-dot"></span>--}}
 {{--																	</span>--}}
@@ -2001,7 +2002,7 @@ License: For each use you must have a valid license purchased only from above li
 {{--                                                        </a>--}}
 {{--                                                    </div>--}}
 {{--                                                    <div class="menu-item">--}}
-{{--                                                        <a class="menu-link py-3" href="../../demo1/dist/apps/file-manager/settings.html">--}}
+{{--                                                        <a class="menu-link py-3" href="../../demo1/dist/apps/file-manager/settings.blade.php">--}}
 {{--																	<span class="menu-bullet">--}}
 {{--																		<span class="bullet bullet-dot"></span>--}}
 {{--																	</span>--}}

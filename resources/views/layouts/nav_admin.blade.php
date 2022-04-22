@@ -55,7 +55,7 @@
 											</a>
 										</div>
 										<div class="menu-item">
-											<a class="menu-link" href="../../demo1/dist/dashboards/marketing.html">
+											<a class="menu-link" href="{{url('marketing')}}">
 												<span class="menu-bullet">
 													<span class="bullet bullet-dot"></span>
 												</span>
@@ -63,7 +63,7 @@
 											</a>
 										</div>
 										<div class="menu-item">
-											<a class="menu-link" href="../../demo1/dist/dashboards/bidding.html">
+											<a class="menu-link" href="{{url('bidding')}}">
 												<span class="menu-bullet">
 													<span class="bullet bullet-dot"></span>
 												</span>
@@ -72,7 +72,7 @@
 										</div>
 										<div class="menu-inner flex-column collapse" id="kt_aside_menu_collapse">
 											<div class="menu-item">
-												<a class="menu-link" href="../../demo1/dist/dashboards/logistics.html">
+												<a class="menu-link" href="{{url('logistics')}}">
 													<span class="menu-bullet">
 														<span class="bullet bullet-dot"></span>
 													</span>
@@ -80,7 +80,7 @@
 												</a>
 											</div>
 											<div class="menu-item">
-												<a class="menu-link" href="../../demo1/dist/dashboards/delivery.html">
+												<a class="menu-link" href="{{('delivery')}}">
 													<span class="menu-bullet">
 														<span class="bullet bullet-dot"></span>
 													</span>
@@ -88,7 +88,7 @@
 												</a>
 											</div>
 											<div class="menu-item">
-												<a class="menu-link" href="../../demo1/dist/dashboards/website-analytics.html">
+												<a class="menu-link" href="{{('website-analytics')}}">
 													<span class="menu-bullet">
 														<span class="bullet bullet-dot"></span>
 													</span>
@@ -96,7 +96,7 @@
 												</a>
 											</div>
 											<div class="menu-item">
-												<a class="menu-link" href="../../demo1/dist/dashboards/finance-performance.html">
+												<a class="menu-link" href="{{('finance-performance')}}">
 													<span class="menu-bullet">
 														<span class="bullet bullet-dot"></span>
 													</span>
@@ -104,7 +104,7 @@
 												</a>
 											</div>
 											<div class="menu-item">
-												<a class="menu-link" href="../../demo1/dist/dashboards/store-analytics.html">
+												<a class="menu-link" href="{{url('store-analytics')}}">
 													<span class="menu-bullet">
 														<span class="bullet bullet-dot"></span>
 													</span>
@@ -112,7 +112,7 @@
 												</a>
 											</div>
 											<div class="menu-item">
-												<a class="menu-link" href="../../demo1/dist/dashboards/social.html">
+												<a class="menu-link" href="{{url('social')}}">
 													<span class="menu-bullet">
 														<span class="bullet bullet-dot"></span>
 													</span>
@@ -120,7 +120,7 @@
 												</a>
 											</div>
 											<div class="menu-item">
-												<a class="menu-link" href="../../demo1/dist/dashboards/crypto.html">
+												<a class="menu-link" href="{{url('crypto')}}">
 													<span class="menu-bullet">
 														<span class="bullet bullet-dot"></span>
 													</span>
@@ -128,7 +128,7 @@
 												</a>
 											</div>
 											<div class="menu-item">
-												<a class="menu-link" href="../../demo1/dist/dashboards/school.html">
+												<a class="menu-link" href="{{url('school')}}">
 													<span class="menu-bullet">
 														<span class="bullet bullet-dot"></span>
 													</span>
@@ -136,7 +136,7 @@
 												</a>
 											</div>
 											<div class="menu-item">
-												<a class="menu-link" href="../../demo1/dist/dashboards/podcast.html">
+												<a class="menu-link" href="{{url('podcast')}}">
 													<span class="menu-bullet">
 														<span class="bullet bullet-dot"></span>
 													</span>
@@ -144,7 +144,7 @@
 												</a>
 											</div>
 											<div class="menu-item">
-												<a class="menu-link" href="../../demo1/dist/landing.html">
+												<a class="menu-link" href="{{url('landing')}}">
 													<span class="menu-bullet">
 														<span class="bullet bullet-dot"></span>
 													</span>
@@ -201,7 +201,7 @@
 											</span>
 											<div class="menu-sub menu-sub-accordion menu-active-bg">
 												<div class="menu-item">
-													<a class="menu-link" href="../../demo1/dist/pages/user-profile/overview.html">
+													<a class="menu-link" href="{{url('overview')}}">
 														<span class="menu-bullet">
 															<span class="bullet bullet-dot"></span>
 														</span>
@@ -209,7 +209,7 @@
 													</a>
 												</div>
 												<div class="menu-item">
-													<a class="menu-link" href="../../demo1/dist/pages/user-profile/projects.html">
+													<a class="menu-link" href="{{url('projects')}}">
 														<span class="menu-bullet">
 															<span class="bullet bullet-dot"></span>
 														</span>
@@ -217,7 +217,7 @@
 													</a>
 												</div>
 												<div class="menu-item">
-													<a class="menu-link" href="../../demo1/dist/pages/user-profile/campaigns.html">
+													<a class="menu-link" href="{{url('campaigns')}}">
 														<span class="menu-bullet">
 															<span class="bullet bullet-dot"></span>
 														</span>
@@ -225,7 +225,7 @@
 													</a>
 												</div>
 												<div class="menu-item">
-													<a class="menu-link" href="../../demo1/dist/pages/user-profile/documents.html">
+													<a class="menu-link" href="{{url('documents')}}">
 														<span class="menu-bullet">
 															<span class="bullet bullet-dot"></span>
 														</span>
@@ -233,7 +233,7 @@
 													</a>
 												</div>
 												<div class="menu-item">
-													<a class="menu-link" href="../../demo1/dist/pages/user-profile/followers.html">
+													<a class="menu-link" href="{{url('followers')}}">
 														<span class="menu-bullet">
 															<span class="bullet bullet-dot"></span>
 														</span>
@@ -241,7 +241,7 @@
 													</a>
 												</div>
 												<div class="menu-item">
-													<a class="menu-link" href="../../demo1/dist/pages/user-profile/activity.html">
+													<a class="menu-link" href="{{url('activity')}}">
 														<span class="menu-bullet">
 															<span class="bullet bullet-dot"></span>
 														</span>
@@ -260,7 +260,7 @@
 											</span>
 											<div class="menu-sub menu-sub-accordion menu-active-bg">
 												<div class="menu-item">
-													<a class="menu-link" href="../../demo1/dist/pages/blog/home.html">
+													<a class="menu-link" href="{{url('home')}}">
 														<span class="menu-bullet">
 															<span class="bullet bullet-dot"></span>
 														</span>
@@ -268,7 +268,7 @@
 													</a>
 												</div>
 												<div class="menu-item">
-													<a class="menu-link" href="../../demo1/dist/pages/blog/post.html">
+													<a class="menu-link" href="{{url('post')}}">
 														<span class="menu-bullet">
 															<span class="bullet bullet-dot"></span>
 														</span>
@@ -287,7 +287,7 @@
 											</span>
 											<div class="menu-sub menu-sub-accordion menu-active-bg">
 												<div class="menu-item">
-													<a class="menu-link" href="../../demo1/dist/pages/pricing/pricing-1.html">
+													<a class="menu-link" href="{{url('pricing-1')}}">
 														<span class="menu-bullet">
 															<span class="bullet bullet-dot"></span>
 														</span>
@@ -295,7 +295,7 @@
 													</a>
 												</div>
 												<div class="menu-item">
-													<a class="menu-link" href="../../demo1/dist/pages/pricing/pricing-2.html">
+													<a class="menu-link" href="{{url('pricing-2')}}">
 														<span class="menu-bullet">
 															<span class="bullet bullet-dot"></span>
 														</span>
@@ -314,7 +314,7 @@
 											</span>
 											<div class="menu-sub menu-sub-accordion menu-active-bg">
 												<div class="menu-item">
-													<a class="menu-link" href="../../demo1/dist/pages/careers/list.html">
+													<a class="menu-link" href="{{url('careers-list')}}">
 														<span class="menu-bullet">
 															<span class="bullet bullet-dot"></span>
 														</span>
@@ -322,7 +322,7 @@
 													</a>
 												</div>
 												<div class="menu-item">
-													<a class="menu-link" href="../../demo1/dist/pages/careers/apply.html">
+													<a class="menu-link" href="{{url('careers-apply')}}">
 														<span class="menu-bullet">
 															<span class="bullet bullet-dot"></span>
 														</span>
@@ -341,7 +341,7 @@
 											</span>
 											<div class="menu-sub menu-sub-accordion menu-active-bg">
 												<div class="menu-item">
-													<a class="menu-link" href="../../demo1/dist/pages/faq/classic.html">
+													<a class="menu-link" href="{{url('faq-classic')}}">
 														<span class="menu-bullet">
 															<span class="bullet bullet-dot"></span>
 														</span>
@@ -349,7 +349,7 @@
 													</a>
 												</div>
 												<div class="menu-item">
-													<a class="menu-link" href="../../demo1/dist/pages/faq/extended.html">
+													<a class="menu-link" href="{{url('faq-extended')}}">
 														<span class="menu-bullet">
 															<span class="bullet bullet-dot"></span>
 														</span>
@@ -359,7 +359,7 @@
 											</div>
 										</div>
 										<div class="menu-item">
-											<a class="menu-link" href="../../demo1/dist/pages/about.html">
+											<a class="menu-link" href="{{url('about_us')}}">
 												<span class="menu-bullet">
 													<span class="bullet bullet-dot"></span>
 												</span>
@@ -367,7 +367,7 @@
 											</a>
 										</div>
 										<div class="menu-item">
-											<a class="menu-link" href="../../demo1/dist/pages/contact.html">
+											<a class="menu-link" href="{{url('contact_us')}}">
 												<span class="menu-bullet">
 													<span class="bullet bullet-dot"></span>
 												</span>
@@ -375,7 +375,7 @@
 											</a>
 										</div>
 										<div class="menu-item">
-											<a class="menu-link" href="../../demo1/dist/pages/team.html">
+											<a class="menu-link" href="{{url('our_team')}}">
 												<span class="menu-bullet">
 													<span class="bullet bullet-dot"></span>
 												</span>
@@ -383,7 +383,7 @@
 											</a>
 										</div>
 										<div class="menu-item">
-											<a class="menu-link" href="../../demo1/dist/pages/licenses.html">
+											<a class="menu-link" href="{{url('licenses')}}">
 												<span class="menu-bullet">
 													<span class="bullet bullet-dot"></span>
 												</span>
@@ -391,7 +391,7 @@
 											</a>
 										</div>
 										<div class="menu-item">
-											<a class="menu-link" href="../../demo1/dist/pages/sitemap.html">
+											<a class="menu-link" href="{{url('sitemap')}}">
 												<span class="menu-bullet">
 													<span class="bullet bullet-dot"></span>
 												</span>
@@ -417,7 +417,7 @@
 									</span>
 									<div class="menu-sub menu-sub-accordion menu-active-bg">
 										<div class="menu-item">
-											<a class="menu-link" href="../../demo1/dist/account/overview.html">
+											<a class="menu-link" href="{{url('overview_account')}}">
 												<span class="menu-bullet">
 													<span class="bullet bullet-dot"></span>
 												</span>
@@ -425,7 +425,7 @@
 											</a>
 										</div>
 										<div class="menu-item">
-											<a class="menu-link" href="../../demo1/dist/account/settings.html">
+											<a class="menu-link" href="{{url('settings_account')}}">
 												<span class="menu-bullet">
 													<span class="bullet bullet-dot"></span>
 												</span>
@@ -433,7 +433,7 @@
 											</a>
 										</div>
 										<div class="menu-item">
-											<a class="menu-link" href="../../demo1/dist/account/security.html">
+											<a class="menu-link" href="{{url('security_account')}}">
 												<span class="menu-bullet">
 													<span class="bullet bullet-dot"></span>
 												</span>
@@ -441,7 +441,7 @@
 											</a>
 										</div>
 										<div class="menu-item">
-											<a class="menu-link" href="../../demo1/dist/account/billing.html">
+											<a class="menu-link" href="{{url('billing_account')}}">
 												<span class="menu-bullet">
 													<span class="bullet bullet-dot"></span>
 												</span>
@@ -449,7 +449,7 @@
 											</a>
 										</div>
 										<div class="menu-item">
-											<a class="menu-link" href="../../demo1/dist/account/statements.html">
+											<a class="menu-link" href="{{url('statements_account')}}">
 												<span class="menu-bullet">
 													<span class="bullet bullet-dot"></span>
 												</span>
@@ -457,7 +457,7 @@
 											</a>
 										</div>
 										<div class="menu-item">
-											<a class="menu-link" href="../../demo1/dist/account/referrals.html">
+											<a class="menu-link" href="{{url('referrals_account')}}">
 												<span class="menu-bullet">
 													<span class="bullet bullet-dot"></span>
 												</span>
@@ -465,7 +465,7 @@
 											</a>
 										</div>
 										<div class="menu-item">
-											<a class="menu-link" href="../../demo1/dist/account/api-keys.html">
+											<a class="menu-link" href="{{url('api_keys_account')}}">
 												<span class="menu-bullet">
 													<span class="bullet bullet-dot"></span>
 												</span>
@@ -473,7 +473,7 @@
 											</a>
 										</div>
 										<div class="menu-item">
-											<a class="menu-link" href="../../demo1/dist/account/logs.html">
+											<a class="menu-link" href="{{url('logs_account')}}">
 												<span class="menu-bullet">
 													<span class="bullet bullet-dot"></span>
 												</span>
@@ -508,7 +508,7 @@
 											</span>
 											<div class="menu-sub menu-sub-accordion menu-active-bg">
 												<div class="menu-item">
-													<a class="menu-link" href="../../demo1/dist/authentication/layouts/basic/sign-in.html">
+													<a class="menu-link" href="{{url('sing_in')}}">
 														<span class="menu-bullet">
 															<span class="bullet bullet-dot"></span>
 														</span>
@@ -516,7 +516,7 @@
 													</a>
 												</div>
 												<div class="menu-item">
-													<a class="menu-link" href="../../demo1/dist/authentication/layouts/basic/sign-up.html">
+													<a class="menu-link" href="{{url('sing_in')}}">
 														<span class="menu-bullet">
 															<span class="bullet bullet-dot"></span>
 														</span>
@@ -524,7 +524,7 @@
 													</a>
 												</div>
 												<div class="menu-item">
-													<a class="menu-link" href="../../demo1/dist/authentication/layouts/basic/two-steps.html">
+													<a class="menu-link" href="{{url('two_steps')}}">
 														<span class="menu-bullet">
 															<span class="bullet bullet-dot"></span>
 														</span>
@@ -532,7 +532,7 @@
 													</a>
 												</div>
 												<div class="menu-item">
-													<a class="menu-link" href="../../demo1/dist/authentication/layouts/basic/password-reset.html">
+													<a class="menu-link" href="{{url('password_reset')}}">
 														<span class="menu-bullet">
 															<span class="bullet bullet-dot"></span>
 														</span>
@@ -540,7 +540,7 @@
 													</a>
 												</div>
 												<div class="menu-item">
-													<a class="menu-link" href="../../demo1/dist/authentication/layouts/basic/new-password.html">
+													<a class="menu-link" href="{{url('new_password')}}">
 														<span class="menu-bullet">
 															<span class="bullet bullet-dot"></span>
 														</span>
