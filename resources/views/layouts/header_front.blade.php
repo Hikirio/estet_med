@@ -35,7 +35,7 @@
                             <!-- RD Navbar Toggle-->
                             <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
                             <!-- RD Navbar Brand-->
-                            <div class="rd-navbar-brand"><a class="brand" href=""><img class="brand-logo-dark" src="{{asset('images/logo-default-119x44.png')}}" alt="" width="119" height="44" srcset="{{asset('images/logo-default-119x44.png')}} 2x"/><img class="brand-logo-light" src="{{asset('images/logo-default-119x44.png')}}" alt="" width="119" height="44" srcset="{{asset('images/logo-default-119x44.png')}} 2x"/></a>
+                            <div class="rd-navbar-brand"><a class="brand" href="/"><img class="brand-logo-dark" src="{{asset('images/logo-default-119x44.png')}}" alt="" width="119" height="44" srcset="{{asset('images/logo-default-119x44.png')}} 2x"/><img class="brand-logo-light" src="{{asset('images/logo-default-119x44.png')}}" alt="" width="119" height="44" srcset="{{asset('images/logo-default-119x44.png')}} 2x"/></a>
                             </div>
                         </div>
                         <div class="rd-navbar-main-element">
