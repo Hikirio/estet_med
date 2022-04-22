@@ -4,8 +4,8 @@
         <div class="container">
             <div class="row justify-content-center text-center">
                 <div class="col-lg-12">
-                    <h3 class="text-uppercase font-weight-light text-spacing-6 wow fadeInRight" data-wow-delay=".2s">the solutions of</h3>
-                    <h1 class="big text-uppercase"><span class="bg-element">t</span><span class="bg-element-2">o</span><span class="bg-element-3">m</span><span class="bg-element-4">0</span><span class="bg-element-5">r</span><span class="bg-element-6">r</span><span class="bg-element-7">0</span><span class="bg-element-8">w</span></h1>
+                    <h3 class="text-uppercase font-weight-light text-spacing-6 wow fadeInRight" data-wow-delay=".2s">the art of beauty</h3>
+                    <h1 class="big text-uppercase"><span class="bg-element">e</span><span class="bg-element-2">s</span><span class="bg-element-3">t</span><span class="bg-element-4">e</span><span class="bg-element-6">t</span><span class="bg-element-7">m</span><span class="bg-element-8">e</span><span class="bg-element-8">d</span></h1>
                 </div><a class="wow fadeInRight button button-lg button-icon button-icon-left button-secondary button-ujarak" data-wow-delay=".2s" href="#"><span class="icon mdi mdi-plus"></span>Learn more</a>
             </div>
         </div>
