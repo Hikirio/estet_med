@@ -144,7 +144,7 @@ License: For each use you must have a valid license purchased only from above li
 {{--                                                </a>--}}
 {{--                                            </div>--}}
 {{--                                            <div class="menu-item">--}}
-{{--                                                <a class="menu-link py-3" href="../../demo1/dist/dashboards/marketing.html">--}}
+{{--                                                <a class="menu-link py-3" href="../../demo1/dist/dashboards/marketing.blade.php">--}}
 {{--															<span class="menu-bullet">--}}
 {{--																<span class="bullet bullet-dot"></span>--}}
 {{--															</span>--}}
@@ -152,7 +152,7 @@ License: For each use you must have a valid license purchased only from above li
 {{--                                                </a>--}}
 {{--                                            </div>--}}
 {{--                                            <div class="menu-item">--}}
-{{--                                                <a class="menu-link py-3" href="../../demo1/dist/dashboards/bidding.html">--}}
+{{--                                                <a class="menu-link py-3" href="../../demo1/dist/dashboards/bidding.blade.php">--}}
 {{--															<span class="menu-bullet">--}}
 {{--																<span class="bullet bullet-dot"></span>--}}
 {{--															</span>--}}
@@ -161,7 +161,7 @@ License: For each use you must have a valid license purchased only from above li
 {{--                                            </div>--}}
 {{--                                            <div class="menu-inner flex-column collapse" id="kt_aside_menu_collapse_2">--}}
 {{--                                                <div class="menu-item">--}}
-{{--                                                    <a class="menu-link py-3" href="../../demo1/dist/dashboards/logistics.html">--}}
+{{--                                                    <a class="menu-link py-3" href="../../demo1/dist/dashboards/logistics.blade.php">--}}
 {{--																<span class="menu-bullet">--}}
 {{--																	<span class="bullet bullet-dot"></span>--}}
 {{--																</span>--}}
@@ -169,7 +169,7 @@ License: For each use you must have a valid license purchased only from above li
 {{--                                                    </a>--}}
 {{--                                                </div>--}}
 {{--                                                <div class="menu-item">--}}
-{{--                                                    <a class="menu-link py-3" href="../../demo1/dist/dashboards/delivery.html">--}}
+{{--                                                    <a class="menu-link py-3" href="../../demo1/dist/dashboards/delivery.blade.php">--}}
 {{--																<span class="menu-bullet">--}}
 {{--																	<span class="bullet bullet-dot"></span>--}}
 {{--																</span>--}}
@@ -987,7 +987,7 @@ License: For each use you must have a valid license purchased only from above li
 {{--                                                                        </a>--}}
 {{--                                                                    </div>--}}
 {{--                                                                    <div class="menu-item">--}}
-{{--                                                                        <a class="menu-link py-3" href="../../demo1/dist/utilities/modals/forms/bidding.html">--}}
+{{--                                                                        <a class="menu-link py-3" href="../../demo1/dist/utilities/modals/forms/bidding.blade.php">--}}
 {{--																					<span class="menu-bullet">--}}
 {{--																						<span class="bullet bullet-dot"></span>--}}
 {{--																					</span>--}}

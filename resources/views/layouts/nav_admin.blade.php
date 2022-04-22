@@ -55,7 +55,7 @@
 											</a>
 										</div>
 										<div class="menu-item">
-											<a class="menu-link" href="../../demo1/dist/dashboards/marketing.html">
+											<a class="menu-link" href="{{url('marketing')}}">
 												<span class="menu-bullet">
 													<span class="bullet bullet-dot"></span>
 												</span>
@@ -63,7 +63,7 @@
 											</a>
 										</div>
 										<div class="menu-item">
-											<a class="menu-link" href="../../demo1/dist/dashboards/bidding.html">
+											<a class="menu-link" href="{{url('bidding')}}">
 												<span class="menu-bullet">
 													<span class="bullet bullet-dot"></span>
 												</span>
@@ -72,7 +72,7 @@
 										</div>
 										<div class="menu-inner flex-column collapse" id="kt_aside_menu_collapse">
 											<div class="menu-item">
-												<a class="menu-link" href="../../demo1/dist/dashboards/logistics.html">
+												<a class="menu-link" href="{{url('logistics')}}">
 													<span class="menu-bullet">
 														<span class="bullet bullet-dot"></span>
 													</span>
@@ -80,7 +80,7 @@
 												</a>
 											</div>
 											<div class="menu-item">
-												<a class="menu-link" href="../../demo1/dist/dashboards/delivery.html">
+												<a class="menu-link" href="{{('delivery')}}">
 													<span class="menu-bullet">
 														<span class="bullet bullet-dot"></span>
 													</span>
@@ -88,7 +88,7 @@
 												</a>
 											</div>
 											<div class="menu-item">
-												<a class="menu-link" href="../../demo1/dist/dashboards/website-analytics.html">
+												<a class="menu-link" href="{{('website-analytics')}}">
 													<span class="menu-bullet">
 														<span class="bullet bullet-dot"></span>
 													</span>
@@ -96,7 +96,7 @@
 												</a>
 											</div>
 											<div class="menu-item">
-												<a class="menu-link" href="../../demo1/dist/dashboards/finance-performance.html">
+												<a class="menu-link" href="{{('finance-performance')}}">
 													<span class="menu-bullet">
 														<span class="bullet bullet-dot"></span>
 													</span>

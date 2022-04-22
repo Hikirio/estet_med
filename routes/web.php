@@ -31,6 +31,12 @@ Route::controller(AdminController::class)->group(function () {
     Route::get('/ecommerce', 'ecommerce')->name('Панель управления электронной коммерцией');
     Route::get('/projects', 'projects')->name('Проэкты');
     Route::get('/online-courses', 'online_courses')->name('Онлайн курсы');
+    Route::get('/marketing', 'marketing')->name('Маркетинг');
+    Route::get('/bidding', 'bidding')->name('Торги');
+    Route::get('/logistics', 'logistics')->name('Логистика');
+    Route::get('/delivery', 'delivery')->name('Доставка');
+    Route::get('/website-analytics', 'website_analytics')->name('Доставка');
+    Route::get('/finance-performance', 'finance-performance')->name('Доставка');
 });
 
 //Frontend routing
