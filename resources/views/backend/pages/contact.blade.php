@@ -7757,7 +7757,7 @@ License: For each use you must have a valid license purchased only from above li
 										<div class="fs-7 text-muted">Reach us for custom license offers.</div>
 									</div>
 									<div class="text-nowrap">
-										<a href="https://keenthemes.com/contact/" class="btn btn-sm btn-success" target="_blank">Contact Us</a>
+										<a href="https://keenthemes.com/contact/contact.blade.php" class="btn btn-sm btn-success" target="_blank">Contact Us</a>
 									</div>
 								</div>
 							</div>
