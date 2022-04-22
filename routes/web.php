@@ -1,7 +1,7 @@
 <?php
 
-use App\Http\Controllers\AdminController;
-use App\Http\Controllers\FrontController;
+use App\Http\Controllers\AdminPageController;
+use App\Http\Controllers\FrontPageController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -25,7 +25,7 @@ Route::get('/dashboard', static function () {
 
 
 //Administratin routing
-Route::controller(AdminController::class)->group(function () {
+Route::controller(AdminPageController::class)->group(function () {
     Route::get('/admin', 'index');
     Route::get('/multipurpose', 'multipurpose')->name('Многоцелевой');
     Route::get('/ecommerce', 'ecommerce')->name('Панель управления электронной коммерцией');
@@ -78,7 +78,7 @@ Route::controller(AdminController::class)->group(function () {
 });
 
 //Frontend routing
-Route::controller(FrontController::class)->group(function () {
+Route::controller(FrontPageController::class)->group(function () {
     Route::get('/', 'index')->name('Главная');
     Route::get('/contacts', 'contacts')->name('Контакты');
     Route::get('/about', 'about')->name('О нас');

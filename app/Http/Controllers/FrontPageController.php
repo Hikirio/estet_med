@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-class FrontController extends Controller
+class FrontPageController extends Controller
 {
     public function index()
     {
