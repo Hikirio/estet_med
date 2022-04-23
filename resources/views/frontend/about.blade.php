@@ -64,10 +64,10 @@
             <div class="col-sm-6 col-lg-4 isotope-item wow fadeInLeft" data-filter="Type 3">
               <!-- Thumbnail Classic-->
               <article class="thumbnail thumbnail-classic-2 thumbnail-md">
-                <div class="thumbnail-classic-figure-2"><img src="../../../public/images/our-team-1-370x400.jpg" alt="" width="370" height="400"/>
+                <div class="thumbnail-classic-figure-2"><img src="{{asset('/images/our-team-1-370x400.jpg')}}" alt="" width="370" height="400"/>
                 </div>
                 <div class="thumbnail-classic-caption-2">
-                  <div class="thumbnail-classic-title-wrap-2"><a class="icon fl-bigmug-line-zoom60" href="images/our-team-1-1200x800-original.jpg" data-lightgallery="item"><img src="../../../public/images/our-team-1-370x400.jpg" alt="" width="370" height="400"/></a>
+                  <div class="thumbnail-classic-title-wrap-2"><a class="icon fl-bigmug-line-zoom60" href="{{asset('/images/our-team-1-1200x800-original.jpg')}}" data-lightgallery="item"><img src="{{asset('/images/our-team-1-370x400.jpg')}}" alt="" width="370" height="400"/></a>
                     <h3 class="thumbnail-classic-title-2 text-uppercase"><a href="#">Peter Miller</a></h3>
                   </div>
                   <p class="thumbnail-classic-text-2 text-center text-white">Managing Director</p>
@@ -85,10 +85,10 @@
             <div class="col-sm-6 col-lg-4 isotope-item wow fadeInLeft" data-wow-delay=".1s">
               <!-- Thumbnail Classic-->
               <article class="thumbnail thumbnail-classic-2 thumbnail-md">
-                <div class="thumbnail-classic-figure-2"><img src="../../../public/images/our-team-2-370x400.jpg" alt="" width="370" height="400"/>
+                <div class="thumbnail-classic-figure-2"><img src="{{asset('/images/our-team-2-370x400.jpg')}}" alt="" width="370" height="400"/>
                 </div>
                 <div class="thumbnail-classic-caption-2">
-                  <div class="thumbnail-classic-title-wrap-2"><a class="icon fl-bigmug-line-zoom60" href="images/our-team-2-1200x800-original.jpg" data-lightgallery="item"><img src="../../../public/images/our-team-2-370x400.jpg" alt="" width="370" height="400"/></a>
+                  <div class="thumbnail-classic-title-wrap-2"><a class="icon fl-bigmug-line-zoom60" href="{{asset('images/our-team-2-1200x800-original.jpg')}}" data-lightgallery="item"><img src="{{asset('/images/our-team-2-370x400.jpg')}}" alt="" width="370" height="400"/></a>
                     <h3 class="thumbnail-classic-title-2 text-uppercase"><a href="#">Catherine Jenkins</a></h3>
                   </div>
                   <p class="thumbnail-classic-text-2 text-center text-white">Production Director</p>
@@ -106,10 +106,10 @@
             <div class="col-sm-6 col-lg-4 isotope-item wow fadeInLeft" data-wow-delay=".2s">
               <!-- Thumbnail Classic-->
               <article class="thumbnail thumbnail-classic-2 thumbnail-md">
-                <div class="thumbnail-classic-figure-2"><img src="../../../public/images/our-team-3-370x400.jpg" alt="" width="370" height="400"/>
+                <div class="thumbnail-classic-figure-2"><img src="{{asset('/images/our-team-3-370x400.jpg')}}" alt="" width="370" height="400"/>
                 </div>
                 <div class="thumbnail-classic-caption-2">
-                  <div class="thumbnail-classic-title-wrap-2"><a class="icon fl-bigmug-line-zoom60" href="../../../public/images/grid-gallery-1-1200x800-original.jpg" data-lightgallery="item"><img src="../../../public/images/our-team-3-370x400.jpg" alt="" width="370" height="400"/></a>
+                  <div class="thumbnail-classic-title-wrap-2"><a class="icon fl-bigmug-line-zoom60" href="{{asset('/images/grid-gallery-1-1200x800-original.jpg')}}" data-lightgallery="item"><img src="{{asset('/images/our-team-3-370x400.jpg')}}" alt="" width="370" height="400"/></a>
                     <h3 class="thumbnail-classic-title-2 text-uppercase"><a href="#">Harold Thompson</a></h3>
                   </div>
                   <p class="thumbnail-classic-text-2 text-center text-white">Client Services Director</p>
@@ -127,10 +127,10 @@
             <div class="col-sm-6 col-lg-4 isotope-item wow fadeInLeft" data-wow-delay=".3s">
               <!-- Thumbnail Classic-->
               <article class="thumbnail thumbnail-classic-2 thumbnail-md">
-                <div class="thumbnail-classic-figure-2"><img src="../../../public/images/our-team-4-370x400.jpg" alt="" width="370" height="400"/>
+                <div class="thumbnail-classic-figure-2"><img src="{{asset('/images/our-team-4-370x400.jpg')}}" alt="" width="370" height="400"/>
                 </div>
                 <div class="thumbnail-classic-caption-2">
-                  <div class="thumbnail-classic-title-wrap-2"><a class="icon fl-bigmug-line-zoom60" href="images/our-team-4-1200x800-original.jpg" data-lightgallery="item"><img src="../../../public/images/our-team-4-370x400.jpg" alt="" width="370" height="400"/></a>
+                  <div class="thumbnail-classic-title-wrap-2"><a class="icon fl-bigmug-line-zoom60" href="{{asset('images/our-team-4-1200x800-original.jpg')}}" data-lightgallery="item"><img src="{{asset('/images/our-team-4-370x400.jpg')}}" alt="" width="370" height="400"/></a>
                     <h3 class="thumbnail-classic-title-2 text-uppercase"><a href="#">Kathy Scott</a></h3>
                   </div>
                   <p class="thumbnail-classic-text-2 text-center text-white">Event Coordinator</p>
@@ -148,10 +148,10 @@
             <div class="col-sm-6 col-lg-4 isotope-item wow fadeInRight">
               <!-- Thumbnail Classic-->
               <article class="thumbnail thumbnail-classic-2 thumbnail-md">
-                <div class="thumbnail-classic-figure-2"><img src="../../../public/images/our-team-5-370x400.jpg" alt="" width="370" height="400"/>
+                <div class="thumbnail-classic-figure-2"><img src="{{asset('/images/our-team-5-370x400.jpg')}}" alt="" width="370" height="400"/>
                 </div>
                 <div class="thumbnail-classic-caption-2">
-                  <div class="thumbnail-classic-title-wrap-2"><a class="icon fl-bigmug-line-zoom60" href="images/our-team-5-1200x800-original.jpg" data-lightgallery="item"><img src="../../../public/images/our-team-5-370x400.jpg" alt="" width="370" height="400"/></a>
+                  <div class="thumbnail-classic-title-wrap-2"><a class="icon fl-bigmug-line-zoom60" href="{{asset('images/our-team-5-1200x800-original.jpg')}}" data-lightgallery="item"><img src="{{asset('/images/our-team-5-370x400.jpg')}}" alt="" width="370" height="400"/></a>
                     <h3 class="thumbnail-classic-title-2 text-uppercase"><a href="#">Ralph Barnes</a></h3>
                   </div>
                   <p class="thumbnail-classic-text-2 text-center text-white">Event Manager</p>
@@ -169,10 +169,10 @@
             <div class="col-sm-6 col-lg-4 isotope-item wow fadeInRight" data-wow-delay=".1s">
               <!-- Thumbnail Classic-->
               <article class="thumbnail thumbnail-classic-2 thumbnail-md">
-                <div class="thumbnail-classic-figure-2"><img src="../../../public/images/our-team-6-370x400.jpg" alt="" width="370" height="400"/>
+                <div class="thumbnail-classic-figure-2"><img src="{{asset('/images/our-team-6-370x400.jpg')}}" alt="" width="370" height="400"/>
                 </div>
                 <div class="thumbnail-classic-caption-2">
-                  <div class="thumbnail-classic-title-wrap-2"><a class="icon fl-bigmug-line-zoom60" href="images/our-team-6-1200x800-original.jpg" data-lightgallery="item"><img src="../../../public/images/our-team-6-370x400.jpg" alt="" width="370" height="400"/></a>
+                  <div class="thumbnail-classic-title-wrap-2"><a class="icon fl-bigmug-line-zoom60" href="{{asset('images/our-team-6-1200x800-original.jpg')}}" data-lightgallery="item"><img src="{{asset('/images/our-team-6-370x400.jpg')}}" alt="" width="370" height="400"/></a>
                     <h3 class="thumbnail-classic-title-2 text-uppercase"><a href="#">Julia Hill</a></h3>
                   </div>
                   <p class="thumbnail-classic-text-2 text-center text-white">Office Manager</p>
@@ -191,20 +191,20 @@
         </div>
       </section>
       <!-- the partners-->
-      <section class="section-lg bg-default bg-image-2" style="background-image: url(../../../public/images/bg-about-01-1700x638.jpg)">
+      <section class="section-lg bg-default bg-image-2" style="background-image: {{url('/images/bg-about-01-1700x638.jpg')}}">
         <div class="container">
           <div class="row text-center justify-content-center">
             <div class="col-10">
               <h2 class="text-uppercase text-center wow fadeInDown" data-wow-delay=".2s">our partners</h2>
             </div>
-            <div class="col-sm-6 col-md-4 col-xl-3 wow fadeInDown clients-classic-item" data-wow-delay=".3s"><a class="clients-classic" href="#"><img src="../../../public/images/clients-1.png" alt=""/></a></div>
-            <div class="col-sm-6 col-md-4 col-xl-3 wow fadeInDown clients-classic-item" data-wow-delay=".2s"><a class="clients-classic" href="#"><img src="../../../public/images/clients-2.png" alt=""/></a></div>
-            <div class="col-sm-6 col-md-4 col-xl-3 wow fadeInDown clients-classic-item" data-wow-delay=".1s"><a class="clients-classic" href="#"><img src="../../../public/images/clients-3.png" alt=""/></a></div>
-            <div class="col-sm-6 col-md-4 col-xl-3 wow fadeInDown clients-classic-item-3"><a class="clients-classic" href="#"><img src="../../../public/images/clients-4.png" alt=""/></a></div>
-            <div class="col-sm-6 col-md-4 col-xl-3 wow fadeInUp clients-classic-item-2"><a class="clients-classic" href="#"><img src="../../../public/images/clients-5.png" alt=""/></a></div>
-            <div class="col-sm-6 col-md-4 col-xl-3 wow fadeInUp clients-classic-item-2" data-wow-delay=".1s"><a class="clients-classic" href="#"><img src="../../../public/images/clients-6.png" alt=""/></a></div>
-            <div class="col-sm-6 col-md-4 col-xl-3 wow fadeInUp clients-classic-item-2" data-wow-delay=".2s"><a class="clients-classic" href="#"><img src="../../../public/images/clients-7.png" alt=""/></a></div>
-            <div class="col-sm-6 col-md-4 col-xl-3 wow fadeInUp" data-wow-delay=".3s"><a class="clients-classic" href="#"><img src="../../../public/images/clients-8.png" alt=""/></a></div>
+            <div class="col-sm-6 col-md-4 col-xl-3 wow fadeInDown clients-classic-item" data-wow-delay=".3s"><a class="clients-classic" href="#"><img src="{{asset('/images/clients-1.png')}}" alt=""/></a></div>
+            <div class="col-sm-6 col-md-4 col-xl-3 wow fadeInDown clients-classic-item" data-wow-delay=".2s"><a class="clients-classic" href="#"><img src="{{asset('/images/clients-2.png')}}" alt=""/></a></div>
+            <div class="col-sm-6 col-md-4 col-xl-3 wow fadeInDown clients-classic-item" data-wow-delay=".1s"><a class="clients-classic" href="#"><img src="{{asset('/images/clients-3.png')}}" alt=""/></a></div>
+            <div class="col-sm-6 col-md-4 col-xl-3 wow fadeInDown clients-classic-item-3"><a class="clients-classic" href="#"><img src="{{asset('/images/clients-4.png')}}" alt=""/></a></div>
+            <div class="col-sm-6 col-md-4 col-xl-3 wow fadeInUp clients-classic-item-2"><a class="clients-classic" href="#"><img src="{{asset('/images/clients-5.png')}}" alt=""/></a></div>
+            <div class="col-sm-6 col-md-4 col-xl-3 wow fadeInUp clients-classic-item-2" data-wow-delay=".1s"><a class="clients-classic" href="#"><img src="{{asset('/images/clients-6.png')}}" alt=""/></a></div>
+            <div class="col-sm-6 col-md-4 col-xl-3 wow fadeInUp clients-classic-item-2" data-wow-delay=".2s"><a class="clients-classic" href="#"><img src="{{asset('/images/clients-7.png')}}" alt=""/></a></div>
+            <div class="col-sm-6 col-md-4 col-xl-3 wow fadeInUp" data-wow-delay=".3s"><a class="clients-classic" href="#"><img src="{{asset('/images/clients-8.png')}}" alt=""/></a></div>
           </div>
         </div>
       </section>
