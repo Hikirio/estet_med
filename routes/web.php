@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AdminController;
 use App\Http\Controllers\AdminPageController;
 use App\Http\Controllers\FrontPageController;
 use Illuminate\Support\Facades\Route;
@@ -24,8 +25,15 @@ Route::get('/dashboard', static function () {
 })->middleware(['auth'])->name('dashboard');
 
 
-//Administratin routing
 Route::controller(AdminPageController::class)->group(function () {
+    Route::get('/teachers', 'teachers')->name('teacher.index');
+    Route::get('/teachers/create', 'create')->name('teachers.create');
+    Route::post('/teachers', 'store')->name('teachers.store');
+    Route::get ('/teachers/{teacher}', 'show')->name('teachers.show');
+    Route::get ('/teachers/{teacher}/edit', 'edit')->name('teachers.edit');
+    Route::patch ('/teachers/{teacher}', 'update')->name('teachers.update');
+    Route::delete ('/teachers/{teacher}', 'destroy')->name('teachers.delete');
+
     Route::get('/admin', 'index');
     Route::get('/multipurpose', 'multipurpose')->name('Многоцелевой');
     Route::get('/ecommerce', 'ecommerce')->name('Панель управления электронной коммерцией');
@@ -75,6 +83,8 @@ Route::controller(AdminPageController::class)->group(function () {
     Route::get('/two_steps', 'two_steps')->name('Два шага');
     Route::get('/password_reset', 'password_reset')->name('Сброс пароля');
     Route::get('/new_password', 'new_password')->name('Новый пароль');
+    Route::get('/add_product', 'add_product')->name('Добавить продукт');
+    Route::get('/orders_listing', 'orders_listing')->name('Список заказов');
 });
 
 //Frontend routing
