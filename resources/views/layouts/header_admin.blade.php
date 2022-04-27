@@ -1407,7 +1407,7 @@ campaigns.blade.php">--}}
 {{--                                                                </a>--}}
 {{--                                                            </div>--}}
 {{--                                                            <div class="menu-item">--}}
-{{--                                                                <a class="menu-link py-3" href="../../demo1/dist/apps/ecommerce/catalog/add-product.html">--}}
+{{--                                                                <a class="menu-link py-3" href="../../demo1/dist/apps/ecommerce/catalog/create.blade.php">--}}
 {{--																			<span class="menu-bullet">--}}
 {{--																				<span class="bullet bullet-dot"></span>--}}
 {{--																			</span>--}}
@@ -1450,7 +1450,7 @@ campaigns.blade.php">--}}
 {{--																</span>--}}
 {{--                                                        <div class="menu-sub menu-sub-accordion">--}}
 {{--                                                            <div class="menu-item">--}}
-{{--                                                                <a class="menu-link py-3" href="../../demo1/dist/apps/ecommerce/sales/listing.html">--}}
+{{--                                                                <a class="menu-link py-3" href="../../demo1/dist/apps/ecommerce/sales/index.blade.php">--}}
 {{--																			<span class="menu-bullet">--}}
 {{--																				<span class="bullet bullet-dot"></span>--}}
 {{--																			</span>--}}
@@ -1493,7 +1493,7 @@ campaigns.blade.php">--}}
 {{--																</span>--}}
 {{--                                                        <div class="menu-sub menu-sub-accordion">--}}
 {{--                                                            <div class="menu-item">--}}
-{{--                                                                <a class="menu-link py-3" href="../../demo1/dist/apps/ecommerce/customers/listing.html">--}}
+{{--                                                                <a class="menu-link py-3" href="../../demo1/dist/apps/ecommerce/customers/index.blade.php">--}}
 {{--																			<span class="menu-bullet">--}}
 {{--																				<span class="bullet bullet-dot"></span>--}}
 {{--																			</span>--}}
@@ -2028,7 +2028,7 @@ campaigns.blade.php">--}}
 {{--														</span>--}}
 {{--                                                <div class="menu-sub menu-sub-lg-down-accordion menu-sub-lg-dropdown menu-active-bg py-lg-4 w-lg-225px">--}}
 {{--                                                    <div class="menu-item">--}}
-{{--                                                        <a class="menu-link py-3" href="../../demo1/dist/apps/inbox/listing.html">--}}
+{{--                                                        <a class="menu-link py-3" href="../../demo1/dist/apps/inbox/index.blade.php">--}}
 {{--																	<span class="menu-bullet">--}}
 {{--																		<span class="bullet bullet-dot"></span>--}}
 {{--																	</span>--}}

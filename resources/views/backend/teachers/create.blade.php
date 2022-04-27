@@ -11,31 +11,31 @@ Like: www.facebook.com/keenthemes
 License: For each use you must have a valid license purchased only from above link in order to legally use the theme for your project.
 -->
 <html lang="en">
-	<!--begin::Head-->
-	<head><base href="../../../">
-		<title>Metronic - the world's #1 selling Bootstrap Admin Theme Ecosystem for HTML, Vue, React, Angular &amp; Laravel by Keenthemes</title>
-		<meta charset="utf-8" />
-		<meta name="description" content="The most advanced Bootstrap Admin Theme on Themeforest trusted by 94,000 beginners and professionals. Multi-demo, Dark Mode, RTL support and complete React, Angular, Vue &amp; Laravel versions. Grab your copy now and get life-time updates for free." />
-		<meta name="keywords" content="Metronic, bootstrap, bootstrap 5, Angular, VueJs, React, Laravel, admin themes, web design, figma, web development, free templates, free admin themes, bootstrap theme, bootstrap template, bootstrap dashboard, bootstrap dak mode, bootstrap button, bootstrap datepicker, bootstrap timepicker, fullcalendar, datatables, flaticon" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<meta property="og:locale" content="en_US" />
-		<meta property="og:type" content="article" />
-		<meta property="og:title" content="Metronic - Bootstrap 5 HTML, VueJS, React, Angular &amp; Laravel Admin Dashboard Theme" />
-		<meta property="og:url" content="https://keenthemes.com/metronic" />
-		<meta property="og:site_name" content="Keenthemes | Metronic" />
-		<link rel="canonical" href="https://preview.keenthemes.com/metronic8" />
-		<link rel="shortcut icon" href="assets/media/logos/favicon.ico" />
-		<!--begin::Fonts-->
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" />
-		<!--end::Fonts-->
-		<!--begin::Page Vendor Stylesheets(used by this page)-->
-		<link href="assets/plugins/custom/datatables/datatables.bundle.css" rel="stylesheet" type="text/css" />
-		<!--end::Page Vendor Stylesheets-->
-		<!--begin::Global Stylesheets Bundle(used by all pages)-->
-		<link href="assets/plugins/global/plugins.bundle.css" rel="stylesheet" type="text/css" />
-		<link href="assets/css/style.bundle.css" rel="stylesheet" type="text/css" />
-		<!--end::Global Stylesheets Bundle-->
-	</head>
+<!--begin::Head-->
+<head><base href="../../../">
+    <title>Metronic - the world's #1 selling Bootstrap Admin Theme Ecosystem for HTML, Vue, React, Angular &amp; Laravel by Keenthemes</title>
+    <meta charset="utf-8" />
+    <meta name="description" content="The most advanced Bootstrap Admin Theme on Themeforest trusted by 94,000 beginners and professionals. Multi-demo, Dark Mode, RTL support and complete React, Angular, Vue &amp; Laravel versions. Grab your copy now and get life-time updates for free." />
+    <meta name="keywords" content="Metronic, bootstrap, bootstrap 5, Angular, VueJs, React, Laravel, admin themes, web design, figma, web development, free templates, free admin themes, bootstrap theme, bootstrap template, bootstrap dashboard, bootstrap dak mode, bootstrap button, bootstrap datepicker, bootstrap timepicker, fullcalendar, datatables, flaticon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Metronic - Bootstrap 5 HTML, VueJS, React, Angular &amp; Laravel Admin Dashboard Theme" />
+    <meta property="og:url" content="https://keenthemes.com/metronic" />
+    <meta property="og:site_name" content="Keenthemes | Metronic" />
+    <link rel="canonical" href="https://preview.keenthemes.com/metronic8" />
+    <link rel="shortcut icon" href="{{asset('/media/logos/favicon.ico')}}" />
+    <!--begin::Fonts-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" />
+    <!--end::Fonts-->
+    <!--begin::Page Vendor Stylesheets(used by this page)-->
+    <link href="{{asset('/plugins/datatables/datatables.bundle.css')}}" rel="stylesheet" type="text/css" />
+    <!--end::Page Vendor Stylesheets-->
+    <!--begin::Global Stylesheets Bundle(used by all pages)-->
+    <link href="{{asset('/plugins/global/plugins.bundle.css')}}" rel="stylesheet" type="text/css" />
+    <link href="{{asset('css/style.bundle.css')}}" rel="stylesheet" type="text/css" />
+    <!--end::Global Stylesheets Bundle-->
+    </head>
 	<!--end::Head-->
 	<!--begin::Body-->
 	<body id="kt_body" class="header-fixed header-tablet-and-mobile-fixed toolbar-enabled toolbar-fixed aside-enabled aside-fixed" style="--kt-toolbar-height:55px;--kt-toolbar-height-tablet-and-mobile:55px">
@@ -1369,7 +1369,7 @@ License: For each use you must have a valid license purchased only from above li
 										<span class="menu-arrow"></span>
 									</span>
 									<div class="menu-sub menu-sub-accordion">
-										<div data-kt-menu-trigger="click" class="menu-item menu-accordion">
+										<div data-kt-menu-trigger="click" class="menu-item here show menu-accordion">
 											<span class="menu-link">
 												<span class="menu-bullet">
 													<span class="bullet bullet-dot"></span>
@@ -1395,7 +1395,7 @@ License: For each use you must have a valid license purchased only from above li
 													</a>
 												</div>
 												<div class="menu-item">
-													<a class="menu-link" href="../../demo1/dist/apps/ecommerce/catalog/add-product.html">
+													<a class="menu-link active" href="../../demo1/dist/apps/ecommerce/catalog/add-product.html">
 														<span class="menu-bullet">
 															<span class="bullet bullet-dot"></span>
 														</span>
@@ -1428,7 +1428,7 @@ License: For each use you must have a valid license purchased only from above li
 												</div>
 											</div>
 										</div>
-										<div data-kt-menu-trigger="click" class="menu-item here show menu-accordion">
+										<div data-kt-menu-trigger="click" class="menu-item menu-accordion">
 											<span class="menu-link">
 												<span class="menu-bullet">
 													<span class="bullet bullet-dot"></span>
@@ -1438,7 +1438,7 @@ License: For each use you must have a valid license purchased only from above li
 											</span>
 											<div class="menu-sub menu-sub-accordion">
 												<div class="menu-item">
-													<a class="menu-link active" href="../../demo1/dist/apps/ecommerce/sales/listing.html">
+													<a class="menu-link" href="../../demo1/dist/apps/ecommerce/sales/listing.html">
 														<span class="menu-bullet">
 															<span class="bullet bullet-dot"></span>
 														</span>
@@ -3592,7 +3592,7 @@ License: For each use you must have a valid license purchased only from above li
 															<span class="menu-arrow"></span>
 														</span>
 														<div class="menu-sub menu-sub-lg-down-accordion menu-sub-lg-dropdown menu-active-bg py-lg-4 w-lg-225px">
-															<div data-kt-menu-trigger="{default:'click', lg: 'hover'}" data-kt-menu-placement="right-start" class="menu-item menu-lg-down-accordion">
+															<div data-kt-menu-trigger="{default:'click', lg: 'hover'}" data-kt-menu-placement="right-start" class="menu-item here show menu-lg-down-accordion">
 																<span class="menu-link py-3">
 																	<span class="menu-bullet">
 																		<span class="bullet bullet-dot"></span>
@@ -3618,7 +3618,7 @@ License: For each use you must have a valid license purchased only from above li
 																		</a>
 																	</div>
 																	<div class="menu-item">
-																		<a class="menu-link py-3" href="../../demo1/dist/apps/ecommerce/catalog/add-product.html">
+																		<a class="menu-link active py-3" href="../../demo1/dist/apps/ecommerce/catalog/add-product.html">
 																			<span class="menu-bullet">
 																				<span class="bullet bullet-dot"></span>
 																			</span>
@@ -3651,7 +3651,7 @@ License: For each use you must have a valid license purchased only from above li
 																	</div>
 																</div>
 															</div>
-															<div data-kt-menu-trigger="click" class="menu-item here show menu-accordion">
+															<div data-kt-menu-trigger="click" class="menu-item menu-accordion">
 																<span class="menu-link py-3">
 																	<span class="menu-bullet">
 																		<span class="bullet bullet-dot"></span>
@@ -3661,7 +3661,7 @@ License: For each use you must have a valid license purchased only from above li
 																</span>
 																<div class="menu-sub menu-sub-accordion">
 																	<div class="menu-item">
-																		<a class="menu-link active py-3" href="../../demo1/dist/apps/ecommerce/sales/listing.html">
+																		<a class="menu-link py-3" href="../../demo1/dist/apps/ecommerce/sales/listing.html">
 																			<span class="menu-bullet">
 																				<span class="bullet bullet-dot"></span>
 																			</span>
@@ -6343,7 +6343,7 @@ License: For each use you must have a valid license purchased only from above li
 								<!--begin::Page title-->
 								<div data-kt-swapper="true" data-kt-swapper-mode="prepend" data-kt-swapper-parent="{default: '#kt_content_container', 'lg': '#kt_toolbar_container'}" class="page-title d-flex align-items-center flex-wrap me-3 mb-5 mb-lg-0">
 									<!--begin::Title-->
-									<h1 class="d-flex text-dark fw-bolder fs-3 align-items-center my-1">Orders Listing</h1>
+									<h1 class="d-flex text-dark fw-bolder fs-3 align-items-center my-1">Teacher</h1>
 									<!--end::Title-->
 									<!--begin::Separator-->
 									<span class="h-20px border-gray-300 border-start mx-4"></span>
@@ -6369,7 +6369,7 @@ License: For each use you must have a valid license purchased only from above li
 										</li>
 										<!--end::Item-->
 										<!--begin::Item-->
-										<li class="breadcrumb-item text-muted">Sales</li>
+										<li class="breadcrumb-item text-muted">Catalog</li>
 										<!--end::Item-->
 										<!--begin::Item-->
 										<li class="breadcrumb-item">
@@ -6377,7 +6377,7 @@ License: For each use you must have a valid license purchased only from above li
 										</li>
 										<!--end::Item-->
 										<!--begin::Item-->
-										<li class="breadcrumb-item text-dark">Orders Listing</li>
+										<li class="breadcrumb-item text-dark">Add Product</li>
 										<!--end::Item-->
 									</ul>
 									<!--end::Breadcrumb-->
@@ -6398,7 +6398,7 @@ License: For each use you must have a valid license purchased only from above li
 										<!--end::Svg Icon-->Filter</a>
 										<!--end::Menu toggle-->
 										<!--begin::Menu 1-->
-										<div class="menu menu-sub menu-sub-dropdown w-250px w-md-300px" data-kt-menu="true" id="kt_menu_624475d6b0659">
+										<div class="menu menu-sub menu-sub-dropdown w-250px w-md-300px" data-kt-menu="true" id="kt_menu_624475d256e37">
 											<!--begin::Header-->
 											<div class="px-7 py-5">
 												<div class="fs-5 text-dark fw-bolder">Filter Options</div>
@@ -6416,7 +6416,7 @@ License: For each use you must have a valid license purchased only from above li
 													<!--end::Label-->
 													<!--begin::Input-->
 													<div>
-														<select class="form-select form-select-solid" data-kt-select2="true" data-placeholder="Select option" data-dropdown-parent="#kt_menu_624475d6b0659" data-allow-clear="true">
+														<select class="form-select form-select-solid" data-kt-select2="true" data-placeholder="Select option" data-dropdown-parent="#kt_menu_624475d256e37" data-allow-clear="true">
 															<option></option>
 															<option value="1">Approved</option>
 															<option value="2">Pending</option>
@@ -6490,4519 +6490,816 @@ License: For each use you must have a valid license purchased only from above li
 						<div class="post d-flex flex-column-fluid" id="kt_post">
 							<!--begin::Container-->
 							<div id="kt_content_container" class="container-xxl">
-								<!--begin::Products-->
-								<div class="card card-flush">
-									<!--begin::Card header-->
-									<div class="card-header align-items-center py-5 gap-2 gap-md-5">
-										<!--begin::Card title-->
-										<div class="card-title">
-											<!--begin::Search-->
-											<div class="d-flex align-items-center position-relative my-1">
-												<!--begin::Svg Icon | path: icons/duotune/general/gen021.svg-->
-												<span class="svg-icon svg-icon-1 position-absolute ms-4">
-													<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-														<rect opacity="0.5" x="17.0365" y="15.1223" width="8.15546" height="2" rx="1" transform="rotate(45 17.0365 15.1223)" fill="currentColor" />
-														<path d="M11 19C6.55556 19 3 15.4444 3 11C3 6.55556 6.55556 3 11 3C15.4444 3 19 6.55556 19 11C19 15.4444 15.4444 19 11 19ZM11 5C7.53333 5 5 7.53333 5 11C5 14.4667 7.53333 17 11 17C14.4667 17 17 14.4667 17 11C17 7.53333 14.4667 5 11 5Z" fill="currentColor" />
-													</svg>
-												</span>
-												<!--end::Svg Icon-->
-												<input type="text" data-kt-ecommerce-order-filter="search" class="form-control form-control-solid w-250px ps-14" placeholder="Search Order" />
+								<!--begin::Form-->
+								<form action="{{route('teachers.store')}}" method="post" id="kt_ecommerce_add_product_form" class="form d-flex flex-column flex-lg-row" data-kt-redirect="../../demo1/dist/apps/ecommerce/catalog/products.html">
+                                    @csrf
+									<!--begin::Aside column-->
+									<div class="d-flex flex-column gap-7 gap-lg-10 w-100 w-lg-300px mb-7 me-lg-10">
+										<!--begin::Thumbnail settings-->
+										<div class="card card-flush py-4">
+											<!--begin::Card header-->
+											<div class="card-header">
+												<!--begin::Card title-->
+												<div class="card-title">
+													<h2>Photo</h2>
+												</div>
+												<!--end::Card title-->
 											</div>
-											<!--end::Search-->
-										</div>
-										<!--end::Card title-->
-										<!--begin::Card toolbar-->
-										<div class="card-toolbar flex-row-fluid justify-content-end gap-5">
-											<!--begin::Flatpickr-->
-											<div class="input-group w-250px">
-												<input class="form-control form-control-solid rounded rounded-end-0" placeholder="Pick date range" id="kt_ecommerce_sales_flatpickr" />
-												<button class="btn btn-icon btn-light" id="kt_ecommerce_sales_flatpickr_clear">
-													<!--begin::Svg Icon | path: icons/duotune/arrows/arr088.svg-->
-													<span class="svg-icon svg-icon-2">
-														<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-															<rect opacity="0.5" x="7.05025" y="15.5356" width="12" height="2" rx="1" transform="rotate(-45 7.05025 15.5356)" fill="currentColor" />
-															<rect x="8.46447" y="7.05029" width="12" height="2" rx="1" transform="rotate(45 8.46447 7.05029)" fill="currentColor" />
-														</svg>
+											<!--end::Card header-->
+											<!--begin::Card body-->
+											<div class="card-body text-center pt-0">
+												<!--begin::Image input-->
+												<div class="image-input image-input-empty image-input-outline mb-3" data-kt-image-input="true" style="background-image: url(assets/media/svg/files/blank-image.svg)">
+													<!--begin::Preview existing avatar-->
+													<div class="image-input-wrapper w-150px h-150px"></div>
+													<!--end::Preview existing avatar-->
+													<!--begin::Label-->
+													<label class="btn btn-icon btn-circle btn-active-color-primary w-25px h-25px bg-body shadow" data-kt-image-input-action="change" data-bs-toggle="tooltip" title="Change avatar">
+														<i class="bi bi-pencil-fill fs-7"></i>
+														<!--begin::Inputs-->
+														<input type="file" name="photo" accept=".png, .jpg, .jpeg" />
+														<input type="hidden" name="avatar_remove" />
+														<!--end::Inputs-->
+													</label>
+													<!--end::Label-->
+													<!--begin::Cancel-->
+													<span class="btn btn-icon btn-circle btn-active-color-primary w-25px h-25px bg-body shadow" data-kt-image-input-action="cancel" data-bs-toggle="tooltip" title="Cancel avatar">
+														<i class="bi bi-x fs-2"></i>
 													</span>
-													<!--end::Svg Icon-->
-												</button>
+													<!--end::Cancel-->
+													<!--begin::Remove-->
+													<span class="btn btn-icon btn-circle btn-active-color-primary w-25px h-25px bg-body shadow" data-kt-image-input-action="remove" data-bs-toggle="tooltip" title="Remove avatar">
+														<i class="bi bi-x fs-2"></i>
+													</span>
+													<!--end::Remove-->
+												</div>
+												<!--end::Image input-->
+												<!--begin::Description-->
+												<div class="text-muted fs-7">Set the product thumbnail image. Only *.png, *.jpg and *.jpeg image files are accepted</div>
+												<!--end::Description-->
 											</div>
-											<!--end::Flatpickr-->
-											<div class="w-100 mw-150px">
+											<!--end::Card body-->
+										</div>
+										<!--end::Thumbnail settings-->
+										<!--begin::Status-->
+										<div class="card card-flush py-4">
+											<!--begin::Card header-->
+											<div class="card-header">
+												<!--begin::Card title-->
+												<div class="card-title">
+													<h2>Status</h2>
+												</div>
+												<!--end::Card title-->
+												<!--begin::Card toolbar-->
+												<div class="card-toolbar">
+													<div class="rounded-circle bg-success w-15px h-15px" id="kt_ecommerce_add_product_status"></div>
+												</div>
+												<!--begin::Card toolbar-->
+											</div>
+											<!--end::Card header-->
+											<!--begin::Card body-->
+											<div class="card-body pt-0">
 												<!--begin::Select2-->
-												<select class="form-select form-select-solid" data-control="select2" data-hide-search="true" data-placeholder="Status" data-kt-ecommerce-order-filter="status">
+												<select class="form-select mb-2" data-control="select2" data-hide-search="true" data-placeholder="Select an option" id="kt_ecommerce_add_product_status_select">
 													<option></option>
-													<option value="all">All</option>
-													<option value="Cancelled">Cancelled</option>
-													<option value="Completed">Completed</option>
-													<option value="Denied">Denied</option>
-													<option value="Expired">Expired</option>
-													<option value="Failed">Failed</option>
-													<option value="Pending">Pending</option>
-													<option value="Processing">Processing</option>
-													<option value="Refunded">Refunded</option>
-													<option value="Delivered">Delivered</option>
-													<option value="Delivering">Delivering</option>
+													<option value="published" selected="selected">Published</option>
+													<option value="draft">Draft</option>
+													<option value="scheduled">Scheduled</option>
+													<option value="inactive">Inactive</option>
 												</select>
 												<!--end::Select2-->
+												<!--begin::Description-->
+												<div class="text-muted fs-7">Set the product status.</div>
+												<!--end::Description-->
+												<!--begin::Datepicker-->
+												<div class="d-none mt-10">
+													<label for="kt_ecommerce_add_product_status_datepicker" class="form-label">Select publishing date and time</label>
+													<input class="form-control" id="kt_ecommerce_add_product_status_datepicker" placeholder="Pick date &amp; time" />
+												</div>
+												<!--end::Datepicker-->
 											</div>
-											<!--begin::Add product-->
-											<a href="../../demo1/dist/apps/ecommerce/catalog/add-product.html" class="btn btn-primary">Add Order</a>
-											<!--end::Add product-->
+											<!--end::Card body-->
 										</div>
-										<!--end::Card toolbar-->
+										<!--end::Status-->
+										<!--begin::Category & tags-->
+										<div class="card card-flush py-4">
+											<!--begin::Card header-->
+											<div class="card-header">
+												<!--begin::Card title-->
+												<div class="card-title">
+													<h2>Product Details</h2>
+												</div>
+												<!--end::Card title-->
+											</div>
+											<!--end::Card header-->
+											<!--begin::Card body-->
+											<div class="card-body pt-0">
+												<!--begin::Input group-->
+												<!--begin::Label-->
+												<label class="form-label">Categories</label>
+												<!--end::Label-->
+												<!--begin::Select2-->
+												<select class="form-select mb-2" data-control="select2" data-placeholder="Select an option" data-allow-clear="true" multiple="multiple">
+													<option></option>
+													<option value="Computers">Computers</option>
+													<option value="Watches">Watches</option>
+													<option value="Headphones">Headphones</option>
+													<option value="Footwear">Footwear</option>
+													<option value="Cameras">Cameras</option>
+													<option value="Shirts">Shirts</option>
+													<option value="Household">Household</option>
+													<option value="Handbags">Handbags</option>
+													<option value="Wines">Wines</option>
+													<option value="Sandals">Sandals</option>
+												</select>
+												<!--end::Select2-->
+												<!--begin::Description-->
+												<div class="text-muted fs-7 mb-7">Add product to a category.</div>
+												<!--end::Description-->
+												<!--end::Input group-->
+												<!--begin::Button-->
+												<a href="../../demo1/dist/apps/ecommerce/catalog/add-category.html" class="btn btn-light-primary btn-sm mb-10">
+												<!--begin::Svg Icon | path: icons/duotune/arrows/arr087.svg-->
+												<span class="svg-icon svg-icon-2">
+													<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+														<rect opacity="0.5" x="11" y="18" width="12" height="2" rx="1" transform="rotate(-90 11 18)" fill="currentColor" />
+														<rect x="6" y="11" width="12" height="2" rx="1" fill="currentColor" />
+													</svg>
+												</span>
+												<!--end::Svg Icon-->Create new category</a>
+												<!--end::Button-->
+												<!--begin::Input group-->
+												<!--begin::Label-->
+												<label class="form-label d-block">Tags</label>
+												<!--end::Label-->
+												<!--begin::Input-->
+												<input id="kt_ecommerce_add_product_tags" name="kt_ecommerce_add_product_tags" class="form-control mb-2" value="" />
+												<!--end::Input-->
+												<!--begin::Description-->
+												<div class="text-muted fs-7">Add tags to a product.</div>
+												<!--end::Description-->
+												<!--end::Input group-->
+											</div>
+											<!--end::Card body-->
+										</div>
+										<!--end::Category & tags-->
+										<!--begin::Weekly sales-->
+										<div class="card card-flush py-4">
+											<!--begin::Card header-->
+											<div class="card-header">
+												<!--begin::Card title-->
+												<div class="card-title">
+													<h2>Weekly Sales</h2>
+												</div>
+												<!--end::Card title-->
+											</div>
+											<!--end::Card header-->
+											<!--begin::Card body-->
+											<div class="card-body pt-0">
+												<span class="text-muted">No data available. Sales data will begin capturing once product has been published.</span>
+											</div>
+											<!--end::Card body-->
+										</div>
+										<!--end::Weekly sales-->
+										<!--begin::Template settings-->
+										<div class="card card-flush py-4">
+											<!--begin::Card header-->
+											<div class="card-header">
+												<!--begin::Card title-->
+												<div class="card-title">
+													<h2>Product Template</h2>
+												</div>
+												<!--end::Card title-->
+											</div>
+											<!--end::Card header-->
+											<!--begin::Card body-->
+											<div class="card-body pt-0">
+												<!--begin::Select store template-->
+												<label for="kt_ecommerce_add_product_store_template" class="form-label">Select a product template</label>
+												<!--end::Select store template-->
+												<!--begin::Select2-->
+												<select class="form-select mb-2" data-control="select2" data-hide-search="true" data-placeholder="Select an option" id="kt_ecommerce_add_product_store_template">
+													<option></option>
+													<option value="default" selected="selected">Default template</option>
+													<option value="electronics">Electronics</option>
+													<option value="office">Office stationary</option>
+													<option value="fashion">Fashion</option>
+												</select>
+												<!--end::Select2-->
+												<!--begin::Description-->
+												<div class="text-muted fs-7">Assign a template from your current theme to define how a single product is displayed.</div>
+												<!--end::Description-->
+											</div>
+											<!--end::Card body-->
+										</div>
+										<!--end::Template settings-->
 									</div>
-									<!--end::Card header-->
-									<!--begin::Card body-->
-									<div class="card-body pt-0">
-										<!--begin::Table-->
-										<table class="table align-middle table-row-dashed fs-6 gy-5" id="kt_ecommerce_sales_table">
-											<!--begin::Table head-->
-											<thead>
-												<!--begin::Table row-->
-												<tr class="text-start text-gray-400 fw-bolder fs-7 text-uppercase gs-0">
-													<th class="w-10px pe-2">
-														<div class="form-check form-check-sm form-check-custom form-check-solid me-3">
-															<input class="form-check-input" type="checkbox" data-kt-check="true" data-kt-check-target="#kt_ecommerce_sales_table .form-check-input" value="1" />
-														</div>
-													</th>
-													<th class="min-w-100px">Order ID</th>
-													<th class="min-w-175px">Customer</th>
-													<th class="text-end min-w-70px">Status</th>
-													<th class="text-end min-w-100px">Total</th>
-													<th class="text-end min-w-100px">Date Added</th>
-													<th class="text-end min-w-100px">Date Modified</th>
-													<th class="text-end min-w-100px">Actions</th>
-												</tr>
-												<!--end::Table row-->
-											</thead>
-											<!--end::Table head-->
-											<!--begin::Table body-->
-											<tbody class="fw-bold text-gray-600">
-												<!--begin::Table row-->
-												<tr>
-													<!--begin::Checkbox-->
-													<td>
-														<div class="form-check form-check-sm form-check-custom form-check-solid">
-															<input class="form-check-input" type="checkbox" value="1" />
-														</div>
-													</td>
-													<!--end::Checkbox-->
-													<!--begin::Order ID=-->
-													<td data-kt-ecommerce-order-filter="order_id">
-														<a href="../../demo1/dist/apps/ecommerce/sales/details.html" class="text-gray-800 text-hover-primary fw-bolder">14459</a>
-													</td>
-													<!--end::Order ID=-->
-													<!--begin::Customer=-->
-													<td>
-														<div class="d-flex align-items-center">
-															<!--begin:: Avatar -->
-															<div class="symbol symbol-circle symbol-50px overflow-hidden me-3">
-																<a href="../../demo1/dist/apps/user-management/users/view.html">
-																	<div class="symbol-label fs-3 bg-light-danger text-danger">E</div>
-																</a>
-															</div>
-															<!--end::Avatar-->
-															<div class="ms-5">
-																<!--begin::Title-->
-																<a href="../../demo1/dist/apps/user-management/users/view.html" class="text-gray-800 text-hover-primary fs-5 fw-bolder">Emma Bold</a>
-																<!--end::Title-->
+									<!--end::Aside column-->
+									<!--begin::Main column-->
+									<div class="d-flex flex-column flex-row-fluid gap-7 gap-lg-10">
+										<!--begin:::Tabs-->
+										<ul class="nav nav-custom nav-tabs nav-line-tabs nav-line-tabs-2x border-0 fs-4 fw-bold mb-n2">
+											<!--begin:::Tab item-->
+											<li class="nav-item">
+												<a class="nav-link text-active-primary pb-4 active" data-bs-toggle="tab" href="#kt_ecommerce_add_product_general">General</a>
+											</li>
+											<!--end:::Tab item-->
+											<!--begin:::Tab item-->
+											<li class="nav-item">
+												<a class="nav-link text-active-primary pb-4" data-bs-toggle="tab" href="#kt_ecommerce_add_product_advanced">Advanced</a>
+											</li>
+											<!--end:::Tab item-->
+										</ul>
+										<!--end:::Tabs-->
+										<!--begin::Tab content-->
+										<div class="tab-content">
+											<!--begin::Tab pane-->
+											<div class="tab-pane fade show active" id="kt_ecommerce_add_product_general" role="tab-panel">
+												<div class="d-flex flex-column gap-7 gap-lg-10">
+													<!--begin::General options-->
+													<div class="card card-flush py-4">
+														<!--begin::Card header-->
+														<div class="card-header">
+															<div class="card-title">
+																<h2>General</h2>
 															</div>
 														</div>
-													</td>
-													<!--end::Customer=-->
-													<!--begin::Status=-->
-													<td class="text-end pe-0" data-order="Completed">
-														<!--begin::Badges-->
-														<div class="badge badge-light-success">Completed</div>
-														<!--end::Badges-->
-													</td>
-													<!--end::Status=-->
-													<!--begin::Total=-->
-													<td class="text-end pe-0">
-														<span class="fw-bolder">$278.00</span>
-													</td>
-													<!--end::Total=-->
-													<!--begin::Date Added=-->
-													<td class="text-end" data-order="2022-03-23">
-														<span class="fw-bolder">23/03/2022</span>
-													</td>
-													<!--end::Date Added=-->
-													<!--begin::Date Modified=-->
-													<td class="text-end" data-order="2022-03-29">
-														<span class="fw-bolder">29/03/2022</span>
-													</td>
-													<!--end::Date Modified=-->
-													<!--begin::Action=-->
-													<td class="text-end">
-														<a href="#" class="btn btn-sm btn-light btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions
-														<!--begin::Svg Icon | path: icons/duotune/arrows/arr072.svg-->
-														<span class="svg-icon svg-icon-5 m-0">
-															<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-																<path d="M11.4343 12.7344L7.25 8.55005C6.83579 8.13583 6.16421 8.13584 5.75 8.55005C5.33579 8.96426 5.33579 9.63583 5.75 10.05L11.2929 15.5929C11.6834 15.9835 12.3166 15.9835 12.7071 15.5929L18.25 10.05C18.6642 9.63584 18.6642 8.96426 18.25 8.55005C17.8358 8.13584 17.1642 8.13584 16.75 8.55005L12.5657 12.7344C12.2533 13.0468 11.7467 13.0468 11.4343 12.7344Z" fill="currentColor" />
-															</svg>
-														</span>
-														<!--end::Svg Icon--></a>
-														<!--begin::Menu-->
-														<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-primary fw-bold fs-7 w-125px py-4" data-kt-menu="true">
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="../../demo1/dist/apps/ecommerce/sales/details.html" class="menu-link px-3">View</a>
+														<!--end::Card header-->
+														<!--begin::Card body-->
+														<div class="card-body pt-0">
+															<!--begin::Input group-->
+															<div class="mb-10 fv-row">
+																<!--begin::Label-->
+																<label class="required form-label">name</label>
+																<!--end::Label-->
+																<!--begin::Input-->
+																<input type="text" name="name" class="form-control mb-2" placeholder="teacher's name" value="" />
+																<!--end::Input-->
+																<!--begin::Description-->
+																<div class="text-muted fs-7">A product name is required and recommended to be unique.</div>
+																<!--end::Description-->
 															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="../../demo1/dist/apps/ecommerce/sales/edit-order.html" class="menu-link px-3">Edit</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="#" class="menu-link px-3" data-kt-ecommerce-order-filter="delete_row">Delete</a>
-															</div>
-															<!--end::Menu item-->
+                                                            <div class="mb-10 fv-row">
+                                                                <!--begin::Label-->
+                                                                <label class="required form-label">lastname</label>
+                                                                <!--end::Label-->
+                                                                <!--begin::Input-->
+                                                                <input type="text" name="lastname" class="form-control mb-2" placeholder="teacher's lastname" value="" />
+                                                                <!--end::Input-->
+                                                                <!--begin::Description-->
+                                                                <div class="text-muted fs-7">A product name is required and recommended to be unique.</div>
+                                                                <!--end::Description-->
+                                                            </div>
+                                                            <div class="mb-10 fv-row">
+                                                                <!--begin::Label-->
+                                                                <label class="required form-label">surname</label>
+                                                                <!--end::Label-->
+                                                                <!--begin::Input-->
+                                                                <input type="text" name="surname" class="form-control mb-2" placeholder="teacher's surname" value="" />
+                                                                <!--end::Input-->
+                                                                <!--begin::Description-->
+                                                                <div class="text-muted fs-7">A product name is required and recommended to be unique.</div>
+                                                                <!--end::Description-->
+                                                            </div>
+                                                            <div class="mb-10 fv-row">
+                                                                <!--begin::Label-->
+                                                                <label class="required form-label">specialize</label>
+                                                                <!--end::Label-->
+                                                                <!--begin::Input-->
+                                                                <input type="text" name="specialize" class="form-control mb-2" placeholder="teacher's spesialize" value="" />
+                                                                <!--end::Input-->
+                                                                <!--begin::Description-->
+                                                                <div class="text-muted fs-7">A product name is required and recommended to be unique.</div>
+                                                                <!--end::Description-->
+                                                            </div>
+															<!--end::Input group-->
+															<!--begin::Input group-->
+{{--															<div>--}}
+{{--																<!--begin::Label-->--}}
+{{--																<label class="form-label">Description</label>--}}
+{{--																<!--end::Label-->--}}
+{{--																<!--begin::Editor-->--}}
+{{--																<div id="kt_ecommerce_add_product_description" name="description" class="min-h-200px mb-2"></div>--}}
+{{--																<!--end::Editor-->--}}
+{{--																<!--begin::Description-->--}}
+{{--																<div class="text-muted fs-7">Set a description to the teacher for better visibility.</div>--}}
+{{--																<!--end::Description-->--}}
+{{--															</div>--}}
+                                                            <div class="mb-10 fv-row">
+                                                                <!--begin::Label-->
+                                                                <label class="required form-label">Description</label>
+                                                                <!--end::Label-->
+                                                                <!--begin::Input-->
+                                                                <input type="text" name="description" class="form-control mb-2" placeholder="teacher's description" value="" />
+                                                                <!--end::Input-->
+                                                                <!--begin::Description-->
+                                                                <div class="text-muted fs-7">A product name is required and recommended to be unique.</div>
+                                                                <!--end::Description-->
+                                                            </div>
+                                                            <div class="mb-10 fv-row">
+                                                                <!--begin::Label-->
+                                                                <label class="required form-label">visible</label>
+                                                                <!--end::Label-->
+                                                                <!--begin::Input-->
+                                                                <input type="text" name="visible" class="form-control mb-2" placeholder="enter visibleаы" value="" />
+                                                                <!--end::Input-->
+                                                                <!--begin::Description-->
+                                                                <div class="text-muted fs-7">A product name is required and recommended to be unique.</div>
+                                                                <!--end::Description-->
+                                                            </div>
+															<!--end::Input group-->
 														</div>
-														<!--end::Menu-->
-													</td>
-													<!--end::Action=-->
-												</tr>
-												<!--end::Table row-->
-												<!--begin::Table row-->
-												<tr>
-													<!--begin::Checkbox-->
-													<td>
-														<div class="form-check form-check-sm form-check-custom form-check-solid">
-															<input class="form-check-input" type="checkbox" value="1" />
+														<!--end::Card header-->
+													</div>
+
+													<!--end::General options-->
+													<!--begin::Media-->
+													<div class="card card-flush py-4">
+														<!--begin::Card header-->
+														<div class="card-header">
+															<div class="card-title">
+																<h2>Media</h2>
+															</div>
 														</div>
-													</td>
-													<!--end::Checkbox-->
-													<!--begin::Order ID=-->
-													<td data-kt-ecommerce-order-filter="order_id">
-														<a href="../../demo1/dist/apps/ecommerce/sales/details.html" class="text-gray-800 text-hover-primary fw-bolder">14460</a>
-													</td>
-													<!--end::Order ID=-->
-													<!--begin::Customer=-->
-													<td>
-														<div class="d-flex align-items-center">
-															<!--begin:: Avatar -->
-															<div class="symbol symbol-circle symbol-50px overflow-hidden me-3">
-																<a href="../../demo1/dist/apps/user-management/users/view.html">
-																	<div class="symbol-label">
-																		<img src="assets/media/avatars/300-25.jpg" alt="Brian Cox" class="w-100" />
+														<!--end::Card header-->
+														<!--begin::Card body-->
+														<div class="card-body pt-0">
+															<!--begin::Input group-->
+															<div class="fv-row mb-2">
+																<!--begin::Dropzone-->
+																<div class="dropzone" id="kt_ecommerce_add_product_media">
+																	<!--begin::Message-->
+																	<div class="dz-message needsclick">
+																		<!--begin::Icon-->
+																		<i class="bi bi-file-earmark-arrow-up text-primary fs-3x"></i>
+																		<!--end::Icon-->
+																		<!--begin::Info-->
+																		<div class="ms-4">
+																			<h3 class="fs-5 fw-bolder text-gray-900 mb-1">Drop files here or click to upload.</h3>
+																			<span class="fs-7 fw-bold text-gray-400">Upload up to 10 files</span>
+																		</div>
+																		<!--end::Info-->
 																	</div>
-																</a>
+																</div>
+																<!--end::Dropzone-->
 															</div>
-															<!--end::Avatar-->
-															<div class="ms-5">
-																<!--begin::Title-->
-																<a href="../../demo1/dist/apps/user-management/users/view.html" class="text-gray-800 text-hover-primary fs-5 fw-bolder">Brian Cox</a>
-																<!--end::Title-->
+															<!--end::Input group-->
+															<!--begin::Description-->
+															<div class="text-muted fs-7">Set the product media gallery.</div>
+															<!--end::Description-->
+														</div>
+														<!--end::Card header-->
+													</div>
+													<!--end::Media-->
+													<!--begin::Pricing-->
+{{--													<div class="card card-flush py-4">--}}
+{{--														<!--begin::Card header-->--}}
+{{--														<div class="card-header">--}}
+{{--															<div class="card-title">--}}
+{{--																<h2>Pricing</h2>--}}
+{{--															</div>--}}
+{{--														</div>--}}
+{{--														<!--end::Card header-->--}}
+{{--														<!--begin::Card body-->--}}
+{{--														<div class="card-body pt-0">--}}
+{{--															<!--begin::Input group-->--}}
+{{--															<div class="mb-10 fv-row">--}}
+{{--																<!--begin::Label-->--}}
+{{--																<label class="required form-label">Base Price</label>--}}
+{{--																<!--end::Label-->--}}
+{{--																<!--begin::Input-->--}}
+{{--																<input type="text" name="price" class="form-control mb-2" placeholder="Product price" value="" />--}}
+{{--																<!--end::Input-->--}}
+{{--																<!--begin::Description-->--}}
+{{--																<div class="text-muted fs-7">Set the product price.</div>--}}
+{{--																<!--end::Description-->--}}
+{{--															</div>--}}
+{{--															<!--end::Input group-->--}}
+{{--															<!--begin::Input group-->--}}
+{{--															<div class="fv-row mb-10">--}}
+{{--																<!--begin::Label-->--}}
+{{--																<label class="fs-6 fw-bold mb-2">Discount Type--}}
+{{--																<i class="fas fa-exclamation-circle ms-2 fs-7" data-bs-toggle="tooltip" title="Select a discount type that will be applied to this product"></i></label>--}}
+{{--																<!--End::Label-->--}}
+{{--																<!--begin::Row-->--}}
+{{--																<div class="row row-cols-1 row-cols-md-3 row-cols-lg-1 row-cols-xl-3 g-9" data-kt-buttons="true" data-kt-buttons-target="[data-kt-button='true']">--}}
+{{--																	<!--begin::Col-->--}}
+{{--																	<div class="col">--}}
+{{--																		<!--begin::Option-->--}}
+{{--																		<label class="btn btn-outline btn-outline-dashed btn-outline-default active d-flex text-start p-6" data-kt-button="true">--}}
+{{--																			<!--begin::Radio-->--}}
+{{--																			<span class="form-check form-check-custom form-check-solid form-check-sm align-items-start mt-1">--}}
+{{--																				<input class="form-check-input" type="radio" name="discount_option" value="1" checked="checked" />--}}
+{{--																			</span>--}}
+{{--																			<!--end::Radio-->--}}
+{{--																			<!--begin::Info-->--}}
+{{--																			<span class="ms-5">--}}
+{{--																				<span class="fs-4 fw-bolder text-gray-800 d-block">No Discount</span>--}}
+{{--																			</span>--}}
+{{--																			<!--end::Info-->--}}
+{{--																		</label>--}}
+{{--																		<!--end::Option-->--}}
+{{--																	</div>--}}
+{{--																	<!--end::Col-->--}}
+{{--																	<!--begin::Col-->--}}
+{{--																	<div class="col">--}}
+{{--																		<!--begin::Option-->--}}
+{{--																		<label class="btn btn-outline btn-outline-dashed btn-outline-default d-flex text-start p-6" data-kt-button="true">--}}
+{{--																			<!--begin::Radio-->--}}
+{{--																			<span class="form-check form-check-custom form-check-solid form-check-sm align-items-start mt-1">--}}
+{{--																				<input class="form-check-input" type="radio" name="discount_option" value="2" />--}}
+{{--																			</span>--}}
+{{--																			<!--end::Radio-->--}}
+{{--																			<!--begin::Info-->--}}
+{{--																			<span class="ms-5">--}}
+{{--																				<span class="fs-4 fw-bolder text-gray-800 d-block">Percentage %</span>--}}
+{{--																			</span>--}}
+{{--																			<!--end::Info-->--}}
+{{--																		</label>--}}
+{{--																		<!--end::Option-->--}}
+{{--																	</div>--}}
+{{--																	<!--end::Col-->--}}
+{{--																	<!--begin::Col-->--}}
+{{--																	<div class="col">--}}
+{{--																		<!--begin::Option-->--}}
+{{--																		<label class="btn btn-outline btn-outline-dashed btn-outline-default d-flex text-start p-6" data-kt-button="true">--}}
+{{--																			<!--begin::Radio-->--}}
+{{--																			<span class="form-check form-check-custom form-check-solid form-check-sm align-items-start mt-1">--}}
+{{--																				<input class="form-check-input" type="radio" name="discount_option" value="3" />--}}
+{{--																			</span>--}}
+{{--																			<!--end::Radio-->--}}
+{{--																			<!--begin::Info-->--}}
+{{--																			<span class="ms-5">--}}
+{{--																				<span class="fs-4 fw-bolder text-gray-800 d-block">Fixed Price</span>--}}
+{{--																			</span>--}}
+{{--																			<!--end::Info-->--}}
+{{--																		</label>--}}
+{{--																		<!--end::Option-->--}}
+{{--																	</div>--}}
+{{--																	<!--end::Col-->--}}
+{{--																</div>--}}
+{{--																<!--end::Row-->--}}
+{{--															</div>--}}
+{{--															<!--end::Input group-->--}}
+{{--															<!--begin::Input group-->--}}
+{{--															<div class="d-none mb-10 fv-row" id="kt_ecommerce_add_product_discount_percentage">--}}
+{{--																<!--begin::Label-->--}}
+{{--																<label class="form-label">Set Discount Percentage</label>--}}
+{{--																<!--end::Label-->--}}
+{{--																<!--begin::Slider-->--}}
+{{--																<div class="d-flex flex-column text-center mb-5">--}}
+{{--																	<div class="d-flex align-items-start justify-content-center mb-7">--}}
+{{--																		<span class="fw-bolder fs-3x" id="kt_ecommerce_add_product_discount_label">0</span>--}}
+{{--																		<span class="fw-bolder fs-4 mt-1 ms-2">%</span>--}}
+{{--																	</div>--}}
+{{--																	<div id="kt_ecommerce_add_product_discount_slider" class="noUi-sm"></div>--}}
+{{--																</div>--}}
+{{--																<!--end::Slider-->--}}
+{{--																<!--begin::Description-->--}}
+{{--																<div class="text-muted fs-7">Set a percentage discount to be applied on this product.</div>--}}
+{{--																<!--end::Description-->--}}
+{{--															</div>--}}
+{{--															<!--end::Input group-->--}}
+{{--															<!--begin::Input group-->--}}
+{{--															<div class="d-none mb-10 fv-row" id="kt_ecommerce_add_product_discount_fixed">--}}
+{{--																<!--begin::Label-->--}}
+{{--																<label class="form-label">Fixed Discounted Price</label>--}}
+{{--																<!--end::Label-->--}}
+{{--																<!--begin::Input-->--}}
+{{--																<input type="text" name="dicsounted_price" class="form-control mb-2" placeholder="Discounted price" />--}}
+{{--																<!--end::Input-->--}}
+{{--																<!--begin::Description-->--}}
+{{--																<div class="text-muted fs-7">Set the discounted product price. The product will be reduced at the determined fixed price</div>--}}
+{{--																<!--end::Description-->--}}
+{{--															</div>--}}
+{{--															<!--end::Input group-->--}}
+{{--															<!--begin::Tax-->--}}
+{{--															<div class="d-flex flex-wrap gap-5">--}}
+{{--																<!--begin::Input group-->--}}
+{{--																<div class="fv-row w-100 flex-md-root">--}}
+{{--																	<!--begin::Label-->--}}
+{{--																	<label class="required form-label">Tax Class</label>--}}
+{{--																	<!--end::Label-->--}}
+{{--																	<!--begin::Select2-->--}}
+{{--																	<select class="form-select mb-2" name="tax" data-control="select2" data-hide-search="true" data-placeholder="Select an option">--}}
+{{--																		<option></option>--}}
+{{--																		<option value="0">Tax Free</option>--}}
+{{--																		<option value="1">Taxable Goods</option>--}}
+{{--																		<option value="2">Downloadable Product</option>--}}
+{{--																	</select>--}}
+{{--																	<!--end::Select2-->--}}
+{{--																	<!--begin::Description-->--}}
+{{--																	<div class="text-muted fs-7">Set the product tax class.</div>--}}
+{{--																	<!--end::Description-->--}}
+{{--																</div>--}}
+{{--																<!--end::Input group-->--}}
+{{--																<!--begin::Input group-->--}}
+{{--																<div class="fv-row w-100 flex-md-root">--}}
+{{--																	<!--begin::Label-->--}}
+{{--																	<label class="form-label">VAT Amount (%)</label>--}}
+{{--																	<!--end::Label-->--}}
+{{--																	<!--begin::Input-->--}}
+{{--																	<input type="text" class="form-control mb-2" value="" />--}}
+{{--																	<!--end::Input-->--}}
+{{--																	<!--begin::Description-->--}}
+{{--																	<div class="text-muted fs-7">Set the product VAT about.</div>--}}
+{{--																	<!--end::Description-->--}}
+{{--																</div>--}}
+{{--																<!--end::Input group-->--}}
+{{--															</div>--}}
+{{--															<!--end:Tax-->--}}
+{{--														</div>--}}
+{{--														<!--end::Card header-->--}}
+{{--													</div>--}}
+{{--													<!--end::Pricing-->--}}
+												</div>
+											</div>
+											<!--end::Tab pane-->
+											<!--begin::Tab pane-->
+											<div class="tab-pane fade" id="kt_ecommerce_add_product_advanced" role="tab-panel">
+												<div class="d-flex flex-column gap-7 gap-lg-10">
+													<!--begin::Inventory-->
+													<div class="card card-flush py-4">
+														<!--begin::Card header-->
+														<div class="card-header">
+															<div class="card-title">
+																<h2>Inventory</h2>
 															</div>
 														</div>
-													</td>
-													<!--end::Customer=-->
-													<!--begin::Status=-->
-													<td class="text-end pe-0" data-order="Cancelled">
-														<!--begin::Badges-->
-														<div class="badge badge-light-danger">Cancelled</div>
-														<!--end::Badges-->
-													</td>
-													<!--end::Status=-->
-													<!--begin::Total=-->
-													<td class="text-end pe-0">
-														<span class="fw-bolder">$262.00</span>
-													</td>
-													<!--end::Total=-->
-													<!--begin::Date Added=-->
-													<td class="text-end" data-order="2022-03-25">
-														<span class="fw-bolder">25/03/2022</span>
-													</td>
-													<!--end::Date Added=-->
-													<!--begin::Date Modified=-->
-													<td class="text-end" data-order="2022-03-28">
-														<span class="fw-bolder">28/03/2022</span>
-													</td>
-													<!--end::Date Modified=-->
-													<!--begin::Action=-->
-													<td class="text-end">
-														<a href="#" class="btn btn-sm btn-light btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions
-														<!--begin::Svg Icon | path: icons/duotune/arrows/arr072.svg-->
-														<span class="svg-icon svg-icon-5 m-0">
-															<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-																<path d="M11.4343 12.7344L7.25 8.55005C6.83579 8.13583 6.16421 8.13584 5.75 8.55005C5.33579 8.96426 5.33579 9.63583 5.75 10.05L11.2929 15.5929C11.6834 15.9835 12.3166 15.9835 12.7071 15.5929L18.25 10.05C18.6642 9.63584 18.6642 8.96426 18.25 8.55005C17.8358 8.13584 17.1642 8.13584 16.75 8.55005L12.5657 12.7344C12.2533 13.0468 11.7467 13.0468 11.4343 12.7344Z" fill="currentColor" />
-															</svg>
-														</span>
-														<!--end::Svg Icon--></a>
-														<!--begin::Menu-->
-														<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-primary fw-bold fs-7 w-125px py-4" data-kt-menu="true">
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="../../demo1/dist/apps/ecommerce/sales/details.html" class="menu-link px-3">View</a>
+														<!--end::Card header-->
+														<!--begin::Card body-->
+														<div class="card-body pt-0">
+															<!--begin::Input group-->
+															<div class="mb-10 fv-row">
+																<!--begin::Label-->
+																<label class="required form-label">SKU</label>
+																<!--end::Label-->
+																<!--begin::Input-->
+																<input type="text" name="sku" class="form-control mb-2" placeholder="SKU Number" value="" />
+																<!--end::Input-->
+																<!--begin::Description-->
+																<div class="text-muted fs-7">Enter the product SKU.</div>
+																<!--end::Description-->
 															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="../../demo1/dist/apps/ecommerce/sales/edit-order.html" class="menu-link px-3">Edit</a>
+															<!--end::Input group-->
+															<!--begin::Input group-->
+															<div class="mb-10 fv-row">
+																<!--begin::Label-->
+																<label class="required form-label">Barcode</label>
+																<!--end::Label-->
+																<!--begin::Input-->
+																<input type="text" name="sku" class="form-control mb-2" placeholder="Barcode Number" value="" />
+																<!--end::Input-->
+																<!--begin::Description-->
+																<div class="text-muted fs-7">Enter the product barcode number.</div>
+																<!--end::Description-->
 															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="#" class="menu-link px-3" data-kt-ecommerce-order-filter="delete_row">Delete</a>
+															<!--end::Input group-->
+															<!--begin::Input group-->
+															<div class="mb-10 fv-row">
+																<!--begin::Label-->
+																<label class="required form-label">Quantity</label>
+																<!--end::Label-->
+																<!--begin::Input-->
+																<div class="d-flex gap-3">
+																	<input type="number" name="shelf" class="form-control mb-2" placeholder="On shelf" value="" />
+																	<input type="number" name="warehouse" class="form-control mb-2" placeholder="In warehouse" />
+																</div>
+																<!--end::Input-->
+																<!--begin::Description-->
+																<div class="text-muted fs-7">Enter the product quantity.</div>
+																<!--end::Description-->
 															</div>
-															<!--end::Menu item-->
+															<!--end::Input group-->
+															<!--begin::Input group-->
+															<div class="fv-row">
+																<!--begin::Label-->
+																<label class="form-label">Allow Backorders</label>
+																<!--end::Label-->
+																<!--begin::Input-->
+																<div class="form-check form-check-custom form-check-solid mb-2">
+																	<input class="form-check-input" type="checkbox" value="" />
+																	<label class="form-check-label">Yes</label>
+																</div>
+																<!--end::Input-->
+																<!--begin::Description-->
+																<div class="text-muted fs-7">Allow customers to purchase products that are out of stock.</div>
+																<!--end::Description-->
+															</div>
+															<!--end::Input group-->
 														</div>
-														<!--end::Menu-->
-													</td>
-													<!--end::Action=-->
-												</tr>
-												<!--end::Table row-->
-												<!--begin::Table row-->
-												<tr>
-													<!--begin::Checkbox-->
-													<td>
-														<div class="form-check form-check-sm form-check-custom form-check-solid">
-															<input class="form-check-input" type="checkbox" value="1" />
+														<!--end::Card header-->
+													</div>
+													<!--end::Inventory-->
+													<!--begin::Variations-->
+													<div class="card card-flush py-4">
+														<!--begin::Card header-->
+														<div class="card-header">
+															<div class="card-title">
+																<h2>Variations</h2>
+															</div>
 														</div>
-													</td>
-													<!--end::Checkbox-->
-													<!--begin::Order ID=-->
-													<td data-kt-ecommerce-order-filter="order_id">
-														<a href="../../demo1/dist/apps/ecommerce/sales/details.html" class="text-gray-800 text-hover-primary fw-bolder">14461</a>
-													</td>
-													<!--end::Order ID=-->
-													<!--begin::Customer=-->
-													<td>
-														<div class="d-flex align-items-center">
-															<!--begin:: Avatar -->
-															<div class="symbol symbol-circle symbol-50px overflow-hidden me-3">
-																<a href="../../demo1/dist/apps/user-management/users/view.html">
-																	<div class="symbol-label">
-																		<img src="assets/media/avatars/300-21.jpg" alt="Ethan Wilder" class="w-100" />
+														<!--end::Card header-->
+														<!--begin::Card body-->
+														<div class="card-body pt-0">
+															<!--begin::Input group-->
+															<div class="" data-kt-ecommerce-catalog-add-product="auto-options">
+																<!--begin::Label-->
+																<label class="form-label">Add Product Variations</label>
+																<!--end::Label-->
+																<!--begin::Repeater-->
+																<div id="kt_ecommerce_add_product_options">
+																	<!--begin::Form group-->
+																	<div class="form-group">
+																		<div data-repeater-list="kt_ecommerce_add_product_options" class="d-flex flex-column gap-3">
+																			<div data-repeater-item="" class="form-group d-flex flex-wrap gap-5">
+																				<!--begin::Select2-->
+																				<div class="w-100 w-md-200px">
+																					<select class="form-select" name="product_option" data-placeholder="Select a variation" data-kt-ecommerce-catalog-add-product="product_option">
+																						<option></option>
+																						<option value="color">Color</option>
+																						<option value="size">Size</option>
+																						<option value="material">Material</option>
+																						<option value="style">Style</option>
+																					</select>
+																				</div>
+																				<!--end::Select2-->
+																				<!--begin::Input-->
+																				<input type="text" class="form-control mw-100 w-200px" name="product_option_value" placeholder="Variation" />
+																				<!--end::Input-->
+																				<button type="button" data-repeater-delete="" class="btn btn-sm btn-icon btn-light-danger">
+																					<!--begin::Svg Icon | path: icons/duotune/arrows/arr088.svg-->
+																					<span class="svg-icon svg-icon-2">
+																						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+																							<rect opacity="0.5" x="7.05025" y="15.5356" width="12" height="2" rx="1" transform="rotate(-45 7.05025 15.5356)" fill="currentColor" />
+																							<rect x="8.46447" y="7.05029" width="12" height="2" rx="1" transform="rotate(45 8.46447 7.05029)" fill="currentColor" />
+																						</svg>
+																					</span>
+																					<!--end::Svg Icon-->
+																				</button>
+																			</div>
+																		</div>
 																	</div>
-																</a>
-															</div>
-															<!--end::Avatar-->
-															<div class="ms-5">
-																<!--begin::Title-->
-																<a href="../../demo1/dist/apps/user-management/users/view.html" class="text-gray-800 text-hover-primary fs-5 fw-bolder">Ethan Wilder</a>
-																<!--end::Title-->
-															</div>
-														</div>
-													</td>
-													<!--end::Customer=-->
-													<!--begin::Status=-->
-													<td class="text-end pe-0" data-order="Denied">
-														<!--begin::Badges-->
-														<div class="badge badge-light-danger">Denied</div>
-														<!--end::Badges-->
-													</td>
-													<!--end::Status=-->
-													<!--begin::Total=-->
-													<td class="text-end pe-0">
-														<span class="fw-bolder">$85.00</span>
-													</td>
-													<!--end::Total=-->
-													<!--begin::Date Added=-->
-													<td class="text-end" data-order="2022-03-24">
-														<span class="fw-bolder">24/03/2022</span>
-													</td>
-													<!--end::Date Added=-->
-													<!--begin::Date Modified=-->
-													<td class="text-end" data-order="2022-03-27">
-														<span class="fw-bolder">27/03/2022</span>
-													</td>
-													<!--end::Date Modified=-->
-													<!--begin::Action=-->
-													<td class="text-end">
-														<a href="#" class="btn btn-sm btn-light btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions
-														<!--begin::Svg Icon | path: icons/duotune/arrows/arr072.svg-->
-														<span class="svg-icon svg-icon-5 m-0">
-															<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-																<path d="M11.4343 12.7344L7.25 8.55005C6.83579 8.13583 6.16421 8.13584 5.75 8.55005C5.33579 8.96426 5.33579 9.63583 5.75 10.05L11.2929 15.5929C11.6834 15.9835 12.3166 15.9835 12.7071 15.5929L18.25 10.05C18.6642 9.63584 18.6642 8.96426 18.25 8.55005C17.8358 8.13584 17.1642 8.13584 16.75 8.55005L12.5657 12.7344C12.2533 13.0468 11.7467 13.0468 11.4343 12.7344Z" fill="currentColor" />
-															</svg>
-														</span>
-														<!--end::Svg Icon--></a>
-														<!--begin::Menu-->
-														<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-primary fw-bold fs-7 w-125px py-4" data-kt-menu="true">
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="../../demo1/dist/apps/ecommerce/sales/details.html" class="menu-link px-3">View</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="../../demo1/dist/apps/ecommerce/sales/edit-order.html" class="menu-link px-3">Edit</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="#" class="menu-link px-3" data-kt-ecommerce-order-filter="delete_row">Delete</a>
-															</div>
-															<!--end::Menu item-->
-														</div>
-														<!--end::Menu-->
-													</td>
-													<!--end::Action=-->
-												</tr>
-												<!--end::Table row-->
-												<!--begin::Table row-->
-												<tr>
-													<!--begin::Checkbox-->
-													<td>
-														<div class="form-check form-check-sm form-check-custom form-check-solid">
-															<input class="form-check-input" type="checkbox" value="1" />
-														</div>
-													</td>
-													<!--end::Checkbox-->
-													<!--begin::Order ID=-->
-													<td data-kt-ecommerce-order-filter="order_id">
-														<a href="../../demo1/dist/apps/ecommerce/sales/details.html" class="text-gray-800 text-hover-primary fw-bolder">14462</a>
-													</td>
-													<!--end::Order ID=-->
-													<!--begin::Customer=-->
-													<td>
-														<div class="d-flex align-items-center">
-															<!--begin:: Avatar -->
-															<div class="symbol symbol-circle symbol-50px overflow-hidden me-3">
-																<a href="../../demo1/dist/apps/user-management/users/view.html">
-																	<div class="symbol-label fs-3 bg-light-danger text-danger">O</div>
-																</a>
-															</div>
-															<!--end::Avatar-->
-															<div class="ms-5">
-																<!--begin::Title-->
-																<a href="../../demo1/dist/apps/user-management/users/view.html" class="text-gray-800 text-hover-primary fs-5 fw-bolder">Olivia Wild</a>
-																<!--end::Title-->
-															</div>
-														</div>
-													</td>
-													<!--end::Customer=-->
-													<!--begin::Status=-->
-													<td class="text-end pe-0" data-order="Expired">
-														<!--begin::Badges-->
-														<div class="badge badge-light-danger">Expired</div>
-														<!--end::Badges-->
-													</td>
-													<!--end::Status=-->
-													<!--begin::Total=-->
-													<td class="text-end pe-0">
-														<span class="fw-bolder">$90.00</span>
-													</td>
-													<!--end::Total=-->
-													<!--begin::Date Added=-->
-													<td class="text-end" data-order="2022-03-25">
-														<span class="fw-bolder">25/03/2022</span>
-													</td>
-													<!--end::Date Added=-->
-													<!--begin::Date Modified=-->
-													<td class="text-end" data-order="2022-03-26">
-														<span class="fw-bolder">26/03/2022</span>
-													</td>
-													<!--end::Date Modified=-->
-													<!--begin::Action=-->
-													<td class="text-end">
-														<a href="#" class="btn btn-sm btn-light btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions
-														<!--begin::Svg Icon | path: icons/duotune/arrows/arr072.svg-->
-														<span class="svg-icon svg-icon-5 m-0">
-															<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-																<path d="M11.4343 12.7344L7.25 8.55005C6.83579 8.13583 6.16421 8.13584 5.75 8.55005C5.33579 8.96426 5.33579 9.63583 5.75 10.05L11.2929 15.5929C11.6834 15.9835 12.3166 15.9835 12.7071 15.5929L18.25 10.05C18.6642 9.63584 18.6642 8.96426 18.25 8.55005C17.8358 8.13584 17.1642 8.13584 16.75 8.55005L12.5657 12.7344C12.2533 13.0468 11.7467 13.0468 11.4343 12.7344Z" fill="currentColor" />
-															</svg>
-														</span>
-														<!--end::Svg Icon--></a>
-														<!--begin::Menu-->
-														<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-primary fw-bold fs-7 w-125px py-4" data-kt-menu="true">
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="../../demo1/dist/apps/ecommerce/sales/details.html" class="menu-link px-3">View</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="../../demo1/dist/apps/ecommerce/sales/edit-order.html" class="menu-link px-3">Edit</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="#" class="menu-link px-3" data-kt-ecommerce-order-filter="delete_row">Delete</a>
-															</div>
-															<!--end::Menu item-->
-														</div>
-														<!--end::Menu-->
-													</td>
-													<!--end::Action=-->
-												</tr>
-												<!--end::Table row-->
-												<!--begin::Table row-->
-												<tr>
-													<!--begin::Checkbox-->
-													<td>
-														<div class="form-check form-check-sm form-check-custom form-check-solid">
-															<input class="form-check-input" type="checkbox" value="1" />
-														</div>
-													</td>
-													<!--end::Checkbox-->
-													<!--begin::Order ID=-->
-													<td data-kt-ecommerce-order-filter="order_id">
-														<a href="../../demo1/dist/apps/ecommerce/sales/details.html" class="text-gray-800 text-hover-primary fw-bolder">14463</a>
-													</td>
-													<!--end::Order ID=-->
-													<!--begin::Customer=-->
-													<td>
-														<div class="d-flex align-items-center">
-															<!--begin:: Avatar -->
-															<div class="symbol symbol-circle symbol-50px overflow-hidden me-3">
-																<a href="../../demo1/dist/apps/user-management/users/view.html">
-																	<div class="symbol-label">
-																		<img src="assets/media/avatars/300-5.jpg" alt="Sean Bean" class="w-100" />
+																	<!--end::Form group-->
+																	<!--begin::Form group-->
+																	<div class="form-group mt-5">
+																		<button type="button" data-repeater-create="" class="btn btn-sm btn-light-primary">
+																		<!--begin::Svg Icon | path: icons/duotune/arrows/arr087.svg-->
+																		<span class="svg-icon svg-icon-2">
+																			<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+																				<rect opacity="0.5" x="11" y="18" width="12" height="2" rx="1" transform="rotate(-90 11 18)" fill="currentColor" />
+																				<rect x="6" y="11" width="12" height="2" rx="1" fill="currentColor" />
+																			</svg>
+																		</span>
+																		<!--end::Svg Icon-->Add another variation</button>
 																	</div>
-																</a>
+																	<!--end::Form group-->
+																</div>
+																<!--end::Repeater-->
 															</div>
-															<!--end::Avatar-->
-															<div class="ms-5">
-																<!--begin::Title-->
-																<a href="../../demo1/dist/apps/user-management/users/view.html" class="text-gray-800 text-hover-primary fs-5 fw-bolder">Sean Bean</a>
-																<!--end::Title-->
+															<!--end::Input group-->
+														</div>
+														<!--end::Card header-->
+													</div>
+													<!--end::Variations-->
+													<!--begin::Shipping-->
+													<div class="card card-flush py-4">
+														<!--begin::Card header-->
+														<div class="card-header">
+															<div class="card-title">
+																<h2>Shipping</h2>
 															</div>
 														</div>
-													</td>
-													<!--end::Customer=-->
-													<!--begin::Status=-->
-													<td class="text-end pe-0" data-order="Completed">
-														<!--begin::Badges-->
-														<div class="badge badge-light-success">Completed</div>
-														<!--end::Badges-->
-													</td>
-													<!--end::Status=-->
-													<!--begin::Total=-->
-													<td class="text-end pe-0">
-														<span class="fw-bolder">$348.00</span>
-													</td>
-													<!--end::Total=-->
-													<!--begin::Date Added=-->
-													<td class="text-end" data-order="2022-03-22">
-														<span class="fw-bolder">22/03/2022</span>
-													</td>
-													<!--end::Date Added=-->
-													<!--begin::Date Modified=-->
-													<td class="text-end" data-order="2022-03-25">
-														<span class="fw-bolder">25/03/2022</span>
-													</td>
-													<!--end::Date Modified=-->
-													<!--begin::Action=-->
-													<td class="text-end">
-														<a href="#" class="btn btn-sm btn-light btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions
-														<!--begin::Svg Icon | path: icons/duotune/arrows/arr072.svg-->
-														<span class="svg-icon svg-icon-5 m-0">
-															<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-																<path d="M11.4343 12.7344L7.25 8.55005C6.83579 8.13583 6.16421 8.13584 5.75 8.55005C5.33579 8.96426 5.33579 9.63583 5.75 10.05L11.2929 15.5929C11.6834 15.9835 12.3166 15.9835 12.7071 15.5929L18.25 10.05C18.6642 9.63584 18.6642 8.96426 18.25 8.55005C17.8358 8.13584 17.1642 8.13584 16.75 8.55005L12.5657 12.7344C12.2533 13.0468 11.7467 13.0468 11.4343 12.7344Z" fill="currentColor" />
-															</svg>
-														</span>
-														<!--end::Svg Icon--></a>
-														<!--begin::Menu-->
-														<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-primary fw-bold fs-7 w-125px py-4" data-kt-menu="true">
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="../../demo1/dist/apps/ecommerce/sales/details.html" class="menu-link px-3">View</a>
+														<!--end::Card header-->
+														<!--begin::Card body-->
+														<div class="card-body pt-0">
+															<!--begin::Input group-->
+															<div class="fv-row">
+																<!--begin::Input-->
+																<div class="form-check form-check-custom form-check-solid mb-2">
+																	<input class="form-check-input" type="checkbox" id="kt_ecommerce_add_product_shipping_checkbox" value="1" />
+																	<label class="form-check-label">This is a physical product</label>
+																</div>
+																<!--end::Input-->
+																<!--begin::Description-->
+																<div class="text-muted fs-7">Set if the product is a physical or digital item. Physical products may require shipping.</div>
+																<!--end::Description-->
 															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="../../demo1/dist/apps/ecommerce/sales/edit-order.html" class="menu-link px-3">Edit</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="#" class="menu-link px-3" data-kt-ecommerce-order-filter="delete_row">Delete</a>
-															</div>
-															<!--end::Menu item-->
-														</div>
-														<!--end::Menu-->
-													</td>
-													<!--end::Action=-->
-												</tr>
-												<!--end::Table row-->
-												<!--begin::Table row-->
-												<tr>
-													<!--begin::Checkbox-->
-													<td>
-														<div class="form-check form-check-sm form-check-custom form-check-solid">
-															<input class="form-check-input" type="checkbox" value="1" />
-														</div>
-													</td>
-													<!--end::Checkbox-->
-													<!--begin::Order ID=-->
-													<td data-kt-ecommerce-order-filter="order_id">
-														<a href="../../demo1/dist/apps/ecommerce/sales/details.html" class="text-gray-800 text-hover-primary fw-bolder">14464</a>
-													</td>
-													<!--end::Order ID=-->
-													<!--begin::Customer=-->
-													<td>
-														<div class="d-flex align-items-center">
-															<!--begin:: Avatar -->
-															<div class="symbol symbol-circle symbol-50px overflow-hidden me-3">
-																<a href="../../demo1/dist/apps/user-management/users/view.html">
-																	<div class="symbol-label fs-3 bg-light-danger text-danger">O</div>
-																</a>
-															</div>
-															<!--end::Avatar-->
-															<div class="ms-5">
-																<!--begin::Title-->
-																<a href="../../demo1/dist/apps/user-management/users/view.html" class="text-gray-800 text-hover-primary fs-5 fw-bolder">Olivia Wild</a>
-																<!--end::Title-->
-															</div>
-														</div>
-													</td>
-													<!--end::Customer=-->
-													<!--begin::Status=-->
-													<td class="text-end pe-0" data-order="Cancelled">
-														<!--begin::Badges-->
-														<div class="badge badge-light-danger">Cancelled</div>
-														<!--end::Badges-->
-													</td>
-													<!--end::Status=-->
-													<!--begin::Total=-->
-													<td class="text-end pe-0">
-														<span class="fw-bolder">$415.00</span>
-													</td>
-													<!--end::Total=-->
-													<!--begin::Date Added=-->
-													<td class="text-end" data-order="2022-03-22">
-														<span class="fw-bolder">22/03/2022</span>
-													</td>
-													<!--end::Date Added=-->
-													<!--begin::Date Modified=-->
-													<td class="text-end" data-order="2022-03-24">
-														<span class="fw-bolder">24/03/2022</span>
-													</td>
-													<!--end::Date Modified=-->
-													<!--begin::Action=-->
-													<td class="text-end">
-														<a href="#" class="btn btn-sm btn-light btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions
-														<!--begin::Svg Icon | path: icons/duotune/arrows/arr072.svg-->
-														<span class="svg-icon svg-icon-5 m-0">
-															<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-																<path d="M11.4343 12.7344L7.25 8.55005C6.83579 8.13583 6.16421 8.13584 5.75 8.55005C5.33579 8.96426 5.33579 9.63583 5.75 10.05L11.2929 15.5929C11.6834 15.9835 12.3166 15.9835 12.7071 15.5929L18.25 10.05C18.6642 9.63584 18.6642 8.96426 18.25 8.55005C17.8358 8.13584 17.1642 8.13584 16.75 8.55005L12.5657 12.7344C12.2533 13.0468 11.7467 13.0468 11.4343 12.7344Z" fill="currentColor" />
-															</svg>
-														</span>
-														<!--end::Svg Icon--></a>
-														<!--begin::Menu-->
-														<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-primary fw-bold fs-7 w-125px py-4" data-kt-menu="true">
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="../../demo1/dist/apps/ecommerce/sales/details.html" class="menu-link px-3">View</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="../../demo1/dist/apps/ecommerce/sales/edit-order.html" class="menu-link px-3">Edit</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="#" class="menu-link px-3" data-kt-ecommerce-order-filter="delete_row">Delete</a>
-															</div>
-															<!--end::Menu item-->
-														</div>
-														<!--end::Menu-->
-													</td>
-													<!--end::Action=-->
-												</tr>
-												<!--end::Table row-->
-												<!--begin::Table row-->
-												<tr>
-													<!--begin::Checkbox-->
-													<td>
-														<div class="form-check form-check-sm form-check-custom form-check-solid">
-															<input class="form-check-input" type="checkbox" value="1" />
-														</div>
-													</td>
-													<!--end::Checkbox-->
-													<!--begin::Order ID=-->
-													<td data-kt-ecommerce-order-filter="order_id">
-														<a href="../../demo1/dist/apps/ecommerce/sales/details.html" class="text-gray-800 text-hover-primary fw-bolder">14465</a>
-													</td>
-													<!--end::Order ID=-->
-													<!--begin::Customer=-->
-													<td>
-														<div class="d-flex align-items-center">
-															<!--begin:: Avatar -->
-															<div class="symbol symbol-circle symbol-50px overflow-hidden me-3">
-																<a href="../../demo1/dist/apps/user-management/users/view.html">
-																	<div class="symbol-label fs-3 bg-light-primary text-primary">N</div>
-																</a>
-															</div>
-															<!--end::Avatar-->
-															<div class="ms-5">
-																<!--begin::Title-->
-																<a href="../../demo1/dist/apps/user-management/users/view.html" class="text-gray-800 text-hover-primary fs-5 fw-bolder">Neil Owen</a>
-																<!--end::Title-->
-															</div>
-														</div>
-													</td>
-													<!--end::Customer=-->
-													<!--begin::Status=-->
-													<td class="text-end pe-0" data-order="Completed">
-														<!--begin::Badges-->
-														<div class="badge badge-light-success">Completed</div>
-														<!--end::Badges-->
-													</td>
-													<!--end::Status=-->
-													<!--begin::Total=-->
-													<td class="text-end pe-0">
-														<span class="fw-bolder">$115.00</span>
-													</td>
-													<!--end::Total=-->
-													<!--begin::Date Added=-->
-													<td class="text-end" data-order="2022-03-16">
-														<span class="fw-bolder">16/03/2022</span>
-													</td>
-													<!--end::Date Added=-->
-													<!--begin::Date Modified=-->
-													<td class="text-end" data-order="2022-03-23">
-														<span class="fw-bolder">23/03/2022</span>
-													</td>
-													<!--end::Date Modified=-->
-													<!--begin::Action=-->
-													<td class="text-end">
-														<a href="#" class="btn btn-sm btn-light btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions
-														<!--begin::Svg Icon | path: icons/duotune/arrows/arr072.svg-->
-														<span class="svg-icon svg-icon-5 m-0">
-															<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-																<path d="M11.4343 12.7344L7.25 8.55005C6.83579 8.13583 6.16421 8.13584 5.75 8.55005C5.33579 8.96426 5.33579 9.63583 5.75 10.05L11.2929 15.5929C11.6834 15.9835 12.3166 15.9835 12.7071 15.5929L18.25 10.05C18.6642 9.63584 18.6642 8.96426 18.25 8.55005C17.8358 8.13584 17.1642 8.13584 16.75 8.55005L12.5657 12.7344C12.2533 13.0468 11.7467 13.0468 11.4343 12.7344Z" fill="currentColor" />
-															</svg>
-														</span>
-														<!--end::Svg Icon--></a>
-														<!--begin::Menu-->
-														<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-primary fw-bold fs-7 w-125px py-4" data-kt-menu="true">
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="../../demo1/dist/apps/ecommerce/sales/details.html" class="menu-link px-3">View</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="../../demo1/dist/apps/ecommerce/sales/edit-order.html" class="menu-link px-3">Edit</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="#" class="menu-link px-3" data-kt-ecommerce-order-filter="delete_row">Delete</a>
-															</div>
-															<!--end::Menu item-->
-														</div>
-														<!--end::Menu-->
-													</td>
-													<!--end::Action=-->
-												</tr>
-												<!--end::Table row-->
-												<!--begin::Table row-->
-												<tr>
-													<!--begin::Checkbox-->
-													<td>
-														<div class="form-check form-check-sm form-check-custom form-check-solid">
-															<input class="form-check-input" type="checkbox" value="1" />
-														</div>
-													</td>
-													<!--end::Checkbox-->
-													<!--begin::Order ID=-->
-													<td data-kt-ecommerce-order-filter="order_id">
-														<a href="../../demo1/dist/apps/ecommerce/sales/details.html" class="text-gray-800 text-hover-primary fw-bolder">14466</a>
-													</td>
-													<!--end::Order ID=-->
-													<!--begin::Customer=-->
-													<td>
-														<div class="d-flex align-items-center">
-															<!--begin:: Avatar -->
-															<div class="symbol symbol-circle symbol-50px overflow-hidden me-3">
-																<a href="../../demo1/dist/apps/user-management/users/view.html">
-																	<div class="symbol-label">
-																		<img src="assets/media/avatars/300-13.jpg" alt="John Miller" class="w-100" />
+															<!--end::Input group-->
+															<!--begin::Shipping form-->
+															<div id="kt_ecommerce_add_product_shipping" class="d-none mt-10">
+																<!--begin::Input group-->
+																<div class="mb-10 fv-row">
+																	<!--begin::Label-->
+																	<label class="form-label">Weight</label>
+																	<!--end::Label-->
+																	<!--begin::Editor-->
+																	<input type="text" name="weight" class="form-control mb-2" placeholder="Product weight" value="" />
+																	<!--end::Editor-->
+																	<!--begin::Description-->
+																	<div class="text-muted fs-7">Set a product weight in kilograms (kg).</div>
+																	<!--end::Description-->
+																</div>
+																<!--end::Input group-->
+																<!--begin::Input group-->
+																<div class="fv-row">
+																	<!--begin::Label-->
+																	<label class="form-label">Dimension</label>
+																	<!--end::Label-->
+																	<!--begin::Input-->
+																	<div class="d-flex flex-wrap flex-sm-nowrap gap-3">
+																		<input type="number" name="width" class="form-control mb-2" placeholder="Width (w)" value="" />
+																		<input type="number" name="height" class="form-control mb-2" placeholder="Height (h)" value="" />
+																		<input type="number" name="length" class="form-control mb-2" placeholder="Lengtn (l)" value="" />
 																	</div>
-																</a>
-															</div>
-															<!--end::Avatar-->
-															<div class="ms-5">
-																<!--begin::Title-->
-																<a href="../../demo1/dist/apps/user-management/users/view.html" class="text-gray-800 text-hover-primary fs-5 fw-bolder">John Miller</a>
-																<!--end::Title-->
-															</div>
-														</div>
-													</td>
-													<!--end::Customer=-->
-													<!--begin::Status=-->
-													<td class="text-end pe-0" data-order="Completed">
-														<!--begin::Badges-->
-														<div class="badge badge-light-success">Completed</div>
-														<!--end::Badges-->
-													</td>
-													<!--end::Status=-->
-													<!--begin::Total=-->
-													<td class="text-end pe-0">
-														<span class="fw-bolder">$70.00</span>
-													</td>
-													<!--end::Total=-->
-													<!--begin::Date Added=-->
-													<td class="text-end" data-order="2022-03-15">
-														<span class="fw-bolder">15/03/2022</span>
-													</td>
-													<!--end::Date Added=-->
-													<!--begin::Date Modified=-->
-													<td class="text-end" data-order="2022-03-22">
-														<span class="fw-bolder">22/03/2022</span>
-													</td>
-													<!--end::Date Modified=-->
-													<!--begin::Action=-->
-													<td class="text-end">
-														<a href="#" class="btn btn-sm btn-light btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions
-														<!--begin::Svg Icon | path: icons/duotune/arrows/arr072.svg-->
-														<span class="svg-icon svg-icon-5 m-0">
-															<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-																<path d="M11.4343 12.7344L7.25 8.55005C6.83579 8.13583 6.16421 8.13584 5.75 8.55005C5.33579 8.96426 5.33579 9.63583 5.75 10.05L11.2929 15.5929C11.6834 15.9835 12.3166 15.9835 12.7071 15.5929L18.25 10.05C18.6642 9.63584 18.6642 8.96426 18.25 8.55005C17.8358 8.13584 17.1642 8.13584 16.75 8.55005L12.5657 12.7344C12.2533 13.0468 11.7467 13.0468 11.4343 12.7344Z" fill="currentColor" />
-															</svg>
-														</span>
-														<!--end::Svg Icon--></a>
-														<!--begin::Menu-->
-														<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-primary fw-bold fs-7 w-125px py-4" data-kt-menu="true">
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="../../demo1/dist/apps/ecommerce/sales/details.html" class="menu-link px-3">View</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="../../demo1/dist/apps/ecommerce/sales/edit-order.html" class="menu-link px-3">Edit</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="#" class="menu-link px-3" data-kt-ecommerce-order-filter="delete_row">Delete</a>
-															</div>
-															<!--end::Menu item-->
-														</div>
-														<!--end::Menu-->
-													</td>
-													<!--end::Action=-->
-												</tr>
-												<!--end::Table row-->
-												<!--begin::Table row-->
-												<tr>
-													<!--begin::Checkbox-->
-													<td>
-														<div class="form-check form-check-sm form-check-custom form-check-solid">
-															<input class="form-check-input" type="checkbox" value="1" />
-														</div>
-													</td>
-													<!--end::Checkbox-->
-													<!--begin::Order ID=-->
-													<td data-kt-ecommerce-order-filter="order_id">
-														<a href="../../demo1/dist/apps/ecommerce/sales/details.html" class="text-gray-800 text-hover-primary fw-bolder">14467</a>
-													</td>
-													<!--end::Order ID=-->
-													<!--begin::Customer=-->
-													<td>
-														<div class="d-flex align-items-center">
-															<!--begin:: Avatar -->
-															<div class="symbol symbol-circle symbol-50px overflow-hidden me-3">
-																<a href="../../demo1/dist/apps/user-management/users/view.html">
-																	<div class="symbol-label">
-																		<img src="assets/media/avatars/300-6.jpg" alt="Emma Smith" class="w-100" />
-																	</div>
-																</a>
-															</div>
-															<!--end::Avatar-->
-															<div class="ms-5">
-																<!--begin::Title-->
-																<a href="../../demo1/dist/apps/user-management/users/view.html" class="text-gray-800 text-hover-primary fs-5 fw-bolder">Emma Smith</a>
-																<!--end::Title-->
-															</div>
-														</div>
-													</td>
-													<!--end::Customer=-->
-													<!--begin::Status=-->
-													<td class="text-end pe-0" data-order="Completed">
-														<!--begin::Badges-->
-														<div class="badge badge-light-success">Completed</div>
-														<!--end::Badges-->
-													</td>
-													<!--end::Status=-->
-													<!--begin::Total=-->
-													<td class="text-end pe-0">
-														<span class="fw-bolder">$34.00</span>
-													</td>
-													<!--end::Total=-->
-													<!--begin::Date Added=-->
-													<td class="text-end" data-order="2022-03-19">
-														<span class="fw-bolder">19/03/2022</span>
-													</td>
-													<!--end::Date Added=-->
-													<!--begin::Date Modified=-->
-													<td class="text-end" data-order="2022-03-21">
-														<span class="fw-bolder">21/03/2022</span>
-													</td>
-													<!--end::Date Modified=-->
-													<!--begin::Action=-->
-													<td class="text-end">
-														<a href="#" class="btn btn-sm btn-light btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions
-														<!--begin::Svg Icon | path: icons/duotune/arrows/arr072.svg-->
-														<span class="svg-icon svg-icon-5 m-0">
-															<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-																<path d="M11.4343 12.7344L7.25 8.55005C6.83579 8.13583 6.16421 8.13584 5.75 8.55005C5.33579 8.96426 5.33579 9.63583 5.75 10.05L11.2929 15.5929C11.6834 15.9835 12.3166 15.9835 12.7071 15.5929L18.25 10.05C18.6642 9.63584 18.6642 8.96426 18.25 8.55005C17.8358 8.13584 17.1642 8.13584 16.75 8.55005L12.5657 12.7344C12.2533 13.0468 11.7467 13.0468 11.4343 12.7344Z" fill="currentColor" />
-															</svg>
-														</span>
-														<!--end::Svg Icon--></a>
-														<!--begin::Menu-->
-														<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-primary fw-bold fs-7 w-125px py-4" data-kt-menu="true">
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="../../demo1/dist/apps/ecommerce/sales/details.html" class="menu-link px-3">View</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="../../demo1/dist/apps/ecommerce/sales/edit-order.html" class="menu-link px-3">Edit</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="#" class="menu-link px-3" data-kt-ecommerce-order-filter="delete_row">Delete</a>
-															</div>
-															<!--end::Menu item-->
-														</div>
-														<!--end::Menu-->
-													</td>
-													<!--end::Action=-->
-												</tr>
-												<!--end::Table row-->
-												<!--begin::Table row-->
-												<tr>
-													<!--begin::Checkbox-->
-													<td>
-														<div class="form-check form-check-sm form-check-custom form-check-solid">
-															<input class="form-check-input" type="checkbox" value="1" />
-														</div>
-													</td>
-													<!--end::Checkbox-->
-													<!--begin::Order ID=-->
-													<td data-kt-ecommerce-order-filter="order_id">
-														<a href="../../demo1/dist/apps/ecommerce/sales/details.html" class="text-gray-800 text-hover-primary fw-bolder">14468</a>
-													</td>
-													<!--end::Order ID=-->
-													<!--begin::Customer=-->
-													<td>
-														<div class="d-flex align-items-center">
-															<!--begin:: Avatar -->
-															<div class="symbol symbol-circle symbol-50px overflow-hidden me-3">
-																<a href="../../demo1/dist/apps/user-management/users/view.html">
-																	<div class="symbol-label">
-																		<img src="assets/media/avatars/300-1.jpg" alt="Max Smith" class="w-100" />
-																	</div>
-																</a>
-															</div>
-															<!--end::Avatar-->
-															<div class="ms-5">
-																<!--begin::Title-->
-																<a href="../../demo1/dist/apps/user-management/users/view.html" class="text-gray-800 text-hover-primary fs-5 fw-bolder">Max Smith</a>
-																<!--end::Title-->
-															</div>
-														</div>
-													</td>
-													<!--end::Customer=-->
-													<!--begin::Status=-->
-													<td class="text-end pe-0" data-order="Completed">
-														<!--begin::Badges-->
-														<div class="badge badge-light-success">Completed</div>
-														<!--end::Badges-->
-													</td>
-													<!--end::Status=-->
-													<!--begin::Total=-->
-													<td class="text-end pe-0">
-														<span class="fw-bolder">$65.00</span>
-													</td>
-													<!--end::Total=-->
-													<!--begin::Date Added=-->
-													<td class="text-end" data-order="2022-03-13">
-														<span class="fw-bolder">13/03/2022</span>
-													</td>
-													<!--end::Date Added=-->
-													<!--begin::Date Modified=-->
-													<td class="text-end" data-order="2022-03-20">
-														<span class="fw-bolder">20/03/2022</span>
-													</td>
-													<!--end::Date Modified=-->
-													<!--begin::Action=-->
-													<td class="text-end">
-														<a href="#" class="btn btn-sm btn-light btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions
-														<!--begin::Svg Icon | path: icons/duotune/arrows/arr072.svg-->
-														<span class="svg-icon svg-icon-5 m-0">
-															<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-																<path d="M11.4343 12.7344L7.25 8.55005C6.83579 8.13583 6.16421 8.13584 5.75 8.55005C5.33579 8.96426 5.33579 9.63583 5.75 10.05L11.2929 15.5929C11.6834 15.9835 12.3166 15.9835 12.7071 15.5929L18.25 10.05C18.6642 9.63584 18.6642 8.96426 18.25 8.55005C17.8358 8.13584 17.1642 8.13584 16.75 8.55005L12.5657 12.7344C12.2533 13.0468 11.7467 13.0468 11.4343 12.7344Z" fill="currentColor" />
-															</svg>
-														</span>
-														<!--end::Svg Icon--></a>
-														<!--begin::Menu-->
-														<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-primary fw-bold fs-7 w-125px py-4" data-kt-menu="true">
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="../../demo1/dist/apps/ecommerce/sales/details.html" class="menu-link px-3">View</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="../../demo1/dist/apps/ecommerce/sales/edit-order.html" class="menu-link px-3">Edit</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="#" class="menu-link px-3" data-kt-ecommerce-order-filter="delete_row">Delete</a>
-															</div>
-															<!--end::Menu item-->
-														</div>
-														<!--end::Menu-->
-													</td>
-													<!--end::Action=-->
-												</tr>
-												<!--end::Table row-->
-												<!--begin::Table row-->
-												<tr>
-													<!--begin::Checkbox-->
-													<td>
-														<div class="form-check form-check-sm form-check-custom form-check-solid">
-															<input class="form-check-input" type="checkbox" value="1" />
-														</div>
-													</td>
-													<!--end::Checkbox-->
-													<!--begin::Order ID=-->
-													<td data-kt-ecommerce-order-filter="order_id">
-														<a href="../../demo1/dist/apps/ecommerce/sales/details.html" class="text-gray-800 text-hover-primary fw-bolder">14469</a>
-													</td>
-													<!--end::Order ID=-->
-													<!--begin::Customer=-->
-													<td>
-														<div class="d-flex align-items-center">
-															<!--begin:: Avatar -->
-															<div class="symbol symbol-circle symbol-50px overflow-hidden me-3">
-																<a href="../../demo1/dist/apps/user-management/users/view.html">
-																	<div class="symbol-label">
-																		<img src="assets/media/avatars/300-9.jpg" alt="Francis Mitcham" class="w-100" />
-																	</div>
-																</a>
-															</div>
-															<!--end::Avatar-->
-															<div class="ms-5">
-																<!--begin::Title-->
-																<a href="../../demo1/dist/apps/user-management/users/view.html" class="text-gray-800 text-hover-primary fs-5 fw-bolder">Francis Mitcham</a>
-																<!--end::Title-->
-															</div>
-														</div>
-													</td>
-													<!--end::Customer=-->
-													<!--begin::Status=-->
-													<td class="text-end pe-0" data-order="Completed">
-														<!--begin::Badges-->
-														<div class="badge badge-light-success">Completed</div>
-														<!--end::Badges-->
-													</td>
-													<!--end::Status=-->
-													<!--begin::Total=-->
-													<td class="text-end pe-0">
-														<span class="fw-bolder">$190.00</span>
-													</td>
-													<!--end::Total=-->
-													<!--begin::Date Added=-->
-													<td class="text-end" data-order="2022-03-18">
-														<span class="fw-bolder">18/03/2022</span>
-													</td>
-													<!--end::Date Added=-->
-													<!--begin::Date Modified=-->
-													<td class="text-end" data-order="2022-03-19">
-														<span class="fw-bolder">19/03/2022</span>
-													</td>
-													<!--end::Date Modified=-->
-													<!--begin::Action=-->
-													<td class="text-end">
-														<a href="#" class="btn btn-sm btn-light btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions
-														<!--begin::Svg Icon | path: icons/duotune/arrows/arr072.svg-->
-														<span class="svg-icon svg-icon-5 m-0">
-															<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-																<path d="M11.4343 12.7344L7.25 8.55005C6.83579 8.13583 6.16421 8.13584 5.75 8.55005C5.33579 8.96426 5.33579 9.63583 5.75 10.05L11.2929 15.5929C11.6834 15.9835 12.3166 15.9835 12.7071 15.5929L18.25 10.05C18.6642 9.63584 18.6642 8.96426 18.25 8.55005C17.8358 8.13584 17.1642 8.13584 16.75 8.55005L12.5657 12.7344C12.2533 13.0468 11.7467 13.0468 11.4343 12.7344Z" fill="currentColor" />
-															</svg>
-														</span>
-														<!--end::Svg Icon--></a>
-														<!--begin::Menu-->
-														<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-primary fw-bold fs-7 w-125px py-4" data-kt-menu="true">
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="../../demo1/dist/apps/ecommerce/sales/details.html" class="menu-link px-3">View</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="../../demo1/dist/apps/ecommerce/sales/edit-order.html" class="menu-link px-3">Edit</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="#" class="menu-link px-3" data-kt-ecommerce-order-filter="delete_row">Delete</a>
-															</div>
-															<!--end::Menu item-->
-														</div>
-														<!--end::Menu-->
-													</td>
-													<!--end::Action=-->
-												</tr>
-												<!--end::Table row-->
-												<!--begin::Table row-->
-												<tr>
-													<!--begin::Checkbox-->
-													<td>
-														<div class="form-check form-check-sm form-check-custom form-check-solid">
-															<input class="form-check-input" type="checkbox" value="1" />
-														</div>
-													</td>
-													<!--end::Checkbox-->
-													<!--begin::Order ID=-->
-													<td data-kt-ecommerce-order-filter="order_id">
-														<a href="../../demo1/dist/apps/ecommerce/sales/details.html" class="text-gray-800 text-hover-primary fw-bolder">14470</a>
-													</td>
-													<!--end::Order ID=-->
-													<!--begin::Customer=-->
-													<td>
-														<div class="d-flex align-items-center">
-															<!--begin:: Avatar -->
-															<div class="symbol symbol-circle symbol-50px overflow-hidden me-3">
-																<a href="../../demo1/dist/apps/user-management/users/view.html">
-																	<div class="symbol-label">
-																		<img src="assets/media/avatars/300-21.jpg" alt="Ethan Wilder" class="w-100" />
-																	</div>
-																</a>
-															</div>
-															<!--end::Avatar-->
-															<div class="ms-5">
-																<!--begin::Title-->
-																<a href="../../demo1/dist/apps/user-management/users/view.html" class="text-gray-800 text-hover-primary fs-5 fw-bolder">Ethan Wilder</a>
-																<!--end::Title-->
-															</div>
-														</div>
-													</td>
-													<!--end::Customer=-->
-													<!--begin::Status=-->
-													<td class="text-end pe-0" data-order="Completed">
-														<!--begin::Badges-->
-														<div class="badge badge-light-success">Completed</div>
-														<!--end::Badges-->
-													</td>
-													<!--end::Status=-->
-													<!--begin::Total=-->
-													<td class="text-end pe-0">
-														<span class="fw-bolder">$347.00</span>
-													</td>
-													<!--end::Total=-->
-													<!--begin::Date Added=-->
-													<td class="text-end" data-order="2022-03-13">
-														<span class="fw-bolder">13/03/2022</span>
-													</td>
-													<!--end::Date Added=-->
-													<!--begin::Date Modified=-->
-													<td class="text-end" data-order="2022-03-18">
-														<span class="fw-bolder">18/03/2022</span>
-													</td>
-													<!--end::Date Modified=-->
-													<!--begin::Action=-->
-													<td class="text-end">
-														<a href="#" class="btn btn-sm btn-light btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions
-														<!--begin::Svg Icon | path: icons/duotune/arrows/arr072.svg-->
-														<span class="svg-icon svg-icon-5 m-0">
-															<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-																<path d="M11.4343 12.7344L7.25 8.55005C6.83579 8.13583 6.16421 8.13584 5.75 8.55005C5.33579 8.96426 5.33579 9.63583 5.75 10.05L11.2929 15.5929C11.6834 15.9835 12.3166 15.9835 12.7071 15.5929L18.25 10.05C18.6642 9.63584 18.6642 8.96426 18.25 8.55005C17.8358 8.13584 17.1642 8.13584 16.75 8.55005L12.5657 12.7344C12.2533 13.0468 11.7467 13.0468 11.4343 12.7344Z" fill="currentColor" />
-															</svg>
-														</span>
-														<!--end::Svg Icon--></a>
-														<!--begin::Menu-->
-														<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-primary fw-bold fs-7 w-125px py-4" data-kt-menu="true">
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="../../demo1/dist/apps/ecommerce/sales/details.html" class="menu-link px-3">View</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="../../demo1/dist/apps/ecommerce/sales/edit-order.html" class="menu-link px-3">Edit</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="#" class="menu-link px-3" data-kt-ecommerce-order-filter="delete_row">Delete</a>
-															</div>
-															<!--end::Menu item-->
-														</div>
-														<!--end::Menu-->
-													</td>
-													<!--end::Action=-->
-												</tr>
-												<!--end::Table row-->
-												<!--begin::Table row-->
-												<tr>
-													<!--begin::Checkbox-->
-													<td>
-														<div class="form-check form-check-sm form-check-custom form-check-solid">
-															<input class="form-check-input" type="checkbox" value="1" />
-														</div>
-													</td>
-													<!--end::Checkbox-->
-													<!--begin::Order ID=-->
-													<td data-kt-ecommerce-order-filter="order_id">
-														<a href="../../demo1/dist/apps/ecommerce/sales/details.html" class="text-gray-800 text-hover-primary fw-bolder">14471</a>
-													</td>
-													<!--end::Order ID=-->
-													<!--begin::Customer=-->
-													<td>
-														<div class="d-flex align-items-center">
-															<!--begin:: Avatar -->
-															<div class="symbol symbol-circle symbol-50px overflow-hidden me-3">
-																<a href="../../demo1/dist/apps/user-management/users/view.html">
-																	<div class="symbol-label">
-																		<img src="assets/media/avatars/300-1.jpg" alt="Max Smith" class="w-100" />
-																	</div>
-																</a>
-															</div>
-															<!--end::Avatar-->
-															<div class="ms-5">
-																<!--begin::Title-->
-																<a href="../../demo1/dist/apps/user-management/users/view.html" class="text-gray-800 text-hover-primary fs-5 fw-bolder">Max Smith</a>
-																<!--end::Title-->
-															</div>
-														</div>
-													</td>
-													<!--end::Customer=-->
-													<!--begin::Status=-->
-													<td class="text-end pe-0" data-order="Refunded">
-														<!--begin::Badges-->
-														<div class="badge badge-light-info">Refunded</div>
-														<!--end::Badges-->
-													</td>
-													<!--end::Status=-->
-													<!--begin::Total=-->
-													<td class="text-end pe-0">
-														<span class="fw-bolder">$108.00</span>
-													</td>
-													<!--end::Total=-->
-													<!--begin::Date Added=-->
-													<td class="text-end" data-order="2022-03-11">
-														<span class="fw-bolder">11/03/2022</span>
-													</td>
-													<!--end::Date Added=-->
-													<!--begin::Date Modified=-->
-													<td class="text-end" data-order="2022-03-17">
-														<span class="fw-bolder">17/03/2022</span>
-													</td>
-													<!--end::Date Modified=-->
-													<!--begin::Action=-->
-													<td class="text-end">
-														<a href="#" class="btn btn-sm btn-light btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions
-														<!--begin::Svg Icon | path: icons/duotune/arrows/arr072.svg-->
-														<span class="svg-icon svg-icon-5 m-0">
-															<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-																<path d="M11.4343 12.7344L7.25 8.55005C6.83579 8.13583 6.16421 8.13584 5.75 8.55005C5.33579 8.96426 5.33579 9.63583 5.75 10.05L11.2929 15.5929C11.6834 15.9835 12.3166 15.9835 12.7071 15.5929L18.25 10.05C18.6642 9.63584 18.6642 8.96426 18.25 8.55005C17.8358 8.13584 17.1642 8.13584 16.75 8.55005L12.5657 12.7344C12.2533 13.0468 11.7467 13.0468 11.4343 12.7344Z" fill="currentColor" />
-															</svg>
-														</span>
-														<!--end::Svg Icon--></a>
-														<!--begin::Menu-->
-														<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-primary fw-bold fs-7 w-125px py-4" data-kt-menu="true">
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="../../demo1/dist/apps/ecommerce/sales/details.html" class="menu-link px-3">View</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="../../demo1/dist/apps/ecommerce/sales/edit-order.html" class="menu-link px-3">Edit</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="#" class="menu-link px-3" data-kt-ecommerce-order-filter="delete_row">Delete</a>
-															</div>
-															<!--end::Menu item-->
-														</div>
-														<!--end::Menu-->
-													</td>
-													<!--end::Action=-->
-												</tr>
-												<!--end::Table row-->
-												<!--begin::Table row-->
-												<tr>
-													<!--begin::Checkbox-->
-													<td>
-														<div class="form-check form-check-sm form-check-custom form-check-solid">
-															<input class="form-check-input" type="checkbox" value="1" />
-														</div>
-													</td>
-													<!--end::Checkbox-->
-													<!--begin::Order ID=-->
-													<td data-kt-ecommerce-order-filter="order_id">
-														<a href="../../demo1/dist/apps/ecommerce/sales/details.html" class="text-gray-800 text-hover-primary fw-bolder">14472</a>
-													</td>
-													<!--end::Order ID=-->
-													<!--begin::Customer=-->
-													<td>
-														<div class="d-flex align-items-center">
-															<!--begin:: Avatar -->
-															<div class="symbol symbol-circle symbol-50px overflow-hidden me-3">
-																<a href="../../demo1/dist/apps/user-management/users/view.html">
-																	<div class="symbol-label fs-3 bg-light-info text-info">A</div>
-																</a>
-															</div>
-															<!--end::Avatar-->
-															<div class="ms-5">
-																<!--begin::Title-->
-																<a href="../../demo1/dist/apps/user-management/users/view.html" class="text-gray-800 text-hover-primary fs-5 fw-bolder">Robert Doe</a>
-																<!--end::Title-->
-															</div>
-														</div>
-													</td>
-													<!--end::Customer=-->
-													<!--begin::Status=-->
-													<td class="text-end pe-0" data-order="Completed">
-														<!--begin::Badges-->
-														<div class="badge badge-light-success">Completed</div>
-														<!--end::Badges-->
-													</td>
-													<!--end::Status=-->
-													<!--begin::Total=-->
-													<td class="text-end pe-0">
-														<span class="fw-bolder">$176.00</span>
-													</td>
-													<!--end::Total=-->
-													<!--begin::Date Added=-->
-													<td class="text-end" data-order="2022-03-12">
-														<span class="fw-bolder">12/03/2022</span>
-													</td>
-													<!--end::Date Added=-->
-													<!--begin::Date Modified=-->
-													<td class="text-end" data-order="2022-03-16">
-														<span class="fw-bolder">16/03/2022</span>
-													</td>
-													<!--end::Date Modified=-->
-													<!--begin::Action=-->
-													<td class="text-end">
-														<a href="#" class="btn btn-sm btn-light btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions
-														<!--begin::Svg Icon | path: icons/duotune/arrows/arr072.svg-->
-														<span class="svg-icon svg-icon-5 m-0">
-															<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-																<path d="M11.4343 12.7344L7.25 8.55005C6.83579 8.13583 6.16421 8.13584 5.75 8.55005C5.33579 8.96426 5.33579 9.63583 5.75 10.05L11.2929 15.5929C11.6834 15.9835 12.3166 15.9835 12.7071 15.5929L18.25 10.05C18.6642 9.63584 18.6642 8.96426 18.25 8.55005C17.8358 8.13584 17.1642 8.13584 16.75 8.55005L12.5657 12.7344C12.2533 13.0468 11.7467 13.0468 11.4343 12.7344Z" fill="currentColor" />
-															</svg>
-														</span>
-														<!--end::Svg Icon--></a>
-														<!--begin::Menu-->
-														<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-primary fw-bold fs-7 w-125px py-4" data-kt-menu="true">
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="../../demo1/dist/apps/ecommerce/sales/details.html" class="menu-link px-3">View</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="../../demo1/dist/apps/ecommerce/sales/edit-order.html" class="menu-link px-3">Edit</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="#" class="menu-link px-3" data-kt-ecommerce-order-filter="delete_row">Delete</a>
-															</div>
-															<!--end::Menu item-->
-														</div>
-														<!--end::Menu-->
-													</td>
-													<!--end::Action=-->
-												</tr>
-												<!--end::Table row-->
-												<!--begin::Table row-->
-												<tr>
-													<!--begin::Checkbox-->
-													<td>
-														<div class="form-check form-check-sm form-check-custom form-check-solid">
-															<input class="form-check-input" type="checkbox" value="1" />
-														</div>
-													</td>
-													<!--end::Checkbox-->
-													<!--begin::Order ID=-->
-													<td data-kt-ecommerce-order-filter="order_id">
-														<a href="../../demo1/dist/apps/ecommerce/sales/details.html" class="text-gray-800 text-hover-primary fw-bolder">14473</a>
-													</td>
-													<!--end::Order ID=-->
-													<!--begin::Customer=-->
-													<td>
-														<div class="d-flex align-items-center">
-															<!--begin:: Avatar -->
-															<div class="symbol symbol-circle symbol-50px overflow-hidden me-3">
-																<a href="../../demo1/dist/apps/user-management/users/view.html">
-																	<div class="symbol-label">
-																		<img src="assets/media/avatars/300-25.jpg" alt="Brian Cox" class="w-100" />
-																	</div>
-																</a>
-															</div>
-															<!--end::Avatar-->
-															<div class="ms-5">
-																<!--begin::Title-->
-																<a href="../../demo1/dist/apps/user-management/users/view.html" class="text-gray-800 text-hover-primary fs-5 fw-bolder">Brian Cox</a>
-																<!--end::Title-->
-															</div>
-														</div>
-													</td>
-													<!--end::Customer=-->
-													<!--begin::Status=-->
-													<td class="text-end pe-0" data-order="Completed">
-														<!--begin::Badges-->
-														<div class="badge badge-light-success">Completed</div>
-														<!--end::Badges-->
-													</td>
-													<!--end::Status=-->
-													<!--begin::Total=-->
-													<td class="text-end pe-0">
-														<span class="fw-bolder">$430.00</span>
-													</td>
-													<!--end::Total=-->
-													<!--begin::Date Added=-->
-													<td class="text-end" data-order="2022-03-10">
-														<span class="fw-bolder">10/03/2022</span>
-													</td>
-													<!--end::Date Added=-->
-													<!--begin::Date Modified=-->
-													<td class="text-end" data-order="2022-03-15">
-														<span class="fw-bolder">15/03/2022</span>
-													</td>
-													<!--end::Date Modified=-->
-													<!--begin::Action=-->
-													<td class="text-end">
-														<a href="#" class="btn btn-sm btn-light btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions
-														<!--begin::Svg Icon | path: icons/duotune/arrows/arr072.svg-->
-														<span class="svg-icon svg-icon-5 m-0">
-															<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-																<path d="M11.4343 12.7344L7.25 8.55005C6.83579 8.13583 6.16421 8.13584 5.75 8.55005C5.33579 8.96426 5.33579 9.63583 5.75 10.05L11.2929 15.5929C11.6834 15.9835 12.3166 15.9835 12.7071 15.5929L18.25 10.05C18.6642 9.63584 18.6642 8.96426 18.25 8.55005C17.8358 8.13584 17.1642 8.13584 16.75 8.55005L12.5657 12.7344C12.2533 13.0468 11.7467 13.0468 11.4343 12.7344Z" fill="currentColor" />
-															</svg>
-														</span>
-														<!--end::Svg Icon--></a>
-														<!--begin::Menu-->
-														<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-primary fw-bold fs-7 w-125px py-4" data-kt-menu="true">
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="../../demo1/dist/apps/ecommerce/sales/details.html" class="menu-link px-3">View</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="../../demo1/dist/apps/ecommerce/sales/edit-order.html" class="menu-link px-3">Edit</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="#" class="menu-link px-3" data-kt-ecommerce-order-filter="delete_row">Delete</a>
-															</div>
-															<!--end::Menu item-->
-														</div>
-														<!--end::Menu-->
-													</td>
-													<!--end::Action=-->
-												</tr>
-												<!--end::Table row-->
-												<!--begin::Table row-->
-												<tr>
-													<!--begin::Checkbox-->
-													<td>
-														<div class="form-check form-check-sm form-check-custom form-check-solid">
-															<input class="form-check-input" type="checkbox" value="1" />
-														</div>
-													</td>
-													<!--end::Checkbox-->
-													<!--begin::Order ID=-->
-													<td data-kt-ecommerce-order-filter="order_id">
-														<a href="../../demo1/dist/apps/ecommerce/sales/details.html" class="text-gray-800 text-hover-primary fw-bolder">14474</a>
-													</td>
-													<!--end::Order ID=-->
-													<!--begin::Customer=-->
-													<td>
-														<div class="d-flex align-items-center">
-															<!--begin:: Avatar -->
-															<div class="symbol symbol-circle symbol-50px overflow-hidden me-3">
-																<a href="../../demo1/dist/apps/user-management/users/view.html">
-																	<div class="symbol-label">
-																		<img src="assets/media/avatars/300-23.jpg" alt="Dan Wilson" class="w-100" />
-																	</div>
-																</a>
-															</div>
-															<!--end::Avatar-->
-															<div class="ms-5">
-																<!--begin::Title-->
-																<a href="../../demo1/dist/apps/user-management/users/view.html" class="text-gray-800 text-hover-primary fs-5 fw-bolder">Dan Wilson</a>
-																<!--end::Title-->
-															</div>
-														</div>
-													</td>
-													<!--end::Customer=-->
-													<!--begin::Status=-->
-													<td class="text-end pe-0" data-order="Completed">
-														<!--begin::Badges-->
-														<div class="badge badge-light-success">Completed</div>
-														<!--end::Badges-->
-													</td>
-													<!--end::Status=-->
-													<!--begin::Total=-->
-													<td class="text-end pe-0">
-														<span class="fw-bolder">$378.00</span>
-													</td>
-													<!--end::Total=-->
-													<!--begin::Date Added=-->
-													<td class="text-end" data-order="2022-03-10">
-														<span class="fw-bolder">10/03/2022</span>
-													</td>
-													<!--end::Date Added=-->
-													<!--begin::Date Modified=-->
-													<td class="text-end" data-order="2022-03-14">
-														<span class="fw-bolder">14/03/2022</span>
-													</td>
-													<!--end::Date Modified=-->
-													<!--begin::Action=-->
-													<td class="text-end">
-														<a href="#" class="btn btn-sm btn-light btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions
-														<!--begin::Svg Icon | path: icons/duotune/arrows/arr072.svg-->
-														<span class="svg-icon svg-icon-5 m-0">
-															<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-																<path d="M11.4343 12.7344L7.25 8.55005C6.83579 8.13583 6.16421 8.13584 5.75 8.55005C5.33579 8.96426 5.33579 9.63583 5.75 10.05L11.2929 15.5929C11.6834 15.9835 12.3166 15.9835 12.7071 15.5929L18.25 10.05C18.6642 9.63584 18.6642 8.96426 18.25 8.55005C17.8358 8.13584 17.1642 8.13584 16.75 8.55005L12.5657 12.7344C12.2533 13.0468 11.7467 13.0468 11.4343 12.7344Z" fill="currentColor" />
-															</svg>
-														</span>
-														<!--end::Svg Icon--></a>
-														<!--begin::Menu-->
-														<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-primary fw-bold fs-7 w-125px py-4" data-kt-menu="true">
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="../../demo1/dist/apps/ecommerce/sales/details.html" class="menu-link px-3">View</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="../../demo1/dist/apps/ecommerce/sales/edit-order.html" class="menu-link px-3">Edit</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="#" class="menu-link px-3" data-kt-ecommerce-order-filter="delete_row">Delete</a>
-															</div>
-															<!--end::Menu item-->
-														</div>
-														<!--end::Menu-->
-													</td>
-													<!--end::Action=-->
-												</tr>
-												<!--end::Table row-->
-												<!--begin::Table row-->
-												<tr>
-													<!--begin::Checkbox-->
-													<td>
-														<div class="form-check form-check-sm form-check-custom form-check-solid">
-															<input class="form-check-input" type="checkbox" value="1" />
-														</div>
-													</td>
-													<!--end::Checkbox-->
-													<!--begin::Order ID=-->
-													<td data-kt-ecommerce-order-filter="order_id">
-														<a href="../../demo1/dist/apps/ecommerce/sales/details.html" class="text-gray-800 text-hover-primary fw-bolder">14475</a>
-													</td>
-													<!--end::Order ID=-->
-													<!--begin::Customer=-->
-													<td>
-														<div class="d-flex align-items-center">
-															<!--begin:: Avatar -->
-															<div class="symbol symbol-circle symbol-50px overflow-hidden me-3">
-																<a href="../../demo1/dist/apps/user-management/users/view.html">
-																	<div class="symbol-label fs-3 bg-light-danger text-danger">O</div>
-																</a>
-															</div>
-															<!--end::Avatar-->
-															<div class="ms-5">
-																<!--begin::Title-->
-																<a href="../../demo1/dist/apps/user-management/users/view.html" class="text-gray-800 text-hover-primary fs-5 fw-bolder">Olivia Wild</a>
-																<!--end::Title-->
-															</div>
-														</div>
-													</td>
-													<!--end::Customer=-->
-													<!--begin::Status=-->
-													<td class="text-end pe-0" data-order="Delivering">
-														<!--begin::Badges-->
-														<div class="badge badge-light-primary">Delivering</div>
-														<!--end::Badges-->
-													</td>
-													<!--end::Status=-->
-													<!--begin::Total=-->
-													<td class="text-end pe-0">
-														<span class="fw-bolder">$47.00</span>
-													</td>
-													<!--end::Total=-->
-													<!--begin::Date Added=-->
-													<td class="text-end" data-order="2022-03-06">
-														<span class="fw-bolder">06/03/2022</span>
-													</td>
-													<!--end::Date Added=-->
-													<!--begin::Date Modified=-->
-													<td class="text-end" data-order="2022-03-13">
-														<span class="fw-bolder">13/03/2022</span>
-													</td>
-													<!--end::Date Modified=-->
-													<!--begin::Action=-->
-													<td class="text-end">
-														<a href="#" class="btn btn-sm btn-light btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions
-														<!--begin::Svg Icon | path: icons/duotune/arrows/arr072.svg-->
-														<span class="svg-icon svg-icon-5 m-0">
-															<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-																<path d="M11.4343 12.7344L7.25 8.55005C6.83579 8.13583 6.16421 8.13584 5.75 8.55005C5.33579 8.96426 5.33579 9.63583 5.75 10.05L11.2929 15.5929C11.6834 15.9835 12.3166 15.9835 12.7071 15.5929L18.25 10.05C18.6642 9.63584 18.6642 8.96426 18.25 8.55005C17.8358 8.13584 17.1642 8.13584 16.75 8.55005L12.5657 12.7344C12.2533 13.0468 11.7467 13.0468 11.4343 12.7344Z" fill="currentColor" />
-															</svg>
-														</span>
-														<!--end::Svg Icon--></a>
-														<!--begin::Menu-->
-														<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-primary fw-bold fs-7 w-125px py-4" data-kt-menu="true">
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="../../demo1/dist/apps/ecommerce/sales/details.html" class="menu-link px-3">View</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="../../demo1/dist/apps/ecommerce/sales/edit-order.html" class="menu-link px-3">Edit</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="#" class="menu-link px-3" data-kt-ecommerce-order-filter="delete_row">Delete</a>
-															</div>
-															<!--end::Menu item-->
-														</div>
-														<!--end::Menu-->
-													</td>
-													<!--end::Action=-->
-												</tr>
-												<!--end::Table row-->
-												<!--begin::Table row-->
-												<tr>
-													<!--begin::Checkbox-->
-													<td>
-														<div class="form-check form-check-sm form-check-custom form-check-solid">
-															<input class="form-check-input" type="checkbox" value="1" />
-														</div>
-													</td>
-													<!--end::Checkbox-->
-													<!--begin::Order ID=-->
-													<td data-kt-ecommerce-order-filter="order_id">
-														<a href="../../demo1/dist/apps/ecommerce/sales/details.html" class="text-gray-800 text-hover-primary fw-bolder">14476</a>
-													</td>
-													<!--end::Order ID=-->
-													<!--begin::Customer=-->
-													<td>
-														<div class="d-flex align-items-center">
-															<!--begin:: Avatar -->
-															<div class="symbol symbol-circle symbol-50px overflow-hidden me-3">
-																<a href="../../demo1/dist/apps/user-management/users/view.html">
-																	<div class="symbol-label fs-3 bg-light-primary text-primary">N</div>
-																</a>
-															</div>
-															<!--end::Avatar-->
-															<div class="ms-5">
-																<!--begin::Title-->
-																<a href="../../demo1/dist/apps/user-management/users/view.html" class="text-gray-800 text-hover-primary fs-5 fw-bolder">Neil Owen</a>
-																<!--end::Title-->
-															</div>
-														</div>
-													</td>
-													<!--end::Customer=-->
-													<!--begin::Status=-->
-													<td class="text-end pe-0" data-order="Pending">
-														<!--begin::Badges-->
-														<div class="badge badge-light-warning">Pending</div>
-														<!--end::Badges-->
-													</td>
-													<!--end::Status=-->
-													<!--begin::Total=-->
-													<td class="text-end pe-0">
-														<span class="fw-bolder">$496.00</span>
-													</td>
-													<!--end::Total=-->
-													<!--begin::Date Added=-->
-													<td class="text-end" data-order="2022-03-08">
-														<span class="fw-bolder">08/03/2022</span>
-													</td>
-													<!--end::Date Added=-->
-													<!--begin::Date Modified=-->
-													<td class="text-end" data-order="2022-03-12">
-														<span class="fw-bolder">12/03/2022</span>
-													</td>
-													<!--end::Date Modified=-->
-													<!--begin::Action=-->
-													<td class="text-end">
-														<a href="#" class="btn btn-sm btn-light btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions
-														<!--begin::Svg Icon | path: icons/duotune/arrows/arr072.svg-->
-														<span class="svg-icon svg-icon-5 m-0">
-															<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-																<path d="M11.4343 12.7344L7.25 8.55005C6.83579 8.13583 6.16421 8.13584 5.75 8.55005C5.33579 8.96426 5.33579 9.63583 5.75 10.05L11.2929 15.5929C11.6834 15.9835 12.3166 15.9835 12.7071 15.5929L18.25 10.05C18.6642 9.63584 18.6642 8.96426 18.25 8.55005C17.8358 8.13584 17.1642 8.13584 16.75 8.55005L12.5657 12.7344C12.2533 13.0468 11.7467 13.0468 11.4343 12.7344Z" fill="currentColor" />
-															</svg>
-														</span>
-														<!--end::Svg Icon--></a>
-														<!--begin::Menu-->
-														<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-primary fw-bold fs-7 w-125px py-4" data-kt-menu="true">
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="../../demo1/dist/apps/ecommerce/sales/details.html" class="menu-link px-3">View</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="../../demo1/dist/apps/ecommerce/sales/edit-order.html" class="menu-link px-3">Edit</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="#" class="menu-link px-3" data-kt-ecommerce-order-filter="delete_row">Delete</a>
-															</div>
-															<!--end::Menu item-->
-														</div>
-														<!--end::Menu-->
-													</td>
-													<!--end::Action=-->
-												</tr>
-												<!--end::Table row-->
-												<!--begin::Table row-->
-												<tr>
-													<!--begin::Checkbox-->
-													<td>
-														<div class="form-check form-check-sm form-check-custom form-check-solid">
-															<input class="form-check-input" type="checkbox" value="1" />
-														</div>
-													</td>
-													<!--end::Checkbox-->
-													<!--begin::Order ID=-->
-													<td data-kt-ecommerce-order-filter="order_id">
-														<a href="../../demo1/dist/apps/ecommerce/sales/details.html" class="text-gray-800 text-hover-primary fw-bolder">14477</a>
-													</td>
-													<!--end::Order ID=-->
-													<!--begin::Customer=-->
-													<td>
-														<div class="d-flex align-items-center">
-															<!--begin:: Avatar -->
-															<div class="symbol symbol-circle symbol-50px overflow-hidden me-3">
-																<a href="../../demo1/dist/apps/user-management/users/view.html">
-																	<div class="symbol-label">
-																		<img src="assets/media/avatars/300-5.jpg" alt="Sean Bean" class="w-100" />
-																	</div>
-																</a>
-															</div>
-															<!--end::Avatar-->
-															<div class="ms-5">
-																<!--begin::Title-->
-																<a href="../../demo1/dist/apps/user-management/users/view.html" class="text-gray-800 text-hover-primary fs-5 fw-bolder">Sean Bean</a>
-																<!--end::Title-->
-															</div>
-														</div>
-													</td>
-													<!--end::Customer=-->
-													<!--begin::Status=-->
-													<td class="text-end pe-0" data-order="Expired">
-														<!--begin::Badges-->
-														<div class="badge badge-light-danger">Expired</div>
-														<!--end::Badges-->
-													</td>
-													<!--end::Status=-->
-													<!--begin::Total=-->
-													<td class="text-end pe-0">
-														<span class="fw-bolder">$234.00</span>
-													</td>
-													<!--end::Total=-->
-													<!--begin::Date Added=-->
-													<td class="text-end" data-order="2022-03-06">
-														<span class="fw-bolder">06/03/2022</span>
-													</td>
-													<!--end::Date Added=-->
-													<!--begin::Date Modified=-->
-													<td class="text-end" data-order="2022-03-11">
-														<span class="fw-bolder">11/03/2022</span>
-													</td>
-													<!--end::Date Modified=-->
-													<!--begin::Action=-->
-													<td class="text-end">
-														<a href="#" class="btn btn-sm btn-light btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions
-														<!--begin::Svg Icon | path: icons/duotune/arrows/arr072.svg-->
-														<span class="svg-icon svg-icon-5 m-0">
-															<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-																<path d="M11.4343 12.7344L7.25 8.55005C6.83579 8.13583 6.16421 8.13584 5.75 8.55005C5.33579 8.96426 5.33579 9.63583 5.75 10.05L11.2929 15.5929C11.6834 15.9835 12.3166 15.9835 12.7071 15.5929L18.25 10.05C18.6642 9.63584 18.6642 8.96426 18.25 8.55005C17.8358 8.13584 17.1642 8.13584 16.75 8.55005L12.5657 12.7344C12.2533 13.0468 11.7467 13.0468 11.4343 12.7344Z" fill="currentColor" />
-															</svg>
-														</span>
-														<!--end::Svg Icon--></a>
-														<!--begin::Menu-->
-														<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-primary fw-bold fs-7 w-125px py-4" data-kt-menu="true">
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="../../demo1/dist/apps/ecommerce/sales/details.html" class="menu-link px-3">View</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="../../demo1/dist/apps/ecommerce/sales/edit-order.html" class="menu-link px-3">Edit</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="#" class="menu-link px-3" data-kt-ecommerce-order-filter="delete_row">Delete</a>
-															</div>
-															<!--end::Menu item-->
-														</div>
-														<!--end::Menu-->
-													</td>
-													<!--end::Action=-->
-												</tr>
-												<!--end::Table row-->
-												<!--begin::Table row-->
-												<tr>
-													<!--begin::Checkbox-->
-													<td>
-														<div class="form-check form-check-sm form-check-custom form-check-solid">
-															<input class="form-check-input" type="checkbox" value="1" />
-														</div>
-													</td>
-													<!--end::Checkbox-->
-													<!--begin::Order ID=-->
-													<td data-kt-ecommerce-order-filter="order_id">
-														<a href="../../demo1/dist/apps/ecommerce/sales/details.html" class="text-gray-800 text-hover-primary fw-bolder">14478</a>
-													</td>
-													<!--end::Order ID=-->
-													<!--begin::Customer=-->
-													<td>
-														<div class="d-flex align-items-center">
-															<!--begin:: Avatar -->
-															<div class="symbol symbol-circle symbol-50px overflow-hidden me-3">
-																<a href="../../demo1/dist/apps/user-management/users/view.html">
-																	<div class="symbol-label">
-																		<img src="assets/media/avatars/300-5.jpg" alt="Sean Bean" class="w-100" />
-																	</div>
-																</a>
-															</div>
-															<!--end::Avatar-->
-															<div class="ms-5">
-																<!--begin::Title-->
-																<a href="../../demo1/dist/apps/user-management/users/view.html" class="text-gray-800 text-hover-primary fs-5 fw-bolder">Sean Bean</a>
-																<!--end::Title-->
-															</div>
-														</div>
-													</td>
-													<!--end::Customer=-->
-													<!--begin::Status=-->
-													<td class="text-end pe-0" data-order="Completed">
-														<!--begin::Badges-->
-														<div class="badge badge-light-success">Completed</div>
-														<!--end::Badges-->
-													</td>
-													<!--end::Status=-->
-													<!--begin::Total=-->
-													<td class="text-end pe-0">
-														<span class="fw-bolder">$151.00</span>
-													</td>
-													<!--end::Total=-->
-													<!--begin::Date Added=-->
-													<td class="text-end" data-order="2022-03-04">
-														<span class="fw-bolder">04/03/2022</span>
-													</td>
-													<!--end::Date Added=-->
-													<!--begin::Date Modified=-->
-													<td class="text-end" data-order="2022-03-10">
-														<span class="fw-bolder">10/03/2022</span>
-													</td>
-													<!--end::Date Modified=-->
-													<!--begin::Action=-->
-													<td class="text-end">
-														<a href="#" class="btn btn-sm btn-light btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions
-														<!--begin::Svg Icon | path: icons/duotune/arrows/arr072.svg-->
-														<span class="svg-icon svg-icon-5 m-0">
-															<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-																<path d="M11.4343 12.7344L7.25 8.55005C6.83579 8.13583 6.16421 8.13584 5.75 8.55005C5.33579 8.96426 5.33579 9.63583 5.75 10.05L11.2929 15.5929C11.6834 15.9835 12.3166 15.9835 12.7071 15.5929L18.25 10.05C18.6642 9.63584 18.6642 8.96426 18.25 8.55005C17.8358 8.13584 17.1642 8.13584 16.75 8.55005L12.5657 12.7344C12.2533 13.0468 11.7467 13.0468 11.4343 12.7344Z" fill="currentColor" />
-															</svg>
-														</span>
-														<!--end::Svg Icon--></a>
-														<!--begin::Menu-->
-														<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-primary fw-bold fs-7 w-125px py-4" data-kt-menu="true">
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="../../demo1/dist/apps/ecommerce/sales/details.html" class="menu-link px-3">View</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="../../demo1/dist/apps/ecommerce/sales/edit-order.html" class="menu-link px-3">Edit</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="#" class="menu-link px-3" data-kt-ecommerce-order-filter="delete_row">Delete</a>
-															</div>
-															<!--end::Menu item-->
-														</div>
-														<!--end::Menu-->
-													</td>
-													<!--end::Action=-->
-												</tr>
-												<!--end::Table row-->
-												<!--begin::Table row-->
-												<tr>
-													<!--begin::Checkbox-->
-													<td>
-														<div class="form-check form-check-sm form-check-custom form-check-solid">
-															<input class="form-check-input" type="checkbox" value="1" />
-														</div>
-													</td>
-													<!--end::Checkbox-->
-													<!--begin::Order ID=-->
-													<td data-kt-ecommerce-order-filter="order_id">
-														<a href="../../demo1/dist/apps/ecommerce/sales/details.html" class="text-gray-800 text-hover-primary fw-bolder">14479</a>
-													</td>
-													<!--end::Order ID=-->
-													<!--begin::Customer=-->
-													<td>
-														<div class="d-flex align-items-center">
-															<!--begin:: Avatar -->
-															<div class="symbol symbol-circle symbol-50px overflow-hidden me-3">
-																<a href="../../demo1/dist/apps/user-management/users/view.html">
-																	<div class="symbol-label">
-																		<img src="assets/media/avatars/300-25.jpg" alt="Brian Cox" class="w-100" />
-																	</div>
-																</a>
-															</div>
-															<!--end::Avatar-->
-															<div class="ms-5">
-																<!--begin::Title-->
-																<a href="../../demo1/dist/apps/user-management/users/view.html" class="text-gray-800 text-hover-primary fs-5 fw-bolder">Brian Cox</a>
-																<!--end::Title-->
-															</div>
-														</div>
-													</td>
-													<!--end::Customer=-->
-													<!--begin::Status=-->
-													<td class="text-end pe-0" data-order="Completed">
-														<!--begin::Badges-->
-														<div class="badge badge-light-success">Completed</div>
-														<!--end::Badges-->
-													</td>
-													<!--end::Status=-->
-													<!--begin::Total=-->
-													<td class="text-end pe-0">
-														<span class="fw-bolder">$324.00</span>
-													</td>
-													<!--end::Total=-->
-													<!--begin::Date Added=-->
-													<td class="text-end" data-order="2022-03-06">
-														<span class="fw-bolder">06/03/2022</span>
-													</td>
-													<!--end::Date Added=-->
-													<!--begin::Date Modified=-->
-													<td class="text-end" data-order="2022-03-09">
-														<span class="fw-bolder">09/03/2022</span>
-													</td>
-													<!--end::Date Modified=-->
-													<!--begin::Action=-->
-													<td class="text-end">
-														<a href="#" class="btn btn-sm btn-light btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions
-														<!--begin::Svg Icon | path: icons/duotune/arrows/arr072.svg-->
-														<span class="svg-icon svg-icon-5 m-0">
-															<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-																<path d="M11.4343 12.7344L7.25 8.55005C6.83579 8.13583 6.16421 8.13584 5.75 8.55005C5.33579 8.96426 5.33579 9.63583 5.75 10.05L11.2929 15.5929C11.6834 15.9835 12.3166 15.9835 12.7071 15.5929L18.25 10.05C18.6642 9.63584 18.6642 8.96426 18.25 8.55005C17.8358 8.13584 17.1642 8.13584 16.75 8.55005L12.5657 12.7344C12.2533 13.0468 11.7467 13.0468 11.4343 12.7344Z" fill="currentColor" />
-															</svg>
-														</span>
-														<!--end::Svg Icon--></a>
-														<!--begin::Menu-->
-														<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-primary fw-bold fs-7 w-125px py-4" data-kt-menu="true">
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="../../demo1/dist/apps/ecommerce/sales/details.html" class="menu-link px-3">View</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="../../demo1/dist/apps/ecommerce/sales/edit-order.html" class="menu-link px-3">Edit</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="#" class="menu-link px-3" data-kt-ecommerce-order-filter="delete_row">Delete</a>
-															</div>
-															<!--end::Menu item-->
-														</div>
-														<!--end::Menu-->
-													</td>
-													<!--end::Action=-->
-												</tr>
-												<!--end::Table row-->
-												<!--begin::Table row-->
-												<tr>
-													<!--begin::Checkbox-->
-													<td>
-														<div class="form-check form-check-sm form-check-custom form-check-solid">
-															<input class="form-check-input" type="checkbox" value="1" />
-														</div>
-													</td>
-													<!--end::Checkbox-->
-													<!--begin::Order ID=-->
-													<td data-kt-ecommerce-order-filter="order_id">
-														<a href="../../demo1/dist/apps/ecommerce/sales/details.html" class="text-gray-800 text-hover-primary fw-bolder">14480</a>
-													</td>
-													<!--end::Order ID=-->
-													<!--begin::Customer=-->
-													<td>
-														<div class="d-flex align-items-center">
-															<!--begin:: Avatar -->
-															<div class="symbol symbol-circle symbol-50px overflow-hidden me-3">
-																<a href="../../demo1/dist/apps/user-management/users/view.html">
-																	<div class="symbol-label">
-																		<img src="assets/media/avatars/300-25.jpg" alt="Brian Cox" class="w-100" />
-																	</div>
-																</a>
-															</div>
-															<!--end::Avatar-->
-															<div class="ms-5">
-																<!--begin::Title-->
-																<a href="../../demo1/dist/apps/user-management/users/view.html" class="text-gray-800 text-hover-primary fs-5 fw-bolder">Brian Cox</a>
-																<!--end::Title-->
-															</div>
-														</div>
-													</td>
-													<!--end::Customer=-->
-													<!--begin::Status=-->
-													<td class="text-end pe-0" data-order="Delivered">
-														<!--begin::Badges-->
-														<div class="badge badge-light-success">Delivered</div>
-														<!--end::Badges-->
-													</td>
-													<!--end::Status=-->
-													<!--begin::Total=-->
-													<td class="text-end pe-0">
-														<span class="fw-bolder">$101.00</span>
-													</td>
-													<!--end::Total=-->
-													<!--begin::Date Added=-->
-													<td class="text-end" data-order="2022-03-01">
-														<span class="fw-bolder">01/03/2022</span>
-													</td>
-													<!--end::Date Added=-->
-													<!--begin::Date Modified=-->
-													<td class="text-end" data-order="2022-03-08">
-														<span class="fw-bolder">08/03/2022</span>
-													</td>
-													<!--end::Date Modified=-->
-													<!--begin::Action=-->
-													<td class="text-end">
-														<a href="#" class="btn btn-sm btn-light btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions
-														<!--begin::Svg Icon | path: icons/duotune/arrows/arr072.svg-->
-														<span class="svg-icon svg-icon-5 m-0">
-															<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-																<path d="M11.4343 12.7344L7.25 8.55005C6.83579 8.13583 6.16421 8.13584 5.75 8.55005C5.33579 8.96426 5.33579 9.63583 5.75 10.05L11.2929 15.5929C11.6834 15.9835 12.3166 15.9835 12.7071 15.5929L18.25 10.05C18.6642 9.63584 18.6642 8.96426 18.25 8.55005C17.8358 8.13584 17.1642 8.13584 16.75 8.55005L12.5657 12.7344C12.2533 13.0468 11.7467 13.0468 11.4343 12.7344Z" fill="currentColor" />
-															</svg>
-														</span>
-														<!--end::Svg Icon--></a>
-														<!--begin::Menu-->
-														<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-primary fw-bold fs-7 w-125px py-4" data-kt-menu="true">
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="../../demo1/dist/apps/ecommerce/sales/details.html" class="menu-link px-3">View</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="../../demo1/dist/apps/ecommerce/sales/edit-order.html" class="menu-link px-3">Edit</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="#" class="menu-link px-3" data-kt-ecommerce-order-filter="delete_row">Delete</a>
-															</div>
-															<!--end::Menu item-->
-														</div>
-														<!--end::Menu-->
-													</td>
-													<!--end::Action=-->
-												</tr>
-												<!--end::Table row-->
-												<!--begin::Table row-->
-												<tr>
-													<!--begin::Checkbox-->
-													<td>
-														<div class="form-check form-check-sm form-check-custom form-check-solid">
-															<input class="form-check-input" type="checkbox" value="1" />
-														</div>
-													</td>
-													<!--end::Checkbox-->
-													<!--begin::Order ID=-->
-													<td data-kt-ecommerce-order-filter="order_id">
-														<a href="../../demo1/dist/apps/ecommerce/sales/details.html" class="text-gray-800 text-hover-primary fw-bolder">14481</a>
-													</td>
-													<!--end::Order ID=-->
-													<!--begin::Customer=-->
-													<td>
-														<div class="d-flex align-items-center">
-															<!--begin:: Avatar -->
-															<div class="symbol symbol-circle symbol-50px overflow-hidden me-3">
-																<a href="../../demo1/dist/apps/user-management/users/view.html">
-																	<div class="symbol-label">
-																		<img src="assets/media/avatars/300-6.jpg" alt="Emma Smith" class="w-100" />
-																	</div>
-																</a>
-															</div>
-															<!--end::Avatar-->
-															<div class="ms-5">
-																<!--begin::Title-->
-																<a href="../../demo1/dist/apps/user-management/users/view.html" class="text-gray-800 text-hover-primary fs-5 fw-bolder">Emma Smith</a>
-																<!--end::Title-->
-															</div>
-														</div>
-													</td>
-													<!--end::Customer=-->
-													<!--begin::Status=-->
-													<td class="text-end pe-0" data-order="Pending">
-														<!--begin::Badges-->
-														<div class="badge badge-light-warning">Pending</div>
-														<!--end::Badges-->
-													</td>
-													<!--end::Status=-->
-													<!--begin::Total=-->
-													<td class="text-end pe-0">
-														<span class="fw-bolder">$151.00</span>
-													</td>
-													<!--end::Total=-->
-													<!--begin::Date Added=-->
-													<td class="text-end" data-order="2022-02-28">
-														<span class="fw-bolder">28/02/2022</span>
-													</td>
-													<!--end::Date Added=-->
-													<!--begin::Date Modified=-->
-													<td class="text-end" data-order="2022-03-07">
-														<span class="fw-bolder">07/03/2022</span>
-													</td>
-													<!--end::Date Modified=-->
-													<!--begin::Action=-->
-													<td class="text-end">
-														<a href="#" class="btn btn-sm btn-light btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions
-														<!--begin::Svg Icon | path: icons/duotune/arrows/arr072.svg-->
-														<span class="svg-icon svg-icon-5 m-0">
-															<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-																<path d="M11.4343 12.7344L7.25 8.55005C6.83579 8.13583 6.16421 8.13584 5.75 8.55005C5.33579 8.96426 5.33579 9.63583 5.75 10.05L11.2929 15.5929C11.6834 15.9835 12.3166 15.9835 12.7071 15.5929L18.25 10.05C18.6642 9.63584 18.6642 8.96426 18.25 8.55005C17.8358 8.13584 17.1642 8.13584 16.75 8.55005L12.5657 12.7344C12.2533 13.0468 11.7467 13.0468 11.4343 12.7344Z" fill="currentColor" />
-															</svg>
-														</span>
-														<!--end::Svg Icon--></a>
-														<!--begin::Menu-->
-														<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-primary fw-bold fs-7 w-125px py-4" data-kt-menu="true">
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="../../demo1/dist/apps/ecommerce/sales/details.html" class="menu-link px-3">View</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="../../demo1/dist/apps/ecommerce/sales/edit-order.html" class="menu-link px-3">Edit</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="#" class="menu-link px-3" data-kt-ecommerce-order-filter="delete_row">Delete</a>
-															</div>
-															<!--end::Menu item-->
-														</div>
-														<!--end::Menu-->
-													</td>
-													<!--end::Action=-->
-												</tr>
-												<!--end::Table row-->
-												<!--begin::Table row-->
-												<tr>
-													<!--begin::Checkbox-->
-													<td>
-														<div class="form-check form-check-sm form-check-custom form-check-solid">
-															<input class="form-check-input" type="checkbox" value="1" />
-														</div>
-													</td>
-													<!--end::Checkbox-->
-													<!--begin::Order ID=-->
-													<td data-kt-ecommerce-order-filter="order_id">
-														<a href="../../demo1/dist/apps/ecommerce/sales/details.html" class="text-gray-800 text-hover-primary fw-bolder">14482</a>
-													</td>
-													<!--end::Order ID=-->
-													<!--begin::Customer=-->
-													<td>
-														<div class="d-flex align-items-center">
-															<!--begin:: Avatar -->
-															<div class="symbol symbol-circle symbol-50px overflow-hidden me-3">
-																<a href="../../demo1/dist/apps/user-management/users/view.html">
-																	<div class="symbol-label fs-3 bg-light-warning text-warning">C</div>
-																</a>
-															</div>
-															<!--end::Avatar-->
-															<div class="ms-5">
-																<!--begin::Title-->
-																<a href="../../demo1/dist/apps/user-management/users/view.html" class="text-gray-800 text-hover-primary fs-5 fw-bolder">Mikaela Collins</a>
-																<!--end::Title-->
-															</div>
-														</div>
-													</td>
-													<!--end::Customer=-->
-													<!--begin::Status=-->
-													<td class="text-end pe-0" data-order="Delivering">
-														<!--begin::Badges-->
-														<div class="badge badge-light-primary">Delivering</div>
-														<!--end::Badges-->
-													</td>
-													<!--end::Status=-->
-													<!--begin::Total=-->
-													<td class="text-end pe-0">
-														<span class="fw-bolder">$83.00</span>
-													</td>
-													<!--end::Total=-->
-													<!--begin::Date Added=-->
-													<td class="text-end" data-order="2022-03-04">
-														<span class="fw-bolder">04/03/2022</span>
-													</td>
-													<!--end::Date Added=-->
-													<!--begin::Date Modified=-->
-													<td class="text-end" data-order="2022-03-06">
-														<span class="fw-bolder">06/03/2022</span>
-													</td>
-													<!--end::Date Modified=-->
-													<!--begin::Action=-->
-													<td class="text-end">
-														<a href="#" class="btn btn-sm btn-light btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions
-														<!--begin::Svg Icon | path: icons/duotune/arrows/arr072.svg-->
-														<span class="svg-icon svg-icon-5 m-0">
-															<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-																<path d="M11.4343 12.7344L7.25 8.55005C6.83579 8.13583 6.16421 8.13584 5.75 8.55005C5.33579 8.96426 5.33579 9.63583 5.75 10.05L11.2929 15.5929C11.6834 15.9835 12.3166 15.9835 12.7071 15.5929L18.25 10.05C18.6642 9.63584 18.6642 8.96426 18.25 8.55005C17.8358 8.13584 17.1642 8.13584 16.75 8.55005L12.5657 12.7344C12.2533 13.0468 11.7467 13.0468 11.4343 12.7344Z" fill="currentColor" />
-															</svg>
-														</span>
-														<!--end::Svg Icon--></a>
-														<!--begin::Menu-->
-														<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-primary fw-bold fs-7 w-125px py-4" data-kt-menu="true">
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="../../demo1/dist/apps/ecommerce/sales/details.html" class="menu-link px-3">View</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="../../demo1/dist/apps/ecommerce/sales/edit-order.html" class="menu-link px-3">Edit</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="#" class="menu-link px-3" data-kt-ecommerce-order-filter="delete_row">Delete</a>
-															</div>
-															<!--end::Menu item-->
-														</div>
-														<!--end::Menu-->
-													</td>
-													<!--end::Action=-->
-												</tr>
-												<!--end::Table row-->
-												<!--begin::Table row-->
-												<tr>
-													<!--begin::Checkbox-->
-													<td>
-														<div class="form-check form-check-sm form-check-custom form-check-solid">
-															<input class="form-check-input" type="checkbox" value="1" />
-														</div>
-													</td>
-													<!--end::Checkbox-->
-													<!--begin::Order ID=-->
-													<td data-kt-ecommerce-order-filter="order_id">
-														<a href="../../demo1/dist/apps/ecommerce/sales/details.html" class="text-gray-800 text-hover-primary fw-bolder">14483</a>
-													</td>
-													<!--end::Order ID=-->
-													<!--begin::Customer=-->
-													<td>
-														<div class="d-flex align-items-center">
-															<!--begin:: Avatar -->
-															<div class="symbol symbol-circle symbol-50px overflow-hidden me-3">
-																<a href="../../demo1/dist/apps/user-management/users/view.html">
-																	<div class="symbol-label">
-																		<img src="assets/media/avatars/300-9.jpg" alt="Francis Mitcham" class="w-100" />
-																	</div>
-																</a>
-															</div>
-															<!--end::Avatar-->
-															<div class="ms-5">
-																<!--begin::Title-->
-																<a href="../../demo1/dist/apps/user-management/users/view.html" class="text-gray-800 text-hover-primary fs-5 fw-bolder">Francis Mitcham</a>
-																<!--end::Title-->
-															</div>
-														</div>
-													</td>
-													<!--end::Customer=-->
-													<!--begin::Status=-->
-													<td class="text-end pe-0" data-order="Completed">
-														<!--begin::Badges-->
-														<div class="badge badge-light-success">Completed</div>
-														<!--end::Badges-->
-													</td>
-													<!--end::Status=-->
-													<!--begin::Total=-->
-													<td class="text-end pe-0">
-														<span class="fw-bolder">$209.00</span>
-													</td>
-													<!--end::Total=-->
-													<!--begin::Date Added=-->
-													<td class="text-end" data-order="2022-02-27">
-														<span class="fw-bolder">27/02/2022</span>
-													</td>
-													<!--end::Date Added=-->
-													<!--begin::Date Modified=-->
-													<td class="text-end" data-order="2022-03-05">
-														<span class="fw-bolder">05/03/2022</span>
-													</td>
-													<!--end::Date Modified=-->
-													<!--begin::Action=-->
-													<td class="text-end">
-														<a href="#" class="btn btn-sm btn-light btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions
-														<!--begin::Svg Icon | path: icons/duotune/arrows/arr072.svg-->
-														<span class="svg-icon svg-icon-5 m-0">
-															<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-																<path d="M11.4343 12.7344L7.25 8.55005C6.83579 8.13583 6.16421 8.13584 5.75 8.55005C5.33579 8.96426 5.33579 9.63583 5.75 10.05L11.2929 15.5929C11.6834 15.9835 12.3166 15.9835 12.7071 15.5929L18.25 10.05C18.6642 9.63584 18.6642 8.96426 18.25 8.55005C17.8358 8.13584 17.1642 8.13584 16.75 8.55005L12.5657 12.7344C12.2533 13.0468 11.7467 13.0468 11.4343 12.7344Z" fill="currentColor" />
-															</svg>
-														</span>
-														<!--end::Svg Icon--></a>
-														<!--begin::Menu-->
-														<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-primary fw-bold fs-7 w-125px py-4" data-kt-menu="true">
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="../../demo1/dist/apps/ecommerce/sales/details.html" class="menu-link px-3">View</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="../../demo1/dist/apps/ecommerce/sales/edit-order.html" class="menu-link px-3">Edit</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="#" class="menu-link px-3" data-kt-ecommerce-order-filter="delete_row">Delete</a>
-															</div>
-															<!--end::Menu item-->
-														</div>
-														<!--end::Menu-->
-													</td>
-													<!--end::Action=-->
-												</tr>
-												<!--end::Table row-->
-												<!--begin::Table row-->
-												<tr>
-													<!--begin::Checkbox-->
-													<td>
-														<div class="form-check form-check-sm form-check-custom form-check-solid">
-															<input class="form-check-input" type="checkbox" value="1" />
-														</div>
-													</td>
-													<!--end::Checkbox-->
-													<!--begin::Order ID=-->
-													<td data-kt-ecommerce-order-filter="order_id">
-														<a href="../../demo1/dist/apps/ecommerce/sales/details.html" class="text-gray-800 text-hover-primary fw-bolder">14484</a>
-													</td>
-													<!--end::Order ID=-->
-													<!--begin::Customer=-->
-													<td>
-														<div class="d-flex align-items-center">
-															<!--begin:: Avatar -->
-															<div class="symbol symbol-circle symbol-50px overflow-hidden me-3">
-																<a href="../../demo1/dist/apps/user-management/users/view.html">
-																	<div class="symbol-label">
-																		<img src="assets/media/avatars/300-23.jpg" alt="Dan Wilson" class="w-100" />
-																	</div>
-																</a>
-															</div>
-															<!--end::Avatar-->
-															<div class="ms-5">
-																<!--begin::Title-->
-																<a href="../../demo1/dist/apps/user-management/users/view.html" class="text-gray-800 text-hover-primary fs-5 fw-bolder">Dan Wilson</a>
-																<!--end::Title-->
-															</div>
-														</div>
-													</td>
-													<!--end::Customer=-->
-													<!--begin::Status=-->
-													<td class="text-end pe-0" data-order="Denied">
-														<!--begin::Badges-->
-														<div class="badge badge-light-danger">Denied</div>
-														<!--end::Badges-->
-													</td>
-													<!--end::Status=-->
-													<!--begin::Total=-->
-													<td class="text-end pe-0">
-														<span class="fw-bolder">$208.00</span>
-													</td>
-													<!--end::Total=-->
-													<!--begin::Date Added=-->
-													<td class="text-end" data-order="2022-03-02">
-														<span class="fw-bolder">02/03/2022</span>
-													</td>
-													<!--end::Date Added=-->
-													<!--begin::Date Modified=-->
-													<td class="text-end" data-order="2022-03-04">
-														<span class="fw-bolder">04/03/2022</span>
-													</td>
-													<!--end::Date Modified=-->
-													<!--begin::Action=-->
-													<td class="text-end">
-														<a href="#" class="btn btn-sm btn-light btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions
-														<!--begin::Svg Icon | path: icons/duotune/arrows/arr072.svg-->
-														<span class="svg-icon svg-icon-5 m-0">
-															<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-																<path d="M11.4343 12.7344L7.25 8.55005C6.83579 8.13583 6.16421 8.13584 5.75 8.55005C5.33579 8.96426 5.33579 9.63583 5.75 10.05L11.2929 15.5929C11.6834 15.9835 12.3166 15.9835 12.7071 15.5929L18.25 10.05C18.6642 9.63584 18.6642 8.96426 18.25 8.55005C17.8358 8.13584 17.1642 8.13584 16.75 8.55005L12.5657 12.7344C12.2533 13.0468 11.7467 13.0468 11.4343 12.7344Z" fill="currentColor" />
-															</svg>
-														</span>
-														<!--end::Svg Icon--></a>
-														<!--begin::Menu-->
-														<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-primary fw-bold fs-7 w-125px py-4" data-kt-menu="true">
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="../../demo1/dist/apps/ecommerce/sales/details.html" class="menu-link px-3">View</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="../../demo1/dist/apps/ecommerce/sales/edit-order.html" class="menu-link px-3">Edit</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="#" class="menu-link px-3" data-kt-ecommerce-order-filter="delete_row">Delete</a>
-															</div>
-															<!--end::Menu item-->
-														</div>
-														<!--end::Menu-->
-													</td>
-													<!--end::Action=-->
-												</tr>
-												<!--end::Table row-->
-												<!--begin::Table row-->
-												<tr>
-													<!--begin::Checkbox-->
-													<td>
-														<div class="form-check form-check-sm form-check-custom form-check-solid">
-															<input class="form-check-input" type="checkbox" value="1" />
-														</div>
-													</td>
-													<!--end::Checkbox-->
-													<!--begin::Order ID=-->
-													<td data-kt-ecommerce-order-filter="order_id">
-														<a href="../../demo1/dist/apps/ecommerce/sales/details.html" class="text-gray-800 text-hover-primary fw-bolder">14485</a>
-													</td>
-													<!--end::Order ID=-->
-													<!--begin::Customer=-->
-													<td>
-														<div class="d-flex align-items-center">
-															<!--begin:: Avatar -->
-															<div class="symbol symbol-circle symbol-50px overflow-hidden me-3">
-																<a href="../../demo1/dist/apps/user-management/users/view.html">
-																	<div class="symbol-label fs-3 bg-light-success text-success">L</div>
-																</a>
-															</div>
-															<!--end::Avatar-->
-															<div class="ms-5">
-																<!--begin::Title-->
-																<a href="../../demo1/dist/apps/user-management/users/view.html" class="text-gray-800 text-hover-primary fs-5 fw-bolder">Lucy Kunic</a>
-																<!--end::Title-->
-															</div>
-														</div>
-													</td>
-													<!--end::Customer=-->
-													<!--begin::Status=-->
-													<td class="text-end pe-0" data-order="Pending">
-														<!--begin::Badges-->
-														<div class="badge badge-light-warning">Pending</div>
-														<!--end::Badges-->
-													</td>
-													<!--end::Status=-->
-													<!--begin::Total=-->
-													<td class="text-end pe-0">
-														<span class="fw-bolder">$159.00</span>
-													</td>
-													<!--end::Total=-->
-													<!--begin::Date Added=-->
-													<td class="text-end" data-order="2022-03-02">
-														<span class="fw-bolder">02/03/2022</span>
-													</td>
-													<!--end::Date Added=-->
-													<!--begin::Date Modified=-->
-													<td class="text-end" data-order="2022-03-03">
-														<span class="fw-bolder">03/03/2022</span>
-													</td>
-													<!--end::Date Modified=-->
-													<!--begin::Action=-->
-													<td class="text-end">
-														<a href="#" class="btn btn-sm btn-light btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions
-														<!--begin::Svg Icon | path: icons/duotune/arrows/arr072.svg-->
-														<span class="svg-icon svg-icon-5 m-0">
-															<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-																<path d="M11.4343 12.7344L7.25 8.55005C6.83579 8.13583 6.16421 8.13584 5.75 8.55005C5.33579 8.96426 5.33579 9.63583 5.75 10.05L11.2929 15.5929C11.6834 15.9835 12.3166 15.9835 12.7071 15.5929L18.25 10.05C18.6642 9.63584 18.6642 8.96426 18.25 8.55005C17.8358 8.13584 17.1642 8.13584 16.75 8.55005L12.5657 12.7344C12.2533 13.0468 11.7467 13.0468 11.4343 12.7344Z" fill="currentColor" />
-															</svg>
-														</span>
-														<!--end::Svg Icon--></a>
-														<!--begin::Menu-->
-														<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-primary fw-bold fs-7 w-125px py-4" data-kt-menu="true">
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="../../demo1/dist/apps/ecommerce/sales/details.html" class="menu-link px-3">View</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="../../demo1/dist/apps/ecommerce/sales/edit-order.html" class="menu-link px-3">Edit</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="#" class="menu-link px-3" data-kt-ecommerce-order-filter="delete_row">Delete</a>
-															</div>
-															<!--end::Menu item-->
-														</div>
-														<!--end::Menu-->
-													</td>
-													<!--end::Action=-->
-												</tr>
-												<!--end::Table row-->
-												<!--begin::Table row-->
-												<tr>
-													<!--begin::Checkbox-->
-													<td>
-														<div class="form-check form-check-sm form-check-custom form-check-solid">
-															<input class="form-check-input" type="checkbox" value="1" />
-														</div>
-													</td>
-													<!--end::Checkbox-->
-													<!--begin::Order ID=-->
-													<td data-kt-ecommerce-order-filter="order_id">
-														<a href="../../demo1/dist/apps/ecommerce/sales/details.html" class="text-gray-800 text-hover-primary fw-bolder">14486</a>
-													</td>
-													<!--end::Order ID=-->
-													<!--begin::Customer=-->
-													<td>
-														<div class="d-flex align-items-center">
-															<!--begin:: Avatar -->
-															<div class="symbol symbol-circle symbol-50px overflow-hidden me-3">
-																<a href="../../demo1/dist/apps/user-management/users/view.html">
-																	<div class="symbol-label">
-																		<img src="assets/media/avatars/300-5.jpg" alt="Sean Bean" class="w-100" />
-																	</div>
-																</a>
-															</div>
-															<!--end::Avatar-->
-															<div class="ms-5">
-																<!--begin::Title-->
-																<a href="../../demo1/dist/apps/user-management/users/view.html" class="text-gray-800 text-hover-primary fs-5 fw-bolder">Sean Bean</a>
-																<!--end::Title-->
-															</div>
-														</div>
-													</td>
-													<!--end::Customer=-->
-													<!--begin::Status=-->
-													<td class="text-end pe-0" data-order="Completed">
-														<!--begin::Badges-->
-														<div class="badge badge-light-success">Completed</div>
-														<!--end::Badges-->
-													</td>
-													<!--end::Status=-->
-													<!--begin::Total=-->
-													<td class="text-end pe-0">
-														<span class="fw-bolder">$283.00</span>
-													</td>
-													<!--end::Total=-->
-													<!--begin::Date Added=-->
-													<td class="text-end" data-order="2022-02-28">
-														<span class="fw-bolder">28/02/2022</span>
-													</td>
-													<!--end::Date Added=-->
-													<!--begin::Date Modified=-->
-													<td class="text-end" data-order="2022-03-02">
-														<span class="fw-bolder">02/03/2022</span>
-													</td>
-													<!--end::Date Modified=-->
-													<!--begin::Action=-->
-													<td class="text-end">
-														<a href="#" class="btn btn-sm btn-light btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions
-														<!--begin::Svg Icon | path: icons/duotune/arrows/arr072.svg-->
-														<span class="svg-icon svg-icon-5 m-0">
-															<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-																<path d="M11.4343 12.7344L7.25 8.55005C6.83579 8.13583 6.16421 8.13584 5.75 8.55005C5.33579 8.96426 5.33579 9.63583 5.75 10.05L11.2929 15.5929C11.6834 15.9835 12.3166 15.9835 12.7071 15.5929L18.25 10.05C18.6642 9.63584 18.6642 8.96426 18.25 8.55005C17.8358 8.13584 17.1642 8.13584 16.75 8.55005L12.5657 12.7344C12.2533 13.0468 11.7467 13.0468 11.4343 12.7344Z" fill="currentColor" />
-															</svg>
-														</span>
-														<!--end::Svg Icon--></a>
-														<!--begin::Menu-->
-														<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-primary fw-bold fs-7 w-125px py-4" data-kt-menu="true">
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="../../demo1/dist/apps/ecommerce/sales/details.html" class="menu-link px-3">View</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="../../demo1/dist/apps/ecommerce/sales/edit-order.html" class="menu-link px-3">Edit</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="#" class="menu-link px-3" data-kt-ecommerce-order-filter="delete_row">Delete</a>
-															</div>
-															<!--end::Menu item-->
-														</div>
-														<!--end::Menu-->
-													</td>
-													<!--end::Action=-->
-												</tr>
-												<!--end::Table row-->
-												<!--begin::Table row-->
-												<tr>
-													<!--begin::Checkbox-->
-													<td>
-														<div class="form-check form-check-sm form-check-custom form-check-solid">
-															<input class="form-check-input" type="checkbox" value="1" />
-														</div>
-													</td>
-													<!--end::Checkbox-->
-													<!--begin::Order ID=-->
-													<td data-kt-ecommerce-order-filter="order_id">
-														<a href="../../demo1/dist/apps/ecommerce/sales/details.html" class="text-gray-800 text-hover-primary fw-bolder">14487</a>
-													</td>
-													<!--end::Order ID=-->
-													<!--begin::Customer=-->
-													<td>
-														<div class="d-flex align-items-center">
-															<!--begin:: Avatar -->
-															<div class="symbol symbol-circle symbol-50px overflow-hidden me-3">
-																<a href="../../demo1/dist/apps/user-management/users/view.html">
-																	<div class="symbol-label">
-																		<img src="assets/media/avatars/300-9.jpg" alt="Francis Mitcham" class="w-100" />
-																	</div>
-																</a>
-															</div>
-															<!--end::Avatar-->
-															<div class="ms-5">
-																<!--begin::Title-->
-																<a href="../../demo1/dist/apps/user-management/users/view.html" class="text-gray-800 text-hover-primary fs-5 fw-bolder">Francis Mitcham</a>
-																<!--end::Title-->
-															</div>
-														</div>
-													</td>
-													<!--end::Customer=-->
-													<!--begin::Status=-->
-													<td class="text-end pe-0" data-order="Completed">
-														<!--begin::Badges-->
-														<div class="badge badge-light-success">Completed</div>
-														<!--end::Badges-->
-													</td>
-													<!--end::Status=-->
-													<!--begin::Total=-->
-													<td class="text-end pe-0">
-														<span class="fw-bolder">$10.00</span>
-													</td>
-													<!--end::Total=-->
-													<!--begin::Date Added=-->
-													<td class="text-end" data-order="2022-02-24">
-														<span class="fw-bolder">24/02/2022</span>
-													</td>
-													<!--end::Date Added=-->
-													<!--begin::Date Modified=-->
-													<td class="text-end" data-order="2022-03-01">
-														<span class="fw-bolder">01/03/2022</span>
-													</td>
-													<!--end::Date Modified=-->
-													<!--begin::Action=-->
-													<td class="text-end">
-														<a href="#" class="btn btn-sm btn-light btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions
-														<!--begin::Svg Icon | path: icons/duotune/arrows/arr072.svg-->
-														<span class="svg-icon svg-icon-5 m-0">
-															<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-																<path d="M11.4343 12.7344L7.25 8.55005C6.83579 8.13583 6.16421 8.13584 5.75 8.55005C5.33579 8.96426 5.33579 9.63583 5.75 10.05L11.2929 15.5929C11.6834 15.9835 12.3166 15.9835 12.7071 15.5929L18.25 10.05C18.6642 9.63584 18.6642 8.96426 18.25 8.55005C17.8358 8.13584 17.1642 8.13584 16.75 8.55005L12.5657 12.7344C12.2533 13.0468 11.7467 13.0468 11.4343 12.7344Z" fill="currentColor" />
-															</svg>
-														</span>
-														<!--end::Svg Icon--></a>
-														<!--begin::Menu-->
-														<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-primary fw-bold fs-7 w-125px py-4" data-kt-menu="true">
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="../../demo1/dist/apps/ecommerce/sales/details.html" class="menu-link px-3">View</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="../../demo1/dist/apps/ecommerce/sales/edit-order.html" class="menu-link px-3">Edit</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="#" class="menu-link px-3" data-kt-ecommerce-order-filter="delete_row">Delete</a>
-															</div>
-															<!--end::Menu item-->
-														</div>
-														<!--end::Menu-->
-													</td>
-													<!--end::Action=-->
-												</tr>
-												<!--end::Table row-->
-												<!--begin::Table row-->
-												<tr>
-													<!--begin::Checkbox-->
-													<td>
-														<div class="form-check form-check-sm form-check-custom form-check-solid">
-															<input class="form-check-input" type="checkbox" value="1" />
-														</div>
-													</td>
-													<!--end::Checkbox-->
-													<!--begin::Order ID=-->
-													<td data-kt-ecommerce-order-filter="order_id">
-														<a href="../../demo1/dist/apps/ecommerce/sales/details.html" class="text-gray-800 text-hover-primary fw-bolder">14488</a>
-													</td>
-													<!--end::Order ID=-->
-													<!--begin::Customer=-->
-													<td>
-														<div class="d-flex align-items-center">
-															<!--begin:: Avatar -->
-															<div class="symbol symbol-circle symbol-50px overflow-hidden me-3">
-																<a href="../../demo1/dist/apps/user-management/users/view.html">
-																	<div class="symbol-label">
-																		<img src="assets/media/avatars/300-23.jpg" alt="Dan Wilson" class="w-100" />
-																	</div>
-																</a>
-															</div>
-															<!--end::Avatar-->
-															<div class="ms-5">
-																<!--begin::Title-->
-																<a href="../../demo1/dist/apps/user-management/users/view.html" class="text-gray-800 text-hover-primary fs-5 fw-bolder">Dan Wilson</a>
-																<!--end::Title-->
-															</div>
-														</div>
-													</td>
-													<!--end::Customer=-->
-													<!--begin::Status=-->
-													<td class="text-end pe-0" data-order="Completed">
-														<!--begin::Badges-->
-														<div class="badge badge-light-success">Completed</div>
-														<!--end::Badges-->
-													</td>
-													<!--end::Status=-->
-													<!--begin::Total=-->
-													<td class="text-end pe-0">
-														<span class="fw-bolder">$27.00</span>
-													</td>
-													<!--end::Total=-->
-													<!--begin::Date Added=-->
-													<td class="text-end" data-order="2022-02-25">
-														<span class="fw-bolder">25/02/2022</span>
-													</td>
-													<!--end::Date Added=-->
-													<!--begin::Date Modified=-->
-													<td class="text-end" data-order="2022-02-28">
-														<span class="fw-bolder">28/02/2022</span>
-													</td>
-													<!--end::Date Modified=-->
-													<!--begin::Action=-->
-													<td class="text-end">
-														<a href="#" class="btn btn-sm btn-light btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions
-														<!--begin::Svg Icon | path: icons/duotune/arrows/arr072.svg-->
-														<span class="svg-icon svg-icon-5 m-0">
-															<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-																<path d="M11.4343 12.7344L7.25 8.55005C6.83579 8.13583 6.16421 8.13584 5.75 8.55005C5.33579 8.96426 5.33579 9.63583 5.75 10.05L11.2929 15.5929C11.6834 15.9835 12.3166 15.9835 12.7071 15.5929L18.25 10.05C18.6642 9.63584 18.6642 8.96426 18.25 8.55005C17.8358 8.13584 17.1642 8.13584 16.75 8.55005L12.5657 12.7344C12.2533 13.0468 11.7467 13.0468 11.4343 12.7344Z" fill="currentColor" />
-															</svg>
-														</span>
-														<!--end::Svg Icon--></a>
-														<!--begin::Menu-->
-														<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-primary fw-bold fs-7 w-125px py-4" data-kt-menu="true">
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="../../demo1/dist/apps/ecommerce/sales/details.html" class="menu-link px-3">View</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="../../demo1/dist/apps/ecommerce/sales/edit-order.html" class="menu-link px-3">Edit</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="#" class="menu-link px-3" data-kt-ecommerce-order-filter="delete_row">Delete</a>
-															</div>
-															<!--end::Menu item-->
-														</div>
-														<!--end::Menu-->
-													</td>
-													<!--end::Action=-->
-												</tr>
-												<!--end::Table row-->
-												<!--begin::Table row-->
-												<tr>
-													<!--begin::Checkbox-->
-													<td>
-														<div class="form-check form-check-sm form-check-custom form-check-solid">
-															<input class="form-check-input" type="checkbox" value="1" />
-														</div>
-													</td>
-													<!--end::Checkbox-->
-													<!--begin::Order ID=-->
-													<td data-kt-ecommerce-order-filter="order_id">
-														<a href="../../demo1/dist/apps/ecommerce/sales/details.html" class="text-gray-800 text-hover-primary fw-bolder">14489</a>
-													</td>
-													<!--end::Order ID=-->
-													<!--begin::Customer=-->
-													<td>
-														<div class="d-flex align-items-center">
-															<!--begin:: Avatar -->
-															<div class="symbol symbol-circle symbol-50px overflow-hidden me-3">
-																<a href="../../demo1/dist/apps/user-management/users/view.html">
-																	<div class="symbol-label fs-3 bg-light-danger text-danger">M</div>
-																</a>
-															</div>
-															<!--end::Avatar-->
-															<div class="ms-5">
-																<!--begin::Title-->
-																<a href="../../demo1/dist/apps/user-management/users/view.html" class="text-gray-800 text-hover-primary fs-5 fw-bolder">Melody Macy</a>
-																<!--end::Title-->
-															</div>
-														</div>
-													</td>
-													<!--end::Customer=-->
-													<!--begin::Status=-->
-													<td class="text-end pe-0" data-order="Completed">
-														<!--begin::Badges-->
-														<div class="badge badge-light-success">Completed</div>
-														<!--end::Badges-->
-													</td>
-													<!--end::Status=-->
-													<!--begin::Total=-->
-													<td class="text-end pe-0">
-														<span class="fw-bolder">$361.00</span>
-													</td>
-													<!--end::Total=-->
-													<!--begin::Date Added=-->
-													<td class="text-end" data-order="2022-02-23">
-														<span class="fw-bolder">23/02/2022</span>
-													</td>
-													<!--end::Date Added=-->
-													<!--begin::Date Modified=-->
-													<td class="text-end" data-order="2022-02-27">
-														<span class="fw-bolder">27/02/2022</span>
-													</td>
-													<!--end::Date Modified=-->
-													<!--begin::Action=-->
-													<td class="text-end">
-														<a href="#" class="btn btn-sm btn-light btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions
-														<!--begin::Svg Icon | path: icons/duotune/arrows/arr072.svg-->
-														<span class="svg-icon svg-icon-5 m-0">
-															<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-																<path d="M11.4343 12.7344L7.25 8.55005C6.83579 8.13583 6.16421 8.13584 5.75 8.55005C5.33579 8.96426 5.33579 9.63583 5.75 10.05L11.2929 15.5929C11.6834 15.9835 12.3166 15.9835 12.7071 15.5929L18.25 10.05C18.6642 9.63584 18.6642 8.96426 18.25 8.55005C17.8358 8.13584 17.1642 8.13584 16.75 8.55005L12.5657 12.7344C12.2533 13.0468 11.7467 13.0468 11.4343 12.7344Z" fill="currentColor" />
-															</svg>
-														</span>
-														<!--end::Svg Icon--></a>
-														<!--begin::Menu-->
-														<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-primary fw-bold fs-7 w-125px py-4" data-kt-menu="true">
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="../../demo1/dist/apps/ecommerce/sales/details.html" class="menu-link px-3">View</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="../../demo1/dist/apps/ecommerce/sales/edit-order.html" class="menu-link px-3">Edit</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="#" class="menu-link px-3" data-kt-ecommerce-order-filter="delete_row">Delete</a>
-															</div>
-															<!--end::Menu item-->
-														</div>
-														<!--end::Menu-->
-													</td>
-													<!--end::Action=-->
-												</tr>
-												<!--end::Table row-->
-												<!--begin::Table row-->
-												<tr>
-													<!--begin::Checkbox-->
-													<td>
-														<div class="form-check form-check-sm form-check-custom form-check-solid">
-															<input class="form-check-input" type="checkbox" value="1" />
-														</div>
-													</td>
-													<!--end::Checkbox-->
-													<!--begin::Order ID=-->
-													<td data-kt-ecommerce-order-filter="order_id">
-														<a href="../../demo1/dist/apps/ecommerce/sales/details.html" class="text-gray-800 text-hover-primary fw-bolder">14490</a>
-													</td>
-													<!--end::Order ID=-->
-													<!--begin::Customer=-->
-													<td>
-														<div class="d-flex align-items-center">
-															<!--begin:: Avatar -->
-															<div class="symbol symbol-circle symbol-50px overflow-hidden me-3">
-																<a href="../../demo1/dist/apps/user-management/users/view.html">
-																	<div class="symbol-label">
-																		<img src="assets/media/avatars/300-6.jpg" alt="Emma Smith" class="w-100" />
-																	</div>
-																</a>
-															</div>
-															<!--end::Avatar-->
-															<div class="ms-5">
-																<!--begin::Title-->
-																<a href="../../demo1/dist/apps/user-management/users/view.html" class="text-gray-800 text-hover-primary fs-5 fw-bolder">Emma Smith</a>
-																<!--end::Title-->
-															</div>
-														</div>
-													</td>
-													<!--end::Customer=-->
-													<!--begin::Status=-->
-													<td class="text-end pe-0" data-order="Completed">
-														<!--begin::Badges-->
-														<div class="badge badge-light-success">Completed</div>
-														<!--end::Badges-->
-													</td>
-													<!--end::Status=-->
-													<!--begin::Total=-->
-													<td class="text-end pe-0">
-														<span class="fw-bolder">$351.00</span>
-													</td>
-													<!--end::Total=-->
-													<!--begin::Date Added=-->
-													<td class="text-end" data-order="2022-02-25">
-														<span class="fw-bolder">25/02/2022</span>
-													</td>
-													<!--end::Date Added=-->
-													<!--begin::Date Modified=-->
-													<td class="text-end" data-order="2022-02-26">
-														<span class="fw-bolder">26/02/2022</span>
-													</td>
-													<!--end::Date Modified=-->
-													<!--begin::Action=-->
-													<td class="text-end">
-														<a href="#" class="btn btn-sm btn-light btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions
-														<!--begin::Svg Icon | path: icons/duotune/arrows/arr072.svg-->
-														<span class="svg-icon svg-icon-5 m-0">
-															<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-																<path d="M11.4343 12.7344L7.25 8.55005C6.83579 8.13583 6.16421 8.13584 5.75 8.55005C5.33579 8.96426 5.33579 9.63583 5.75 10.05L11.2929 15.5929C11.6834 15.9835 12.3166 15.9835 12.7071 15.5929L18.25 10.05C18.6642 9.63584 18.6642 8.96426 18.25 8.55005C17.8358 8.13584 17.1642 8.13584 16.75 8.55005L12.5657 12.7344C12.2533 13.0468 11.7467 13.0468 11.4343 12.7344Z" fill="currentColor" />
-															</svg>
-														</span>
-														<!--end::Svg Icon--></a>
-														<!--begin::Menu-->
-														<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-primary fw-bold fs-7 w-125px py-4" data-kt-menu="true">
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="../../demo1/dist/apps/ecommerce/sales/details.html" class="menu-link px-3">View</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="../../demo1/dist/apps/ecommerce/sales/edit-order.html" class="menu-link px-3">Edit</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="#" class="menu-link px-3" data-kt-ecommerce-order-filter="delete_row">Delete</a>
-															</div>
-															<!--end::Menu item-->
-														</div>
-														<!--end::Menu-->
-													</td>
-													<!--end::Action=-->
-												</tr>
-												<!--end::Table row-->
-												<!--begin::Table row-->
-												<tr>
-													<!--begin::Checkbox-->
-													<td>
-														<div class="form-check form-check-sm form-check-custom form-check-solid">
-															<input class="form-check-input" type="checkbox" value="1" />
-														</div>
-													</td>
-													<!--end::Checkbox-->
-													<!--begin::Order ID=-->
-													<td data-kt-ecommerce-order-filter="order_id">
-														<a href="../../demo1/dist/apps/ecommerce/sales/details.html" class="text-gray-800 text-hover-primary fw-bolder">14491</a>
-													</td>
-													<!--end::Order ID=-->
-													<!--begin::Customer=-->
-													<td>
-														<div class="d-flex align-items-center">
-															<!--begin:: Avatar -->
-															<div class="symbol symbol-circle symbol-50px overflow-hidden me-3">
-																<a href="../../demo1/dist/apps/user-management/users/view.html">
-																	<div class="symbol-label fs-3 bg-light-danger text-danger">M</div>
-																</a>
-															</div>
-															<!--end::Avatar-->
-															<div class="ms-5">
-																<!--begin::Title-->
-																<a href="../../demo1/dist/apps/user-management/users/view.html" class="text-gray-800 text-hover-primary fs-5 fw-bolder">Melody Macy</a>
-																<!--end::Title-->
-															</div>
-														</div>
-													</td>
-													<!--end::Customer=-->
-													<!--begin::Status=-->
-													<td class="text-end pe-0" data-order="Failed">
-														<!--begin::Badges-->
-														<div class="badge badge-light-danger">Failed</div>
-														<!--end::Badges-->
-													</td>
-													<!--end::Status=-->
-													<!--begin::Total=-->
-													<td class="text-end pe-0">
-														<span class="fw-bolder">$355.00</span>
-													</td>
-													<!--end::Total=-->
-													<!--begin::Date Added=-->
-													<td class="text-end" data-order="2022-02-19">
-														<span class="fw-bolder">19/02/2022</span>
-													</td>
-													<!--end::Date Added=-->
-													<!--begin::Date Modified=-->
-													<td class="text-end" data-order="2022-02-25">
-														<span class="fw-bolder">25/02/2022</span>
-													</td>
-													<!--end::Date Modified=-->
-													<!--begin::Action=-->
-													<td class="text-end">
-														<a href="#" class="btn btn-sm btn-light btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions
-														<!--begin::Svg Icon | path: icons/duotune/arrows/arr072.svg-->
-														<span class="svg-icon svg-icon-5 m-0">
-															<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-																<path d="M11.4343 12.7344L7.25 8.55005C6.83579 8.13583 6.16421 8.13584 5.75 8.55005C5.33579 8.96426 5.33579 9.63583 5.75 10.05L11.2929 15.5929C11.6834 15.9835 12.3166 15.9835 12.7071 15.5929L18.25 10.05C18.6642 9.63584 18.6642 8.96426 18.25 8.55005C17.8358 8.13584 17.1642 8.13584 16.75 8.55005L12.5657 12.7344C12.2533 13.0468 11.7467 13.0468 11.4343 12.7344Z" fill="currentColor" />
-															</svg>
-														</span>
-														<!--end::Svg Icon--></a>
-														<!--begin::Menu-->
-														<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-primary fw-bold fs-7 w-125px py-4" data-kt-menu="true">
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="../../demo1/dist/apps/ecommerce/sales/details.html" class="menu-link px-3">View</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="../../demo1/dist/apps/ecommerce/sales/edit-order.html" class="menu-link px-3">Edit</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="#" class="menu-link px-3" data-kt-ecommerce-order-filter="delete_row">Delete</a>
-															</div>
-															<!--end::Menu item-->
-														</div>
-														<!--end::Menu-->
-													</td>
-													<!--end::Action=-->
-												</tr>
-												<!--end::Table row-->
-												<!--begin::Table row-->
-												<tr>
-													<!--begin::Checkbox-->
-													<td>
-														<div class="form-check form-check-sm form-check-custom form-check-solid">
-															<input class="form-check-input" type="checkbox" value="1" />
-														</div>
-													</td>
-													<!--end::Checkbox-->
-													<!--begin::Order ID=-->
-													<td data-kt-ecommerce-order-filter="order_id">
-														<a href="../../demo1/dist/apps/ecommerce/sales/details.html" class="text-gray-800 text-hover-primary fw-bolder">14492</a>
-													</td>
-													<!--end::Order ID=-->
-													<!--begin::Customer=-->
-													<td>
-														<div class="d-flex align-items-center">
-															<!--begin:: Avatar -->
-															<div class="symbol symbol-circle symbol-50px overflow-hidden me-3">
-																<a href="../../demo1/dist/apps/user-management/users/view.html">
-																	<div class="symbol-label">
-																		<img src="assets/media/avatars/300-9.jpg" alt="Francis Mitcham" class="w-100" />
-																	</div>
-																</a>
-															</div>
-															<!--end::Avatar-->
-															<div class="ms-5">
-																<!--begin::Title-->
-																<a href="../../demo1/dist/apps/user-management/users/view.html" class="text-gray-800 text-hover-primary fs-5 fw-bolder">Francis Mitcham</a>
-																<!--end::Title-->
-															</div>
-														</div>
-													</td>
-													<!--end::Customer=-->
-													<!--begin::Status=-->
-													<td class="text-end pe-0" data-order="Completed">
-														<!--begin::Badges-->
-														<div class="badge badge-light-success">Completed</div>
-														<!--end::Badges-->
-													</td>
-													<!--end::Status=-->
-													<!--begin::Total=-->
-													<td class="text-end pe-0">
-														<span class="fw-bolder">$343.00</span>
-													</td>
-													<!--end::Total=-->
-													<!--begin::Date Added=-->
-													<td class="text-end" data-order="2022-02-21">
-														<span class="fw-bolder">21/02/2022</span>
-													</td>
-													<!--end::Date Added=-->
-													<!--begin::Date Modified=-->
-													<td class="text-end" data-order="2022-02-24">
-														<span class="fw-bolder">24/02/2022</span>
-													</td>
-													<!--end::Date Modified=-->
-													<!--begin::Action=-->
-													<td class="text-end">
-														<a href="#" class="btn btn-sm btn-light btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions
-														<!--begin::Svg Icon | path: icons/duotune/arrows/arr072.svg-->
-														<span class="svg-icon svg-icon-5 m-0">
-															<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-																<path d="M11.4343 12.7344L7.25 8.55005C6.83579 8.13583 6.16421 8.13584 5.75 8.55005C5.33579 8.96426 5.33579 9.63583 5.75 10.05L11.2929 15.5929C11.6834 15.9835 12.3166 15.9835 12.7071 15.5929L18.25 10.05C18.6642 9.63584 18.6642 8.96426 18.25 8.55005C17.8358 8.13584 17.1642 8.13584 16.75 8.55005L12.5657 12.7344C12.2533 13.0468 11.7467 13.0468 11.4343 12.7344Z" fill="currentColor" />
-															</svg>
-														</span>
-														<!--end::Svg Icon--></a>
-														<!--begin::Menu-->
-														<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-primary fw-bold fs-7 w-125px py-4" data-kt-menu="true">
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="../../demo1/dist/apps/ecommerce/sales/details.html" class="menu-link px-3">View</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="../../demo1/dist/apps/ecommerce/sales/edit-order.html" class="menu-link px-3">Edit</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="#" class="menu-link px-3" data-kt-ecommerce-order-filter="delete_row">Delete</a>
-															</div>
-															<!--end::Menu item-->
-														</div>
-														<!--end::Menu-->
-													</td>
-													<!--end::Action=-->
-												</tr>
-												<!--end::Table row-->
-												<!--begin::Table row-->
-												<tr>
-													<!--begin::Checkbox-->
-													<td>
-														<div class="form-check form-check-sm form-check-custom form-check-solid">
-															<input class="form-check-input" type="checkbox" value="1" />
-														</div>
-													</td>
-													<!--end::Checkbox-->
-													<!--begin::Order ID=-->
-													<td data-kt-ecommerce-order-filter="order_id">
-														<a href="../../demo1/dist/apps/ecommerce/sales/details.html" class="text-gray-800 text-hover-primary fw-bolder">14493</a>
-													</td>
-													<!--end::Order ID=-->
-													<!--begin::Customer=-->
-													<td>
-														<div class="d-flex align-items-center">
-															<!--begin:: Avatar -->
-															<div class="symbol symbol-circle symbol-50px overflow-hidden me-3">
-																<a href="../../demo1/dist/apps/user-management/users/view.html">
-																	<div class="symbol-label fs-3 bg-light-primary text-primary">N</div>
-																</a>
-															</div>
-															<!--end::Avatar-->
-															<div class="ms-5">
-																<!--begin::Title-->
-																<a href="../../demo1/dist/apps/user-management/users/view.html" class="text-gray-800 text-hover-primary fs-5 fw-bolder">Neil Owen</a>
-																<!--end::Title-->
-															</div>
-														</div>
-													</td>
-													<!--end::Customer=-->
-													<!--begin::Status=-->
-													<td class="text-end pe-0" data-order="Failed">
-														<!--begin::Badges-->
-														<div class="badge badge-light-danger">Failed</div>
-														<!--end::Badges-->
-													</td>
-													<!--end::Status=-->
-													<!--begin::Total=-->
-													<td class="text-end pe-0">
-														<span class="fw-bolder">$86.00</span>
-													</td>
-													<!--end::Total=-->
-													<!--begin::Date Added=-->
-													<td class="text-end" data-order="2022-02-18">
-														<span class="fw-bolder">18/02/2022</span>
-													</td>
-													<!--end::Date Added=-->
-													<!--begin::Date Modified=-->
-													<td class="text-end" data-order="2022-02-23">
-														<span class="fw-bolder">23/02/2022</span>
-													</td>
-													<!--end::Date Modified=-->
-													<!--begin::Action=-->
-													<td class="text-end">
-														<a href="#" class="btn btn-sm btn-light btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions
-														<!--begin::Svg Icon | path: icons/duotune/arrows/arr072.svg-->
-														<span class="svg-icon svg-icon-5 m-0">
-															<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-																<path d="M11.4343 12.7344L7.25 8.55005C6.83579 8.13583 6.16421 8.13584 5.75 8.55005C5.33579 8.96426 5.33579 9.63583 5.75 10.05L11.2929 15.5929C11.6834 15.9835 12.3166 15.9835 12.7071 15.5929L18.25 10.05C18.6642 9.63584 18.6642 8.96426 18.25 8.55005C17.8358 8.13584 17.1642 8.13584 16.75 8.55005L12.5657 12.7344C12.2533 13.0468 11.7467 13.0468 11.4343 12.7344Z" fill="currentColor" />
-															</svg>
-														</span>
-														<!--end::Svg Icon--></a>
-														<!--begin::Menu-->
-														<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-primary fw-bold fs-7 w-125px py-4" data-kt-menu="true">
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="../../demo1/dist/apps/ecommerce/sales/details.html" class="menu-link px-3">View</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="../../demo1/dist/apps/ecommerce/sales/edit-order.html" class="menu-link px-3">Edit</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="#" class="menu-link px-3" data-kt-ecommerce-order-filter="delete_row">Delete</a>
-															</div>
-															<!--end::Menu item-->
-														</div>
-														<!--end::Menu-->
-													</td>
-													<!--end::Action=-->
-												</tr>
-												<!--end::Table row-->
-												<!--begin::Table row-->
-												<tr>
-													<!--begin::Checkbox-->
-													<td>
-														<div class="form-check form-check-sm form-check-custom form-check-solid">
-															<input class="form-check-input" type="checkbox" value="1" />
-														</div>
-													</td>
-													<!--end::Checkbox-->
-													<!--begin::Order ID=-->
-													<td data-kt-ecommerce-order-filter="order_id">
-														<a href="../../demo1/dist/apps/ecommerce/sales/details.html" class="text-gray-800 text-hover-primary fw-bolder">14494</a>
-													</td>
-													<!--end::Order ID=-->
-													<!--begin::Customer=-->
-													<td>
-														<div class="d-flex align-items-center">
-															<!--begin:: Avatar -->
-															<div class="symbol symbol-circle symbol-50px overflow-hidden me-3">
-																<a href="../../demo1/dist/apps/user-management/users/view.html">
-																	<div class="symbol-label">
-																		<img src="assets/media/avatars/300-5.jpg" alt="Sean Bean" class="w-100" />
-																	</div>
-																</a>
-															</div>
-															<!--end::Avatar-->
-															<div class="ms-5">
-																<!--begin::Title-->
-																<a href="../../demo1/dist/apps/user-management/users/view.html" class="text-gray-800 text-hover-primary fs-5 fw-bolder">Sean Bean</a>
-																<!--end::Title-->
-															</div>
-														</div>
-													</td>
-													<!--end::Customer=-->
-													<!--begin::Status=-->
-													<td class="text-end pe-0" data-order="Completed">
-														<!--begin::Badges-->
-														<div class="badge badge-light-success">Completed</div>
-														<!--end::Badges-->
-													</td>
-													<!--end::Status=-->
-													<!--begin::Total=-->
-													<td class="text-end pe-0">
-														<span class="fw-bolder">$277.00</span>
-													</td>
-													<!--end::Total=-->
-													<!--begin::Date Added=-->
-													<td class="text-end" data-order="2022-02-15">
-														<span class="fw-bolder">15/02/2022</span>
-													</td>
-													<!--end::Date Added=-->
-													<!--begin::Date Modified=-->
-													<td class="text-end" data-order="2022-02-22">
-														<span class="fw-bolder">22/02/2022</span>
-													</td>
-													<!--end::Date Modified=-->
-													<!--begin::Action=-->
-													<td class="text-end">
-														<a href="#" class="btn btn-sm btn-light btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions
-														<!--begin::Svg Icon | path: icons/duotune/arrows/arr072.svg-->
-														<span class="svg-icon svg-icon-5 m-0">
-															<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-																<path d="M11.4343 12.7344L7.25 8.55005C6.83579 8.13583 6.16421 8.13584 5.75 8.55005C5.33579 8.96426 5.33579 9.63583 5.75 10.05L11.2929 15.5929C11.6834 15.9835 12.3166 15.9835 12.7071 15.5929L18.25 10.05C18.6642 9.63584 18.6642 8.96426 18.25 8.55005C17.8358 8.13584 17.1642 8.13584 16.75 8.55005L12.5657 12.7344C12.2533 13.0468 11.7467 13.0468 11.4343 12.7344Z" fill="currentColor" />
-															</svg>
-														</span>
-														<!--end::Svg Icon--></a>
-														<!--begin::Menu-->
-														<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-primary fw-bold fs-7 w-125px py-4" data-kt-menu="true">
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="../../demo1/dist/apps/ecommerce/sales/details.html" class="menu-link px-3">View</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="../../demo1/dist/apps/ecommerce/sales/edit-order.html" class="menu-link px-3">Edit</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="#" class="menu-link px-3" data-kt-ecommerce-order-filter="delete_row">Delete</a>
-															</div>
-															<!--end::Menu item-->
-														</div>
-														<!--end::Menu-->
-													</td>
-													<!--end::Action=-->
-												</tr>
-												<!--end::Table row-->
-												<!--begin::Table row-->
-												<tr>
-													<!--begin::Checkbox-->
-													<td>
-														<div class="form-check form-check-sm form-check-custom form-check-solid">
-															<input class="form-check-input" type="checkbox" value="1" />
-														</div>
-													</td>
-													<!--end::Checkbox-->
-													<!--begin::Order ID=-->
-													<td data-kt-ecommerce-order-filter="order_id">
-														<a href="../../demo1/dist/apps/ecommerce/sales/details.html" class="text-gray-800 text-hover-primary fw-bolder">14495</a>
-													</td>
-													<!--end::Order ID=-->
-													<!--begin::Customer=-->
-													<td>
-														<div class="d-flex align-items-center">
-															<!--begin:: Avatar -->
-															<div class="symbol symbol-circle symbol-50px overflow-hidden me-3">
-																<a href="../../demo1/dist/apps/user-management/users/view.html">
-																	<div class="symbol-label">
-																		<img src="assets/media/avatars/300-23.jpg" alt="Dan Wilson" class="w-100" />
-																	</div>
-																</a>
-															</div>
-															<!--end::Avatar-->
-															<div class="ms-5">
-																<!--begin::Title-->
-																<a href="../../demo1/dist/apps/user-management/users/view.html" class="text-gray-800 text-hover-primary fs-5 fw-bolder">Dan Wilson</a>
-																<!--end::Title-->
-															</div>
-														</div>
-													</td>
-													<!--end::Customer=-->
-													<!--begin::Status=-->
-													<td class="text-end pe-0" data-order="Refunded">
-														<!--begin::Badges-->
-														<div class="badge badge-light-info">Refunded</div>
-														<!--end::Badges-->
-													</td>
-													<!--end::Status=-->
-													<!--begin::Total=-->
-													<td class="text-end pe-0">
-														<span class="fw-bolder">$33.00</span>
-													</td>
-													<!--end::Total=-->
-													<!--begin::Date Added=-->
-													<td class="text-end" data-order="2022-02-16">
-														<span class="fw-bolder">16/02/2022</span>
-													</td>
-													<!--end::Date Added=-->
-													<!--begin::Date Modified=-->
-													<td class="text-end" data-order="2022-02-21">
-														<span class="fw-bolder">21/02/2022</span>
-													</td>
-													<!--end::Date Modified=-->
-													<!--begin::Action=-->
-													<td class="text-end">
-														<a href="#" class="btn btn-sm btn-light btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions
-														<!--begin::Svg Icon | path: icons/duotune/arrows/arr072.svg-->
-														<span class="svg-icon svg-icon-5 m-0">
-															<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-																<path d="M11.4343 12.7344L7.25 8.55005C6.83579 8.13583 6.16421 8.13584 5.75 8.55005C5.33579 8.96426 5.33579 9.63583 5.75 10.05L11.2929 15.5929C11.6834 15.9835 12.3166 15.9835 12.7071 15.5929L18.25 10.05C18.6642 9.63584 18.6642 8.96426 18.25 8.55005C17.8358 8.13584 17.1642 8.13584 16.75 8.55005L12.5657 12.7344C12.2533 13.0468 11.7467 13.0468 11.4343 12.7344Z" fill="currentColor" />
-															</svg>
-														</span>
-														<!--end::Svg Icon--></a>
-														<!--begin::Menu-->
-														<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-primary fw-bold fs-7 w-125px py-4" data-kt-menu="true">
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="../../demo1/dist/apps/ecommerce/sales/details.html" class="menu-link px-3">View</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="../../demo1/dist/apps/ecommerce/sales/edit-order.html" class="menu-link px-3">Edit</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="#" class="menu-link px-3" data-kt-ecommerce-order-filter="delete_row">Delete</a>
-															</div>
-															<!--end::Menu item-->
-														</div>
-														<!--end::Menu-->
-													</td>
-													<!--end::Action=-->
-												</tr>
-												<!--end::Table row-->
-												<!--begin::Table row-->
-												<tr>
-													<!--begin::Checkbox-->
-													<td>
-														<div class="form-check form-check-sm form-check-custom form-check-solid">
-															<input class="form-check-input" type="checkbox" value="1" />
-														</div>
-													</td>
-													<!--end::Checkbox-->
-													<!--begin::Order ID=-->
-													<td data-kt-ecommerce-order-filter="order_id">
-														<a href="../../demo1/dist/apps/ecommerce/sales/details.html" class="text-gray-800 text-hover-primary fw-bolder">14496</a>
-													</td>
-													<!--end::Order ID=-->
-													<!--begin::Customer=-->
-													<td>
-														<div class="d-flex align-items-center">
-															<!--begin:: Avatar -->
-															<div class="symbol symbol-circle symbol-50px overflow-hidden me-3">
-																<a href="../../demo1/dist/apps/user-management/users/view.html">
-																	<div class="symbol-label">
-																		<img src="assets/media/avatars/300-23.jpg" alt="Dan Wilson" class="w-100" />
-																	</div>
-																</a>
-															</div>
-															<!--end::Avatar-->
-															<div class="ms-5">
-																<!--begin::Title-->
-																<a href="../../demo1/dist/apps/user-management/users/view.html" class="text-gray-800 text-hover-primary fs-5 fw-bolder">Dan Wilson</a>
-																<!--end::Title-->
-															</div>
-														</div>
-													</td>
-													<!--end::Customer=-->
-													<!--begin::Status=-->
-													<td class="text-end pe-0" data-order="Completed">
-														<!--begin::Badges-->
-														<div class="badge badge-light-success">Completed</div>
-														<!--end::Badges-->
-													</td>
-													<!--end::Status=-->
-													<!--begin::Total=-->
-													<td class="text-end pe-0">
-														<span class="fw-bolder">$345.00</span>
-													</td>
-													<!--end::Total=-->
-													<!--begin::Date Added=-->
-													<td class="text-end" data-order="2022-02-16">
-														<span class="fw-bolder">16/02/2022</span>
-													</td>
-													<!--end::Date Added=-->
-													<!--begin::Date Modified=-->
-													<td class="text-end" data-order="2022-02-20">
-														<span class="fw-bolder">20/02/2022</span>
-													</td>
-													<!--end::Date Modified=-->
-													<!--begin::Action=-->
-													<td class="text-end">
-														<a href="#" class="btn btn-sm btn-light btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions
-														<!--begin::Svg Icon | path: icons/duotune/arrows/arr072.svg-->
-														<span class="svg-icon svg-icon-5 m-0">
-															<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-																<path d="M11.4343 12.7344L7.25 8.55005C6.83579 8.13583 6.16421 8.13584 5.75 8.55005C5.33579 8.96426 5.33579 9.63583 5.75 10.05L11.2929 15.5929C11.6834 15.9835 12.3166 15.9835 12.7071 15.5929L18.25 10.05C18.6642 9.63584 18.6642 8.96426 18.25 8.55005C17.8358 8.13584 17.1642 8.13584 16.75 8.55005L12.5657 12.7344C12.2533 13.0468 11.7467 13.0468 11.4343 12.7344Z" fill="currentColor" />
-															</svg>
-														</span>
-														<!--end::Svg Icon--></a>
-														<!--begin::Menu-->
-														<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-primary fw-bold fs-7 w-125px py-4" data-kt-menu="true">
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="../../demo1/dist/apps/ecommerce/sales/details.html" class="menu-link px-3">View</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="../../demo1/dist/apps/ecommerce/sales/edit-order.html" class="menu-link px-3">Edit</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="#" class="menu-link px-3" data-kt-ecommerce-order-filter="delete_row">Delete</a>
-															</div>
-															<!--end::Menu item-->
-														</div>
-														<!--end::Menu-->
-													</td>
-													<!--end::Action=-->
-												</tr>
-												<!--end::Table row-->
-												<!--begin::Table row-->
-												<tr>
-													<!--begin::Checkbox-->
-													<td>
-														<div class="form-check form-check-sm form-check-custom form-check-solid">
-															<input class="form-check-input" type="checkbox" value="1" />
-														</div>
-													</td>
-													<!--end::Checkbox-->
-													<!--begin::Order ID=-->
-													<td data-kt-ecommerce-order-filter="order_id">
-														<a href="../../demo1/dist/apps/ecommerce/sales/details.html" class="text-gray-800 text-hover-primary fw-bolder">14497</a>
-													</td>
-													<!--end::Order ID=-->
-													<!--begin::Customer=-->
-													<td>
-														<div class="d-flex align-items-center">
-															<!--begin:: Avatar -->
-															<div class="symbol symbol-circle symbol-50px overflow-hidden me-3">
-																<a href="../../demo1/dist/apps/user-management/users/view.html">
-																	<div class="symbol-label">
-																		<img src="assets/media/avatars/300-23.jpg" alt="Dan Wilson" class="w-100" />
-																	</div>
-																</a>
-															</div>
-															<!--end::Avatar-->
-															<div class="ms-5">
-																<!--begin::Title-->
-																<a href="../../demo1/dist/apps/user-management/users/view.html" class="text-gray-800 text-hover-primary fs-5 fw-bolder">Dan Wilson</a>
-																<!--end::Title-->
-															</div>
-														</div>
-													</td>
-													<!--end::Customer=-->
-													<!--begin::Status=-->
-													<td class="text-end pe-0" data-order="Completed">
-														<!--begin::Badges-->
-														<div class="badge badge-light-success">Completed</div>
-														<!--end::Badges-->
-													</td>
-													<!--end::Status=-->
-													<!--begin::Total=-->
-													<td class="text-end pe-0">
-														<span class="fw-bolder">$21.00</span>
-													</td>
-													<!--end::Total=-->
-													<!--begin::Date Added=-->
-													<td class="text-end" data-order="2022-02-13">
-														<span class="fw-bolder">13/02/2022</span>
-													</td>
-													<!--end::Date Added=-->
-													<!--begin::Date Modified=-->
-													<td class="text-end" data-order="2022-02-19">
-														<span class="fw-bolder">19/02/2022</span>
-													</td>
-													<!--end::Date Modified=-->
-													<!--begin::Action=-->
-													<td class="text-end">
-														<a href="#" class="btn btn-sm btn-light btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions
-														<!--begin::Svg Icon | path: icons/duotune/arrows/arr072.svg-->
-														<span class="svg-icon svg-icon-5 m-0">
-															<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-																<path d="M11.4343 12.7344L7.25 8.55005C6.83579 8.13583 6.16421 8.13584 5.75 8.55005C5.33579 8.96426 5.33579 9.63583 5.75 10.05L11.2929 15.5929C11.6834 15.9835 12.3166 15.9835 12.7071 15.5929L18.25 10.05C18.6642 9.63584 18.6642 8.96426 18.25 8.55005C17.8358 8.13584 17.1642 8.13584 16.75 8.55005L12.5657 12.7344C12.2533 13.0468 11.7467 13.0468 11.4343 12.7344Z" fill="currentColor" />
-															</svg>
-														</span>
-														<!--end::Svg Icon--></a>
-														<!--begin::Menu-->
-														<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-primary fw-bold fs-7 w-125px py-4" data-kt-menu="true">
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="../../demo1/dist/apps/ecommerce/sales/details.html" class="menu-link px-3">View</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="../../demo1/dist/apps/ecommerce/sales/edit-order.html" class="menu-link px-3">Edit</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="#" class="menu-link px-3" data-kt-ecommerce-order-filter="delete_row">Delete</a>
-															</div>
-															<!--end::Menu item-->
-														</div>
-														<!--end::Menu-->
-													</td>
-													<!--end::Action=-->
-												</tr>
-												<!--end::Table row-->
-												<!--begin::Table row-->
-												<tr>
-													<!--begin::Checkbox-->
-													<td>
-														<div class="form-check form-check-sm form-check-custom form-check-solid">
-															<input class="form-check-input" type="checkbox" value="1" />
-														</div>
-													</td>
-													<!--end::Checkbox-->
-													<!--begin::Order ID=-->
-													<td data-kt-ecommerce-order-filter="order_id">
-														<a href="../../demo1/dist/apps/ecommerce/sales/details.html" class="text-gray-800 text-hover-primary fw-bolder">14498</a>
-													</td>
-													<!--end::Order ID=-->
-													<!--begin::Customer=-->
-													<td>
-														<div class="d-flex align-items-center">
-															<!--begin:: Avatar -->
-															<div class="symbol symbol-circle symbol-50px overflow-hidden me-3">
-																<a href="../../demo1/dist/apps/user-management/users/view.html">
-																	<div class="symbol-label fs-3 bg-light-danger text-danger">E</div>
-																</a>
-															</div>
-															<!--end::Avatar-->
-															<div class="ms-5">
-																<!--begin::Title-->
-																<a href="../../demo1/dist/apps/user-management/users/view.html" class="text-gray-800 text-hover-primary fs-5 fw-bolder">Emma Bold</a>
-																<!--end::Title-->
-															</div>
-														</div>
-													</td>
-													<!--end::Customer=-->
-													<!--begin::Status=-->
-													<td class="text-end pe-0" data-order="Pending">
-														<!--begin::Badges-->
-														<div class="badge badge-light-warning">Pending</div>
-														<!--end::Badges-->
-													</td>
-													<!--end::Status=-->
-													<!--begin::Total=-->
-													<td class="text-end pe-0">
-														<span class="fw-bolder">$354.00</span>
-													</td>
-													<!--end::Total=-->
-													<!--begin::Date Added=-->
-													<td class="text-end" data-order="2022-02-12">
-														<span class="fw-bolder">12/02/2022</span>
-													</td>
-													<!--end::Date Added=-->
-													<!--begin::Date Modified=-->
-													<td class="text-end" data-order="2022-02-18">
-														<span class="fw-bolder">18/02/2022</span>
-													</td>
-													<!--end::Date Modified=-->
-													<!--begin::Action=-->
-													<td class="text-end">
-														<a href="#" class="btn btn-sm btn-light btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions
-														<!--begin::Svg Icon | path: icons/duotune/arrows/arr072.svg-->
-														<span class="svg-icon svg-icon-5 m-0">
-															<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-																<path d="M11.4343 12.7344L7.25 8.55005C6.83579 8.13583 6.16421 8.13584 5.75 8.55005C5.33579 8.96426 5.33579 9.63583 5.75 10.05L11.2929 15.5929C11.6834 15.9835 12.3166 15.9835 12.7071 15.5929L18.25 10.05C18.6642 9.63584 18.6642 8.96426 18.25 8.55005C17.8358 8.13584 17.1642 8.13584 16.75 8.55005L12.5657 12.7344C12.2533 13.0468 11.7467 13.0468 11.4343 12.7344Z" fill="currentColor" />
-															</svg>
-														</span>
-														<!--end::Svg Icon--></a>
-														<!--begin::Menu-->
-														<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-primary fw-bold fs-7 w-125px py-4" data-kt-menu="true">
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="../../demo1/dist/apps/ecommerce/sales/details.html" class="menu-link px-3">View</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="../../demo1/dist/apps/ecommerce/sales/edit-order.html" class="menu-link px-3">Edit</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="#" class="menu-link px-3" data-kt-ecommerce-order-filter="delete_row">Delete</a>
-															</div>
-															<!--end::Menu item-->
-														</div>
-														<!--end::Menu-->
-													</td>
-													<!--end::Action=-->
-												</tr>
-												<!--end::Table row-->
-												<!--begin::Table row-->
-												<tr>
-													<!--begin::Checkbox-->
-													<td>
-														<div class="form-check form-check-sm form-check-custom form-check-solid">
-															<input class="form-check-input" type="checkbox" value="1" />
-														</div>
-													</td>
-													<!--end::Checkbox-->
-													<!--begin::Order ID=-->
-													<td data-kt-ecommerce-order-filter="order_id">
-														<a href="../../demo1/dist/apps/ecommerce/sales/details.html" class="text-gray-800 text-hover-primary fw-bolder">14499</a>
-													</td>
-													<!--end::Order ID=-->
-													<!--begin::Customer=-->
-													<td>
-														<div class="d-flex align-items-center">
-															<!--begin:: Avatar -->
-															<div class="symbol symbol-circle symbol-50px overflow-hidden me-3">
-																<a href="../../demo1/dist/apps/user-management/users/view.html">
-																	<div class="symbol-label">
-																		<img src="assets/media/avatars/300-21.jpg" alt="Ethan Wilder" class="w-100" />
-																	</div>
-																</a>
-															</div>
-															<!--end::Avatar-->
-															<div class="ms-5">
-																<!--begin::Title-->
-																<a href="../../demo1/dist/apps/user-management/users/view.html" class="text-gray-800 text-hover-primary fs-5 fw-bolder">Ethan Wilder</a>
-																<!--end::Title-->
-															</div>
-														</div>
-													</td>
-													<!--end::Customer=-->
-													<!--begin::Status=-->
-													<td class="text-end pe-0" data-order="Completed">
-														<!--begin::Badges-->
-														<div class="badge badge-light-success">Completed</div>
-														<!--end::Badges-->
-													</td>
-													<!--end::Status=-->
-													<!--begin::Total=-->
-													<td class="text-end pe-0">
-														<span class="fw-bolder">$376.00</span>
-													</td>
-													<!--end::Total=-->
-													<!--begin::Date Added=-->
-													<td class="text-end" data-order="2022-02-14">
-														<span class="fw-bolder">14/02/2022</span>
-													</td>
-													<!--end::Date Added=-->
-													<!--begin::Date Modified=-->
-													<td class="text-end" data-order="2022-02-17">
-														<span class="fw-bolder">17/02/2022</span>
-													</td>
-													<!--end::Date Modified=-->
-													<!--begin::Action=-->
-													<td class="text-end">
-														<a href="#" class="btn btn-sm btn-light btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions
-														<!--begin::Svg Icon | path: icons/duotune/arrows/arr072.svg-->
-														<span class="svg-icon svg-icon-5 m-0">
-															<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-																<path d="M11.4343 12.7344L7.25 8.55005C6.83579 8.13583 6.16421 8.13584 5.75 8.55005C5.33579 8.96426 5.33579 9.63583 5.75 10.05L11.2929 15.5929C11.6834 15.9835 12.3166 15.9835 12.7071 15.5929L18.25 10.05C18.6642 9.63584 18.6642 8.96426 18.25 8.55005C17.8358 8.13584 17.1642 8.13584 16.75 8.55005L12.5657 12.7344C12.2533 13.0468 11.7467 13.0468 11.4343 12.7344Z" fill="currentColor" />
-															</svg>
-														</span>
-														<!--end::Svg Icon--></a>
-														<!--begin::Menu-->
-														<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-primary fw-bold fs-7 w-125px py-4" data-kt-menu="true">
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="../../demo1/dist/apps/ecommerce/sales/details.html" class="menu-link px-3">View</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="../../demo1/dist/apps/ecommerce/sales/edit-order.html" class="menu-link px-3">Edit</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="#" class="menu-link px-3" data-kt-ecommerce-order-filter="delete_row">Delete</a>
-															</div>
-															<!--end::Menu item-->
-														</div>
-														<!--end::Menu-->
-													</td>
-													<!--end::Action=-->
-												</tr>
-												<!--end::Table row-->
-												<!--begin::Table row-->
-												<tr>
-													<!--begin::Checkbox-->
-													<td>
-														<div class="form-check form-check-sm form-check-custom form-check-solid">
-															<input class="form-check-input" type="checkbox" value="1" />
-														</div>
-													</td>
-													<!--end::Checkbox-->
-													<!--begin::Order ID=-->
-													<td data-kt-ecommerce-order-filter="order_id">
-														<a href="../../demo1/dist/apps/ecommerce/sales/details.html" class="text-gray-800 text-hover-primary fw-bolder">14500</a>
-													</td>
-													<!--end::Order ID=-->
-													<!--begin::Customer=-->
-													<td>
-														<div class="d-flex align-items-center">
-															<!--begin:: Avatar -->
-															<div class="symbol symbol-circle symbol-50px overflow-hidden me-3">
-																<a href="../../demo1/dist/apps/user-management/users/view.html">
-																	<div class="symbol-label fs-3 bg-light-success text-success">L</div>
-																</a>
-															</div>
-															<!--end::Avatar-->
-															<div class="ms-5">
-																<!--begin::Title-->
-																<a href="../../demo1/dist/apps/user-management/users/view.html" class="text-gray-800 text-hover-primary fs-5 fw-bolder">Lucy Kunic</a>
-																<!--end::Title-->
-															</div>
-														</div>
-													</td>
-													<!--end::Customer=-->
-													<!--begin::Status=-->
-													<td class="text-end pe-0" data-order="Refunded">
-														<!--begin::Badges-->
-														<div class="badge badge-light-info">Refunded</div>
-														<!--end::Badges-->
-													</td>
-													<!--end::Status=-->
-													<!--begin::Total=-->
-													<td class="text-end pe-0">
-														<span class="fw-bolder">$173.00</span>
-													</td>
-													<!--end::Total=-->
-													<!--begin::Date Added=-->
-													<td class="text-end" data-order="2022-02-14">
-														<span class="fw-bolder">14/02/2022</span>
-													</td>
-													<!--end::Date Added=-->
-													<!--begin::Date Modified=-->
-													<td class="text-end" data-order="2022-02-16">
-														<span class="fw-bolder">16/02/2022</span>
-													</td>
-													<!--end::Date Modified=-->
-													<!--begin::Action=-->
-													<td class="text-end">
-														<a href="#" class="btn btn-sm btn-light btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions
-														<!--begin::Svg Icon | path: icons/duotune/arrows/arr072.svg-->
-														<span class="svg-icon svg-icon-5 m-0">
-															<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-																<path d="M11.4343 12.7344L7.25 8.55005C6.83579 8.13583 6.16421 8.13584 5.75 8.55005C5.33579 8.96426 5.33579 9.63583 5.75 10.05L11.2929 15.5929C11.6834 15.9835 12.3166 15.9835 12.7071 15.5929L18.25 10.05C18.6642 9.63584 18.6642 8.96426 18.25 8.55005C17.8358 8.13584 17.1642 8.13584 16.75 8.55005L12.5657 12.7344C12.2533 13.0468 11.7467 13.0468 11.4343 12.7344Z" fill="currentColor" />
-															</svg>
-														</span>
-														<!--end::Svg Icon--></a>
-														<!--begin::Menu-->
-														<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-primary fw-bold fs-7 w-125px py-4" data-kt-menu="true">
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="../../demo1/dist/apps/ecommerce/sales/details.html" class="menu-link px-3">View</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="../../demo1/dist/apps/ecommerce/sales/edit-order.html" class="menu-link px-3">Edit</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="#" class="menu-link px-3" data-kt-ecommerce-order-filter="delete_row">Delete</a>
-															</div>
-															<!--end::Menu item-->
-														</div>
-														<!--end::Menu-->
-													</td>
-													<!--end::Action=-->
-												</tr>
-												<!--end::Table row-->
-												<!--begin::Table row-->
-												<tr>
-													<!--begin::Checkbox-->
-													<td>
-														<div class="form-check form-check-sm form-check-custom form-check-solid">
-															<input class="form-check-input" type="checkbox" value="1" />
-														</div>
-													</td>
-													<!--end::Checkbox-->
-													<!--begin::Order ID=-->
-													<td data-kt-ecommerce-order-filter="order_id">
-														<a href="../../demo1/dist/apps/ecommerce/sales/details.html" class="text-gray-800 text-hover-primary fw-bolder">14501</a>
-													</td>
-													<!--end::Order ID=-->
-													<!--begin::Customer=-->
-													<td>
-														<div class="d-flex align-items-center">
-															<!--begin:: Avatar -->
-															<div class="symbol symbol-circle symbol-50px overflow-hidden me-3">
-																<a href="../../demo1/dist/apps/user-management/users/view.html">
-																	<div class="symbol-label fs-3 bg-light-success text-success">L</div>
-																</a>
-															</div>
-															<!--end::Avatar-->
-															<div class="ms-5">
-																<!--begin::Title-->
-																<a href="../../demo1/dist/apps/user-management/users/view.html" class="text-gray-800 text-hover-primary fs-5 fw-bolder">Lucy Kunic</a>
-																<!--end::Title-->
-															</div>
-														</div>
-													</td>
-													<!--end::Customer=-->
-													<!--begin::Status=-->
-													<td class="text-end pe-0" data-order="Completed">
-														<!--begin::Badges-->
-														<div class="badge badge-light-success">Completed</div>
-														<!--end::Badges-->
-													</td>
-													<!--end::Status=-->
-													<!--begin::Total=-->
-													<td class="text-end pe-0">
-														<span class="fw-bolder">$294.00</span>
-													</td>
-													<!--end::Total=-->
-													<!--begin::Date Added=-->
-													<td class="text-end" data-order="2022-02-08">
-														<span class="fw-bolder">08/02/2022</span>
-													</td>
-													<!--end::Date Added=-->
-													<!--begin::Date Modified=-->
-													<td class="text-end" data-order="2022-02-15">
-														<span class="fw-bolder">15/02/2022</span>
-													</td>
-													<!--end::Date Modified=-->
-													<!--begin::Action=-->
-													<td class="text-end">
-														<a href="#" class="btn btn-sm btn-light btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions
-														<!--begin::Svg Icon | path: icons/duotune/arrows/arr072.svg-->
-														<span class="svg-icon svg-icon-5 m-0">
-															<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-																<path d="M11.4343 12.7344L7.25 8.55005C6.83579 8.13583 6.16421 8.13584 5.75 8.55005C5.33579 8.96426 5.33579 9.63583 5.75 10.05L11.2929 15.5929C11.6834 15.9835 12.3166 15.9835 12.7071 15.5929L18.25 10.05C18.6642 9.63584 18.6642 8.96426 18.25 8.55005C17.8358 8.13584 17.1642 8.13584 16.75 8.55005L12.5657 12.7344C12.2533 13.0468 11.7467 13.0468 11.4343 12.7344Z" fill="currentColor" />
-															</svg>
-														</span>
-														<!--end::Svg Icon--></a>
-														<!--begin::Menu-->
-														<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-primary fw-bold fs-7 w-125px py-4" data-kt-menu="true">
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="../../demo1/dist/apps/ecommerce/sales/details.html" class="menu-link px-3">View</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="../../demo1/dist/apps/ecommerce/sales/edit-order.html" class="menu-link px-3">Edit</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="#" class="menu-link px-3" data-kt-ecommerce-order-filter="delete_row">Delete</a>
-															</div>
-															<!--end::Menu item-->
-														</div>
-														<!--end::Menu-->
-													</td>
-													<!--end::Action=-->
-												</tr>
-												<!--end::Table row-->
-												<!--begin::Table row-->
-												<tr>
-													<!--begin::Checkbox-->
-													<td>
-														<div class="form-check form-check-sm form-check-custom form-check-solid">
-															<input class="form-check-input" type="checkbox" value="1" />
-														</div>
-													</td>
-													<!--end::Checkbox-->
-													<!--begin::Order ID=-->
-													<td data-kt-ecommerce-order-filter="order_id">
-														<a href="../../demo1/dist/apps/ecommerce/sales/details.html" class="text-gray-800 text-hover-primary fw-bolder">14502</a>
-													</td>
-													<!--end::Order ID=-->
-													<!--begin::Customer=-->
-													<td>
-														<div class="d-flex align-items-center">
-															<!--begin:: Avatar -->
-															<div class="symbol symbol-circle symbol-50px overflow-hidden me-3">
-																<a href="../../demo1/dist/apps/user-management/users/view.html">
-																	<div class="symbol-label fs-3 bg-light-danger text-danger">M</div>
-																</a>
-															</div>
-															<!--end::Avatar-->
-															<div class="ms-5">
-																<!--begin::Title-->
-																<a href="../../demo1/dist/apps/user-management/users/view.html" class="text-gray-800 text-hover-primary fs-5 fw-bolder">Melody Macy</a>
-																<!--end::Title-->
-															</div>
-														</div>
-													</td>
-													<!--end::Customer=-->
-													<!--begin::Status=-->
-													<td class="text-end pe-0" data-order="Failed">
-														<!--begin::Badges-->
-														<div class="badge badge-light-danger">Failed</div>
-														<!--end::Badges-->
-													</td>
-													<!--end::Status=-->
-													<!--begin::Total=-->
-													<td class="text-end pe-0">
-														<span class="fw-bolder">$166.00</span>
-													</td>
-													<!--end::Total=-->
-													<!--begin::Date Added=-->
-													<td class="text-end" data-order="2022-02-13">
-														<span class="fw-bolder">13/02/2022</span>
-													</td>
-													<!--end::Date Added=-->
-													<!--begin::Date Modified=-->
-													<td class="text-end" data-order="2022-02-14">
-														<span class="fw-bolder">14/02/2022</span>
-													</td>
-													<!--end::Date Modified=-->
-													<!--begin::Action=-->
-													<td class="text-end">
-														<a href="#" class="btn btn-sm btn-light btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions
-														<!--begin::Svg Icon | path: icons/duotune/arrows/arr072.svg-->
-														<span class="svg-icon svg-icon-5 m-0">
-															<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-																<path d="M11.4343 12.7344L7.25 8.55005C6.83579 8.13583 6.16421 8.13584 5.75 8.55005C5.33579 8.96426 5.33579 9.63583 5.75 10.05L11.2929 15.5929C11.6834 15.9835 12.3166 15.9835 12.7071 15.5929L18.25 10.05C18.6642 9.63584 18.6642 8.96426 18.25 8.55005C17.8358 8.13584 17.1642 8.13584 16.75 8.55005L12.5657 12.7344C12.2533 13.0468 11.7467 13.0468 11.4343 12.7344Z" fill="currentColor" />
-															</svg>
-														</span>
-														<!--end::Svg Icon--></a>
-														<!--begin::Menu-->
-														<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-primary fw-bold fs-7 w-125px py-4" data-kt-menu="true">
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="../../demo1/dist/apps/ecommerce/sales/details.html" class="menu-link px-3">View</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="../../demo1/dist/apps/ecommerce/sales/edit-order.html" class="menu-link px-3">Edit</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="#" class="menu-link px-3" data-kt-ecommerce-order-filter="delete_row">Delete</a>
-															</div>
-															<!--end::Menu item-->
-														</div>
-														<!--end::Menu-->
-													</td>
-													<!--end::Action=-->
-												</tr>
-												<!--end::Table row-->
-												<!--begin::Table row-->
-												<tr>
-													<!--begin::Checkbox-->
-													<td>
-														<div class="form-check form-check-sm form-check-custom form-check-solid">
-															<input class="form-check-input" type="checkbox" value="1" />
-														</div>
-													</td>
-													<!--end::Checkbox-->
-													<!--begin::Order ID=-->
-													<td data-kt-ecommerce-order-filter="order_id">
-														<a href="../../demo1/dist/apps/ecommerce/sales/details.html" class="text-gray-800 text-hover-primary fw-bolder">14503</a>
-													</td>
-													<!--end::Order ID=-->
-													<!--begin::Customer=-->
-													<td>
-														<div class="d-flex align-items-center">
-															<!--begin:: Avatar -->
-															<div class="symbol symbol-circle symbol-50px overflow-hidden me-3">
-																<a href="../../demo1/dist/apps/user-management/users/view.html">
-																	<div class="symbol-label fs-3 bg-light-danger text-danger">E</div>
-																</a>
-															</div>
-															<!--end::Avatar-->
-															<div class="ms-5">
-																<!--begin::Title-->
-																<a href="../../demo1/dist/apps/user-management/users/view.html" class="text-gray-800 text-hover-primary fs-5 fw-bolder">Emma Bold</a>
-																<!--end::Title-->
-															</div>
-														</div>
-													</td>
-													<!--end::Customer=-->
-													<!--begin::Status=-->
-													<td class="text-end pe-0" data-order="Processing">
-														<!--begin::Badges-->
-														<div class="badge badge-light-primary">Processing</div>
-														<!--end::Badges-->
-													</td>
-													<!--end::Status=-->
-													<!--begin::Total=-->
-													<td class="text-end pe-0">
-														<span class="fw-bolder">$189.00</span>
-													</td>
-													<!--end::Total=-->
-													<!--begin::Date Added=-->
-													<td class="text-end" data-order="2022-02-07">
-														<span class="fw-bolder">07/02/2022</span>
-													</td>
-													<!--end::Date Added=-->
-													<!--begin::Date Modified=-->
-													<td class="text-end" data-order="2022-02-13">
-														<span class="fw-bolder">13/02/2022</span>
-													</td>
-													<!--end::Date Modified=-->
-													<!--begin::Action=-->
-													<td class="text-end">
-														<a href="#" class="btn btn-sm btn-light btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions
-														<!--begin::Svg Icon | path: icons/duotune/arrows/arr072.svg-->
-														<span class="svg-icon svg-icon-5 m-0">
-															<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-																<path d="M11.4343 12.7344L7.25 8.55005C6.83579 8.13583 6.16421 8.13584 5.75 8.55005C5.33579 8.96426 5.33579 9.63583 5.75 10.05L11.2929 15.5929C11.6834 15.9835 12.3166 15.9835 12.7071 15.5929L18.25 10.05C18.6642 9.63584 18.6642 8.96426 18.25 8.55005C17.8358 8.13584 17.1642 8.13584 16.75 8.55005L12.5657 12.7344C12.2533 13.0468 11.7467 13.0468 11.4343 12.7344Z" fill="currentColor" />
-															</svg>
-														</span>
-														<!--end::Svg Icon--></a>
-														<!--begin::Menu-->
-														<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-primary fw-bold fs-7 w-125px py-4" data-kt-menu="true">
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="../../demo1/dist/apps/ecommerce/sales/details.html" class="menu-link px-3">View</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="../../demo1/dist/apps/ecommerce/sales/edit-order.html" class="menu-link px-3">Edit</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="#" class="menu-link px-3" data-kt-ecommerce-order-filter="delete_row">Delete</a>
-															</div>
-															<!--end::Menu item-->
-														</div>
-														<!--end::Menu-->
-													</td>
-													<!--end::Action=-->
-												</tr>
-												<!--end::Table row-->
-												<!--begin::Table row-->
-												<tr>
-													<!--begin::Checkbox-->
-													<td>
-														<div class="form-check form-check-sm form-check-custom form-check-solid">
-															<input class="form-check-input" type="checkbox" value="1" />
-														</div>
-													</td>
-													<!--end::Checkbox-->
-													<!--begin::Order ID=-->
-													<td data-kt-ecommerce-order-filter="order_id">
-														<a href="../../demo1/dist/apps/ecommerce/sales/details.html" class="text-gray-800 text-hover-primary fw-bolder">14504</a>
-													</td>
-													<!--end::Order ID=-->
-													<!--begin::Customer=-->
-													<td>
-														<div class="d-flex align-items-center">
-															<!--begin:: Avatar -->
-															<div class="symbol symbol-circle symbol-50px overflow-hidden me-3">
-																<a href="../../demo1/dist/apps/user-management/users/view.html">
-																	<div class="symbol-label">
-																		<img src="assets/media/avatars/300-9.jpg" alt="Francis Mitcham" class="w-100" />
-																	</div>
-																</a>
-															</div>
-															<!--end::Avatar-->
-															<div class="ms-5">
-																<!--begin::Title-->
-																<a href="../../demo1/dist/apps/user-management/users/view.html" class="text-gray-800 text-hover-primary fs-5 fw-bolder">Francis Mitcham</a>
-																<!--end::Title-->
-															</div>
-														</div>
-													</td>
-													<!--end::Customer=-->
-													<!--begin::Status=-->
-													<td class="text-end pe-0" data-order="Completed">
-														<!--begin::Badges-->
-														<div class="badge badge-light-success">Completed</div>
-														<!--end::Badges-->
-													</td>
-													<!--end::Status=-->
-													<!--begin::Total=-->
-													<td class="text-end pe-0">
-														<span class="fw-bolder">$393.00</span>
-													</td>
-													<!--end::Total=-->
-													<!--begin::Date Added=-->
-													<td class="text-end" data-order="2022-02-10">
-														<span class="fw-bolder">10/02/2022</span>
-													</td>
-													<!--end::Date Added=-->
-													<!--begin::Date Modified=-->
-													<td class="text-end" data-order="2022-02-12">
-														<span class="fw-bolder">12/02/2022</span>
-													</td>
-													<!--end::Date Modified=-->
-													<!--begin::Action=-->
-													<td class="text-end">
-														<a href="#" class="btn btn-sm btn-light btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions
-														<!--begin::Svg Icon | path: icons/duotune/arrows/arr072.svg-->
-														<span class="svg-icon svg-icon-5 m-0">
-															<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-																<path d="M11.4343 12.7344L7.25 8.55005C6.83579 8.13583 6.16421 8.13584 5.75 8.55005C5.33579 8.96426 5.33579 9.63583 5.75 10.05L11.2929 15.5929C11.6834 15.9835 12.3166 15.9835 12.7071 15.5929L18.25 10.05C18.6642 9.63584 18.6642 8.96426 18.25 8.55005C17.8358 8.13584 17.1642 8.13584 16.75 8.55005L12.5657 12.7344C12.2533 13.0468 11.7467 13.0468 11.4343 12.7344Z" fill="currentColor" />
-															</svg>
-														</span>
-														<!--end::Svg Icon--></a>
-														<!--begin::Menu-->
-														<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-primary fw-bold fs-7 w-125px py-4" data-kt-menu="true">
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="../../demo1/dist/apps/ecommerce/sales/details.html" class="menu-link px-3">View</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="../../demo1/dist/apps/ecommerce/sales/edit-order.html" class="menu-link px-3">Edit</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="#" class="menu-link px-3" data-kt-ecommerce-order-filter="delete_row">Delete</a>
-															</div>
-															<!--end::Menu item-->
-														</div>
-														<!--end::Menu-->
-													</td>
-													<!--end::Action=-->
-												</tr>
-												<!--end::Table row-->
-												<!--begin::Table row-->
-												<tr>
-													<!--begin::Checkbox-->
-													<td>
-														<div class="form-check form-check-sm form-check-custom form-check-solid">
-															<input class="form-check-input" type="checkbox" value="1" />
-														</div>
-													</td>
-													<!--end::Checkbox-->
-													<!--begin::Order ID=-->
-													<td data-kt-ecommerce-order-filter="order_id">
-														<a href="../../demo1/dist/apps/ecommerce/sales/details.html" class="text-gray-800 text-hover-primary fw-bolder">14505</a>
-													</td>
-													<!--end::Order ID=-->
-													<!--begin::Customer=-->
-													<td>
-														<div class="d-flex align-items-center">
-															<!--begin:: Avatar -->
-															<div class="symbol symbol-circle symbol-50px overflow-hidden me-3">
-																<a href="../../demo1/dist/apps/user-management/users/view.html">
-																	<div class="symbol-label">
-																		<img src="assets/media/avatars/300-9.jpg" alt="Francis Mitcham" class="w-100" />
-																	</div>
-																</a>
-															</div>
-															<!--end::Avatar-->
-															<div class="ms-5">
-																<!--begin::Title-->
-																<a href="../../demo1/dist/apps/user-management/users/view.html" class="text-gray-800 text-hover-primary fs-5 fw-bolder">Francis Mitcham</a>
-																<!--end::Title-->
-															</div>
-														</div>
-													</td>
-													<!--end::Customer=-->
-													<!--begin::Status=-->
-													<td class="text-end pe-0" data-order="Refunded">
-														<!--begin::Badges-->
-														<div class="badge badge-light-info">Refunded</div>
-														<!--end::Badges-->
-													</td>
-													<!--end::Status=-->
-													<!--begin::Total=-->
-													<td class="text-end pe-0">
-														<span class="fw-bolder">$116.00</span>
-													</td>
-													<!--end::Total=-->
-													<!--begin::Date Added=-->
-													<td class="text-end" data-order="2022-02-05">
-														<span class="fw-bolder">05/02/2022</span>
-													</td>
-													<!--end::Date Added=-->
-													<!--begin::Date Modified=-->
-													<td class="text-end" data-order="2022-02-11">
-														<span class="fw-bolder">11/02/2022</span>
-													</td>
-													<!--end::Date Modified=-->
-													<!--begin::Action=-->
-													<td class="text-end">
-														<a href="#" class="btn btn-sm btn-light btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions
-														<!--begin::Svg Icon | path: icons/duotune/arrows/arr072.svg-->
-														<span class="svg-icon svg-icon-5 m-0">
-															<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-																<path d="M11.4343 12.7344L7.25 8.55005C6.83579 8.13583 6.16421 8.13584 5.75 8.55005C5.33579 8.96426 5.33579 9.63583 5.75 10.05L11.2929 15.5929C11.6834 15.9835 12.3166 15.9835 12.7071 15.5929L18.25 10.05C18.6642 9.63584 18.6642 8.96426 18.25 8.55005C17.8358 8.13584 17.1642 8.13584 16.75 8.55005L12.5657 12.7344C12.2533 13.0468 11.7467 13.0468 11.4343 12.7344Z" fill="currentColor" />
-															</svg>
-														</span>
-														<!--end::Svg Icon--></a>
-														<!--begin::Menu-->
-														<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-primary fw-bold fs-7 w-125px py-4" data-kt-menu="true">
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="../../demo1/dist/apps/ecommerce/sales/details.html" class="menu-link px-3">View</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="../../demo1/dist/apps/ecommerce/sales/edit-order.html" class="menu-link px-3">Edit</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="#" class="menu-link px-3" data-kt-ecommerce-order-filter="delete_row">Delete</a>
-															</div>
-															<!--end::Menu item-->
-														</div>
-														<!--end::Menu-->
-													</td>
-													<!--end::Action=-->
-												</tr>
-												<!--end::Table row-->
-												<!--begin::Table row-->
-												<tr>
-													<!--begin::Checkbox-->
-													<td>
-														<div class="form-check form-check-sm form-check-custom form-check-solid">
-															<input class="form-check-input" type="checkbox" value="1" />
-														</div>
-													</td>
-													<!--end::Checkbox-->
-													<!--begin::Order ID=-->
-													<td data-kt-ecommerce-order-filter="order_id">
-														<a href="../../demo1/dist/apps/ecommerce/sales/details.html" class="text-gray-800 text-hover-primary fw-bolder">14506</a>
-													</td>
-													<!--end::Order ID=-->
-													<!--begin::Customer=-->
-													<td>
-														<div class="d-flex align-items-center">
-															<!--begin:: Avatar -->
-															<div class="symbol symbol-circle symbol-50px overflow-hidden me-3">
-																<a href="../../demo1/dist/apps/user-management/users/view.html">
-																	<div class="symbol-label">
-																		<img src="assets/media/avatars/300-9.jpg" alt="Francis Mitcham" class="w-100" />
-																	</div>
-																</a>
-															</div>
-															<!--end::Avatar-->
-															<div class="ms-5">
-																<!--begin::Title-->
-																<a href="../../demo1/dist/apps/user-management/users/view.html" class="text-gray-800 text-hover-primary fs-5 fw-bolder">Francis Mitcham</a>
-																<!--end::Title-->
-															</div>
-														</div>
-													</td>
-													<!--end::Customer=-->
-													<!--begin::Status=-->
-													<td class="text-end pe-0" data-order="Processing">
-														<!--begin::Badges-->
-														<div class="badge badge-light-primary">Processing</div>
-														<!--end::Badges-->
-													</td>
-													<!--end::Status=-->
-													<!--begin::Total=-->
-													<td class="text-end pe-0">
-														<span class="fw-bolder">$90.00</span>
-													</td>
-													<!--end::Total=-->
-													<!--begin::Date Added=-->
-													<td class="text-end" data-order="2022-02-07">
-														<span class="fw-bolder">07/02/2022</span>
-													</td>
-													<!--end::Date Added=-->
-													<!--begin::Date Modified=-->
-													<td class="text-end" data-order="2022-02-10">
-														<span class="fw-bolder">10/02/2022</span>
-													</td>
-													<!--end::Date Modified=-->
-													<!--begin::Action=-->
-													<td class="text-end">
-														<a href="#" class="btn btn-sm btn-light btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions
-														<!--begin::Svg Icon | path: icons/duotune/arrows/arr072.svg-->
-														<span class="svg-icon svg-icon-5 m-0">
-															<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-																<path d="M11.4343 12.7344L7.25 8.55005C6.83579 8.13583 6.16421 8.13584 5.75 8.55005C5.33579 8.96426 5.33579 9.63583 5.75 10.05L11.2929 15.5929C11.6834 15.9835 12.3166 15.9835 12.7071 15.5929L18.25 10.05C18.6642 9.63584 18.6642 8.96426 18.25 8.55005C17.8358 8.13584 17.1642 8.13584 16.75 8.55005L12.5657 12.7344C12.2533 13.0468 11.7467 13.0468 11.4343 12.7344Z" fill="currentColor" />
-															</svg>
-														</span>
-														<!--end::Svg Icon--></a>
-														<!--begin::Menu-->
-														<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-primary fw-bold fs-7 w-125px py-4" data-kt-menu="true">
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="../../demo1/dist/apps/ecommerce/sales/details.html" class="menu-link px-3">View</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="../../demo1/dist/apps/ecommerce/sales/edit-order.html" class="menu-link px-3">Edit</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="#" class="menu-link px-3" data-kt-ecommerce-order-filter="delete_row">Delete</a>
-															</div>
-															<!--end::Menu item-->
-														</div>
-														<!--end::Menu-->
-													</td>
-													<!--end::Action=-->
-												</tr>
-												<!--end::Table row-->
-												<!--begin::Table row-->
-												<tr>
-													<!--begin::Checkbox-->
-													<td>
-														<div class="form-check form-check-sm form-check-custom form-check-solid">
-															<input class="form-check-input" type="checkbox" value="1" />
-														</div>
-													</td>
-													<!--end::Checkbox-->
-													<!--begin::Order ID=-->
-													<td data-kt-ecommerce-order-filter="order_id">
-														<a href="../../demo1/dist/apps/ecommerce/sales/details.html" class="text-gray-800 text-hover-primary fw-bolder">14507</a>
-													</td>
-													<!--end::Order ID=-->
-													<!--begin::Customer=-->
-													<td>
-														<div class="d-flex align-items-center">
-															<!--begin:: Avatar -->
-															<div class="symbol symbol-circle symbol-50px overflow-hidden me-3">
-																<a href="../../demo1/dist/apps/user-management/users/view.html">
-																	<div class="symbol-label">
-																		<img src="assets/media/avatars/300-23.jpg" alt="Dan Wilson" class="w-100" />
-																	</div>
-																</a>
-															</div>
-															<!--end::Avatar-->
-															<div class="ms-5">
-																<!--begin::Title-->
-																<a href="../../demo1/dist/apps/user-management/users/view.html" class="text-gray-800 text-hover-primary fs-5 fw-bolder">Dan Wilson</a>
-																<!--end::Title-->
-															</div>
-														</div>
-													</td>
-													<!--end::Customer=-->
-													<!--begin::Status=-->
-													<td class="text-end pe-0" data-order="Failed">
-														<!--begin::Badges-->
-														<div class="badge badge-light-danger">Failed</div>
-														<!--end::Badges-->
-													</td>
-													<!--end::Status=-->
-													<!--begin::Total=-->
-													<td class="text-end pe-0">
-														<span class="fw-bolder">$40.00</span>
-													</td>
-													<!--end::Total=-->
-													<!--begin::Date Added=-->
-													<td class="text-end" data-order="2022-02-08">
-														<span class="fw-bolder">08/02/2022</span>
-													</td>
-													<!--end::Date Added=-->
-													<!--begin::Date Modified=-->
-													<td class="text-end" data-order="2022-02-09">
-														<span class="fw-bolder">09/02/2022</span>
-													</td>
-													<!--end::Date Modified=-->
-													<!--begin::Action=-->
-													<td class="text-end">
-														<a href="#" class="btn btn-sm btn-light btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions
-														<!--begin::Svg Icon | path: icons/duotune/arrows/arr072.svg-->
-														<span class="svg-icon svg-icon-5 m-0">
-															<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-																<path d="M11.4343 12.7344L7.25 8.55005C6.83579 8.13583 6.16421 8.13584 5.75 8.55005C5.33579 8.96426 5.33579 9.63583 5.75 10.05L11.2929 15.5929C11.6834 15.9835 12.3166 15.9835 12.7071 15.5929L18.25 10.05C18.6642 9.63584 18.6642 8.96426 18.25 8.55005C17.8358 8.13584 17.1642 8.13584 16.75 8.55005L12.5657 12.7344C12.2533 13.0468 11.7467 13.0468 11.4343 12.7344Z" fill="currentColor" />
-															</svg>
-														</span>
-														<!--end::Svg Icon--></a>
-														<!--begin::Menu-->
-														<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-primary fw-bold fs-7 w-125px py-4" data-kt-menu="true">
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="../../demo1/dist/apps/ecommerce/sales/details.html" class="menu-link px-3">View</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="../../demo1/dist/apps/ecommerce/sales/edit-order.html" class="menu-link px-3">Edit</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="#" class="menu-link px-3" data-kt-ecommerce-order-filter="delete_row">Delete</a>
-															</div>
-															<!--end::Menu item-->
-														</div>
-														<!--end::Menu-->
-													</td>
-													<!--end::Action=-->
-												</tr>
-												<!--end::Table row-->
-												<!--begin::Table row-->
-												<tr>
-													<!--begin::Checkbox-->
-													<td>
-														<div class="form-check form-check-sm form-check-custom form-check-solid">
-															<input class="form-check-input" type="checkbox" value="1" />
-														</div>
-													</td>
-													<!--end::Checkbox-->
-													<!--begin::Order ID=-->
-													<td data-kt-ecommerce-order-filter="order_id">
-														<a href="../../demo1/dist/apps/ecommerce/sales/details.html" class="text-gray-800 text-hover-primary fw-bolder">14508</a>
-													</td>
-													<!--end::Order ID=-->
-													<!--begin::Customer=-->
-													<td>
-														<div class="d-flex align-items-center">
-															<!--begin:: Avatar -->
-															<div class="symbol symbol-circle symbol-50px overflow-hidden me-3">
-																<a href="../../demo1/dist/apps/user-management/users/view.html">
-																	<div class="symbol-label">
-																		<img src="assets/media/avatars/300-21.jpg" alt="Ethan Wilder" class="w-100" />
-																	</div>
-																</a>
-															</div>
-															<!--end::Avatar-->
-															<div class="ms-5">
-																<!--begin::Title-->
-																<a href="../../demo1/dist/apps/user-management/users/view.html" class="text-gray-800 text-hover-primary fs-5 fw-bolder">Ethan Wilder</a>
-																<!--end::Title-->
-															</div>
-														</div>
-													</td>
-													<!--end::Customer=-->
-													<!--begin::Status=-->
-													<td class="text-end pe-0" data-order="Completed">
-														<!--begin::Badges-->
-														<div class="badge badge-light-success">Completed</div>
-														<!--end::Badges-->
-													</td>
-													<!--end::Status=-->
-													<!--begin::Total=-->
-													<td class="text-end pe-0">
-														<span class="fw-bolder">$312.00</span>
-													</td>
-													<!--end::Total=-->
-													<!--begin::Date Added=-->
-													<td class="text-end" data-order="2022-02-04">
-														<span class="fw-bolder">04/02/2022</span>
-													</td>
-													<!--end::Date Added=-->
-													<!--begin::Date Modified=-->
-													<td class="text-end" data-order="2022-02-08">
-														<span class="fw-bolder">08/02/2022</span>
-													</td>
-													<!--end::Date Modified=-->
-													<!--begin::Action=-->
-													<td class="text-end">
-														<a href="#" class="btn btn-sm btn-light btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions
-														<!--begin::Svg Icon | path: icons/duotune/arrows/arr072.svg-->
-														<span class="svg-icon svg-icon-5 m-0">
-															<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-																<path d="M11.4343 12.7344L7.25 8.55005C6.83579 8.13583 6.16421 8.13584 5.75 8.55005C5.33579 8.96426 5.33579 9.63583 5.75 10.05L11.2929 15.5929C11.6834 15.9835 12.3166 15.9835 12.7071 15.5929L18.25 10.05C18.6642 9.63584 18.6642 8.96426 18.25 8.55005C17.8358 8.13584 17.1642 8.13584 16.75 8.55005L12.5657 12.7344C12.2533 13.0468 11.7467 13.0468 11.4343 12.7344Z" fill="currentColor" />
-															</svg>
-														</span>
-														<!--end::Svg Icon--></a>
-														<!--begin::Menu-->
-														<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-primary fw-bold fs-7 w-125px py-4" data-kt-menu="true">
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="../../demo1/dist/apps/ecommerce/sales/details.html" class="menu-link px-3">View</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="../../demo1/dist/apps/ecommerce/sales/edit-order.html" class="menu-link px-3">Edit</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="#" class="menu-link px-3" data-kt-ecommerce-order-filter="delete_row">Delete</a>
-															</div>
-															<!--end::Menu item-->
-														</div>
-														<!--end::Menu-->
-													</td>
-													<!--end::Action=-->
-												</tr>
-												<!--end::Table row-->
-											</tbody>
-											<!--end::Table body-->
-										</table>
-										<!--end::Table-->
+																	<!--end::Input-->
+																	<!--begin::Description-->
+																	<div class="text-muted fs-7">Enter the product dimensions in centimeters (cm).</div>
+																	<!--end::Description-->
+																</div>
+																<!--end::Input group-->
+															</div>
+															<!--end::Shipping form-->
+														</div>
+														<!--end::Card header-->
+													</div>
+													<!--end::Shipping-->
+													<!--begin::Meta options-->
+													<div class="card card-flush py-4">
+														<!--begin::Card header-->
+														<div class="card-header">
+															<div class="card-title">
+																<h2>Meta Options</h2>
+															</div>
+														</div>
+														<!--end::Card header-->
+														<!--begin::Card body-->
+														<div class="card-body pt-0">
+															<!--begin::Input group-->
+															<div class="mb-10">
+																<!--begin::Label-->
+																<label class="form-label">Meta Tag Title</label>
+																<!--end::Label-->
+																<!--begin::Input-->
+																<input type="text" class="form-control mb-2" name="meta_title" placeholder="Meta tag name" />
+																<!--end::Input-->
+																<!--begin::Description-->
+																<div class="text-muted fs-7">Set a meta tag title. Recommended to be simple and precise keywords.</div>
+																<!--end::Description-->
+															</div>
+															<!--end::Input group-->
+															<!--begin::Input group-->
+															<div class="mb-10">
+																<!--begin::Label-->
+																<label class="form-label">Meta Tag Description</label>
+																<!--end::Label-->
+																<!--begin::Editor-->
+																<div id="kt_ecommerce_add_product_meta_description" name="kt_ecommerce_add_product_meta_description" class="min-h-100px mb-2"></div>
+																<!--end::Editor-->
+																<!--begin::Description-->
+																<div class="text-muted fs-7">Set a meta tag description to the product for increased SEO ranking.</div>
+																<!--end::Description-->
+															</div>
+															<!--end::Input group-->
+															<!--begin::Input group-->
+															<div>
+																<!--begin::Label-->
+																<label class="form-label">Meta Tag Keywords</label>
+																<!--end::Label-->
+																<!--begin::Editor-->
+																<input id="kt_ecommerce_add_product_meta_keywords" name="kt_ecommerce_add_product_meta_keywords" class="form-control mb-2" />
+																<!--end::Editor-->
+																<!--begin::Description-->
+																<div class="text-muted fs-7">Set a list of keywords that the product is related to. Separate the keywords by adding a comma
+																<code>,</code>between each keyword.</div>
+																<!--end::Description-->
+															</div>
+															<!--end::Input group-->
+														</div>
+														<!--end::Card header-->
+													</div>
+													<!--end::Meta options-->
+												</div>
+											</div>
+											<!--end::Tab pane-->
+										</div>
+										<!--end::Tab content-->
+										<div class="d-flex justify-content-end">
+											<!--begin::Button-->
+											<a href="../../demo1/dist/apps/ecommerce/catalog/products.html" id="kt_ecommerce_add_product_cancel" class="btn btn-light me-5">Cancel</a>
+											<!--end::Button-->
+											<!--begin::Button-->
+											<button type="submit" id="kt_ecommerce_add_product_submit" class="btn btn-primary">
+												<span class="indicator-label">Create</span>
+												<span class="indicator-progress">Please wait...
+												<span class="spinner-border spinner-border-sm align-middle ms-2"></span></span>
+											</button>
+											<!--end::Button-->
+										</div>
 									</div>
-									<!--end::Card body-->
-								</div>
-								<!--end::Products-->
+									<!--end::Main column-->
+								</form>
+								<!--end::Form-->
 							</div>
 							<!--end::Container-->
 						</div>
@@ -14699,13 +10996,13 @@ License: For each use you must have a valid license purchased only from above li
 												<!--end::Checkbox-->
 												<!--begin::Avatar-->
 												<div class="symbol symbol-35px symbol-circle">
-													<span class="symbol-label bg-light-info text-info fw-bold">A</span>
+													<span class="symbol-label bg-light-danger text-danger fw-bold">M</span>
 												</div>
 												<!--end::Avatar-->
 												<!--begin::Details-->
 												<div class="ms-5">
-													<a href="#" class="fs-5 fw-bolder text-gray-900 text-hover-primary mb-2">Robert Doe</a>
-													<div class="fw-bold text-muted">robert@benko.com</div>
+													<a href="#" class="fs-5 fw-bolder text-gray-900 text-hover-primary mb-2">Melody Macy</a>
+													<div class="fw-bold text-muted">melody@altbox.com</div>
 												</div>
 												<!--end::Details-->
 											</div>
@@ -15266,13 +11563,13 @@ License: For each use you must have a valid license purchased only from above li
 									<div class="d-flex align-items-center">
 										<!--begin::Avatar-->
 										<div class="symbol symbol-35px symbol-circle">
-											<span class="symbol-label bg-light-danger text-danger fw-bold">E</span>
+											<img alt="Pic" src="assets/media/avatars/300-9.jpg" />
 										</div>
 										<!--end::Avatar-->
 										<!--begin::Details-->
 										<div class="ms-5">
-											<a href="#" class="fs-5 fw-bolder text-gray-900 text-hover-primary mb-2">Emma Bold</a>
-											<div class="fw-bold text-muted">emma@intenso.com</div>
+											<a href="#" class="fs-5 fw-bolder text-gray-900 text-hover-primary mb-2">Francis Mitcham</a>
+											<div class="fw-bold text-muted">f.mit@kpmg.com</div>
 										</div>
 										<!--end::Details-->
 									</div>
@@ -15320,20 +11617,21 @@ License: For each use you must have a valid license purchased only from above li
 		<!--begin::Javascript-->
 		<script>var hostUrl = "assets/";</script>
 		<!--begin::Global Javascript Bundle(used by all pages)-->
-		<script src="assets/plugins/global/plugins.bundle.js"></script>
-		<script src="assets/js/scripts.bundle.js"></script>
+        <script src="{{asset('/plugins/global/plugins.bundle.js')}}"></script>
+        <script src="{{asset('/js/scripts.bundle.js')}}"></script>
 		<!--end::Global Javascript Bundle-->
 		<!--begin::Page Vendors Javascript(used by this page)-->
-		<script src="assets/plugins/custom/datatables/datatables.bundle.js"></script>
+		<script src="{{asset('/plugins/custom/datatables/datatables.bundle.js')}}"></script>
+		<script src="{{asset('/plugins/custom/formrepeater/formrepeater.bundle.js')}}"></script>
 		<!--end::Page Vendors Javascript-->
 		<!--begin::Page Custom Javascript(used by this page)-->
-		<script src="assets/js/custom/apps/ecommerce/sales/listing.js"></script>
-		<script src="assets/js/widgets.bundle.js"></script>
-		<script src="assets/js/custom/widgets.js"></script>
-		<script src="assets/js/custom/apps/chat/chat.js"></script>
-		<script src="assets/js/custom/utilities/modals/upgrade-plan.js"></script>
-		<script src="assets/js/custom/utilities/modals/create-app.js"></script>
-		<script src="assets/js/custom/utilities/modals/users-search.js"></script>
+		<script src="{{asset('/js/custom/apps/ecommerce/catalog/save-product.js')}}"></script>
+		<script src="{{asset('/js/widgets.bundle.js')}}"></script>
+		<script src="{{asset('/js/custom/widgets.js')}}"></script>
+		<script src="{{asset('/js/custom/apps/chat/chat.js')}}"></script>
+		<script src="{{asset('/js/custom/utilities/modals/upgrade-plan.js')}}"></script>
+		<script src="{{asset('/js/custom/utilities/modals/create-app.js')}}"></script>
+		<script src="{{asset('/js/custom/utilities/modals/users-search.js')}}"></script>
 		<!--end::Page Custom Javascript-->
 		<!--end::Javascript-->
 	</body>
