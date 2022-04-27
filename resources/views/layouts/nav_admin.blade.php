@@ -1326,7 +1326,7 @@
 													</a>
 												</div>
 												<div class="menu-item">
-													<a class="menu-link" href="../../demo1/dist/apps/ecommerce/catalog/add-product.html">
+													<a class="menu-link" href="{{url('add_product')}}">
 														<span class="menu-bullet">
 															<span class="bullet bullet-dot"></span>
 														</span>
@@ -1369,7 +1369,7 @@
 											</span>
 											<div class="menu-sub menu-sub-accordion">
 												<div class="menu-item">
-													<a class="menu-link" href="../../demo1/dist/apps/ecommerce/sales/listing.html">
+													<a class="menu-link" href="{{('orders_listing')}}">
 														<span class="menu-bullet">
 															<span class="bullet bullet-dot"></span>
 														</span>

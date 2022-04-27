@@ -1,5 +1,5 @@
                 @include('layouts.header_admin')
-
+                {{$teacher}}
 					<!--end::Footer-->
 					<!--end::Header-->
 					<!--begin::Content-->
