@@ -28,7 +28,7 @@
     <!-- we are really cool-->
     <section class="section section-secondary">
         <div class="container">
-            <h2 class="text-uppercase text-center wow fadeInRight" data-wow-delay=".2s">What We &nbsp;<span class="text-secondary">Offer</span></h2>
+            <h2 class="text-uppercase text-center wow fadeInRight" data-wow-delay=".2s">Предлогаемые &nbsp;<span class="text-secondary">Курсы</span></h2>
             <div class="row row-30 offset-top-25">
                 <div class="col-sm-6 col-lg-3 wow fadeInLeft" data-wow-delay=".2s">
                     <article class="box-icon-modern">
