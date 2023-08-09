@@ -41,23 +41,23 @@
                         <div class="rd-navbar-main-element">
                             <div class="rd-navbar-nav-wrap">
                                 <ul class="rd-navbar-nav">
-                                    <li class="rd-nav-item active"><a class="rd-nav-link" href="{{url('/')}}">Home</a>
+                                    <li class="rd-nav-item active"><a class="rd-nav-link" href="{{url('/')}}">Головна</a>
                                     </li>
-                                    <li class="rd-nav-item"><a class="rd-nav-link" href="{{url('/about')}}">About</a>
+                                    <li class="rd-nav-item"><a class="rd-nav-link" href="{{url('/about')}}">Дієтологія</a>
                                     </li>
-                                    <li class="rd-nav-item"><a class="rd-nav-link" href="{{url('/portfolio')}}">Portfolio</a>
+                                    <li class="rd-nav-item"><a class="rd-nav-link" href="{{url('/portfolio')}}">Массаж</a>
                                         <ul class="rd-menu rd-navbar-dropdown">
                                             <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="{{url('/single-portfolio')}}">Single Portfolio</a>
                                             </li>
                                         </ul>
                                     </li>
-                                    <li class="rd-nav-item"><a class="rd-nav-link" href="{{url('/services')}}">Services</a>
+                                    <li class="rd-nav-item"><a class="rd-nav-link" href="{{url('/services')}}">Косметологія</a>
                                         <ul class="rd-menu rd-navbar-dropdown">
                                             <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="{{url('/single-service')}}">Single Service</a>
                                             </li>
                                         </ul>
                                     </li>
-                                    <li class="rd-nav-item"><a class="rd-nav-link" href="{{url('/classic-blog')}}">Blog</a>
+                                    <li class="rd-nav-item"><a class="rd-nav-link" href="{{url('/classic-blog')}}">Реабілітація</a>
                                         <ul class="rd-menu rd-navbar-dropdown">
                                             <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="{{url('/classic-blog')}}">Classic Blog</a>
                                             </li>
@@ -67,7 +67,7 @@
                                             </li>
                                         </ul>
                                     </li>
-                                    <li class="rd-nav-item"><a class="rd-nav-link" href="#">Pages</a>
+                                    <li class="rd-nav-item"><a class="rd-nav-link" href="#">Медсестриство</a>
                                         <ul class="rd-menu rd-navbar-megamenu">
                                             <li class="rd-megamenu-item">
                                                 <ul class="rd-megamenu-list">
@@ -82,7 +82,7 @@
                                             </li>
                                             <li class="rd-megamenu-item">
                                                 <ul class="rd-megamenu-list">
-                                                    <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="{{url('/404-page')}}">404 Page</a></li>
+                                                    <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="{{url('/404-page')}}">405 Page</a></li>
                                                     <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="{{url('/503-page')}}">503 Page</a></li>
                                                     <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="{{url('/under-construction')}}">Under Construction</a></li>
                                                     <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="{{url('/coming-soon')}}">Coming Soon</a></li>
@@ -91,9 +91,9 @@
                                                 </ul>
                                             </li>
                                         </ul>
-                                    </li>
-                                    <li class="rd-nav-item"><a class="rd-nav-link" href="{{url('/contacts')}}">Contacts</a>
-                                    </li>
+{{--                                    </li>--}}
+{{--                                    <li class="rd-nav-item"><a class="rd-nav-link" href="{{url('/contacts')}}">Викладачі</a>--}}
+{{--                                    </li>--}}
                                 </ul>
                             </div>
                         </div>
